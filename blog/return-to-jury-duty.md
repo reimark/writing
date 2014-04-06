@@ -1,0 +1,17 @@
+<a href="http://www.flickr.com/photos/jcardinal18/2847204860/" title="Official Jury Summons, by jcardinal18" target="_blank"><img src="/assets/images/jury-duty-dc-2.jpg" name="Official Jury Summons, by jcardinal18" style="text-align: center" /></a>
+
+A couple of years ago, I got called for jury duty here in DC, and was put on the jury of a commonplace drug trial. We convicted on all counts, and it was real tough. I wrote up my experience in two blog posts, [here](http://konklone.com/post/jury-duty-i) and [here](http://konklone.com/post/jury-duty-ii), and I'm proud of how they came out.
+
+At the end of the posts, I said I wouldn't know whether I regret the decision for at least a year. The decision really focuses on one count in particular: whether to convict the defendant on a charge of **distribution** for *handing a bag from the driver to passenger seat of a car*. It was bullshit entrapment, and we all knew it, but we decided after a great deal of discussion to uphold the letter of the law.
+
+It's been two years now, and if I were in the same position again, I now think I would argue the opposite: to not convict on the final count. My feelings have not changed about jury nullification — it's an entirely personal decision, and one's obligation to uphold a law one disagrees with is just as real — but I think my own weights have shifted enough to support a not guilty verdict on that specific count.
+
+Two months later I attended the sentencing, and the judge was not happy, at all. She was personally sympathetic to the defendant, but totally exasperated with his public defender for giving his client bad advice. Why did he bring out 10 government witnesses at such expense, only to agree with the prosecution's story on all counts? Why did he bring this to a jury at all? 
+
+He didn't give a straight answer, but it was obvious: to play at our heartstrings in the hopes of jury nullification. And now, without a guilty plea, the judge felt she couldn't award any credit for taking responsibility for one's actions. She ended up handing out 15 months, with some but not all of the jail time suspended.
+
+I confronted the public defender after the sentencing and told him that I and the rest of the jury also resented him bringing it to trial and forcing such a blunt decision on us, at his client's expense. He hemmed and hawed, but eventually admitted that sometimes jury nullification is all a public defender has left. He told me that he hoped I could rest easier after talking with him, and then in an amazing (but completely professionally consistent) display of tone-deafness, immediately latched on my background as a software developer and began asking me about evaluating the worth of some pharmaceutical software his friend was making. 
+
+I don't know what the right answer is to all of this. Should defense attorneys never make a pitch for jury nullification because of the risk of a heavier sentence if it fails? Should it always be on juries to decide what the law should be? What other mechanism is there to punish a prosecutor or police officer for blatantly distorting the law to spray out punishments as widely and fiercely as possible?
+
+I bring this all up because I just got my notice, 2 years later, to show up for jury duty again next week. Odds are I won't be selected, but of course I could be selected again. Being in the same moral situation is even less likely, but now that I properly understand the weight of the role I certainly don't mind taking a second to hold myself accountable to my past.
