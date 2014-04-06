@@ -1,0 +1,11 @@
+I'd require an accompanying blog post before publishing your paper. I would send this to all authors who submit papers worth publishing:
+
+> Congratulations! Your paper has been tentatively accepted to Prestigious Science Journal (PSJ).
+
+> It is the policy of PSJ that each published paper be accompanied by an explanation of the research and conclusions it contains, as well as how the work fits into the broader context of the field and related research. This explanation should be written in an **informal** style, appropriate for a **public non-expert audience**, even if it does assume some knowledge of the field. It is not required to be in English.
+
+> This explanation can be submitted as text for publication on PSJ's website, or as a link to the published explanation on a third party website (including your own). In either case, while PSJ asserts no ownership rights on this explanation, you give PSJ permission to republish the explanation in PSJ properties, and/or to link to the explanation in its original location.
+
+Sure, places like Ars Technica are doing [fine](http://arstechnica.com/science/2013/05/taking-politics-into-account-helps-craft-effective-recycling-message/) [work](http://arstechnica.com/science/2013/05/refined-distance-measurements-rescue-a-threatened-theory/) explaining interesting papers, but there's just **too much research** being done for anyone to explain it all -- [over 12,000 articles](http://arxiv.org/year/astro-ph/12) in 2012 in arxiv.org for astrophysics alone. The work has to be distributed! If you worked your tail off on cutting edge research for who-knows-how-long and are finally getting your paper published, take an afternoon and write something up that might grab the attention of a science journalist, or the researchers in the department next door, or even the occasional unusually enthusiastic and well-educated member of the public. 
+
+That's the thing with blogs: you never know who might read them. It's more important to get the right eyes than many eyes. Scientists may not all be terrific writers, but what we should be taking from [Sagan](https://www.google.com/search?q=sagan+cosmos&source=lnms&tbm=isch) and [deGrasse Tyson](https://www.google.com/search?q=sagan+cosmos&source=lnms&tbm=isch) is that enthusiasm is the best communication. If you care about your work, take the time to tell us why.
