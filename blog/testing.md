@@ -4,6 +4,8 @@ Recently, GitHub Pages [began supporting HTTPS](https://twitter.com/benbalter/st
 
 In my opinion, this is a **huge** deal - GitHub Pages is the only major, free, general-purpose web host which also offers a secure channel. Given [how many simple and powerful uses](https://konklone.com/post/the-power-and-potential-of-github-pages) GitHub Pages has, and how vital secure and confidential connections are to the future of the web, I see this as a big step forward for developers, GitHub, and everyday people.
 
+ODE TO PHIL
+
 There are two catches: you *can't* force your site to only run over HTTPS, and you *can't* use HTTPS for custom domains.
 
 But there's a lot you **can** do! Let's work around the problems.
