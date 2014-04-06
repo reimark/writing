@@ -1,0 +1,25 @@
+A friend of mine emailed me, asking about the [publicly leaking battle](http://www.theverge.com/2013/1/22/3902746/obama-heads-back-office-battle-rages-over-tech-that-got-him-reelected) between the Obama/DNC techies and the higher-ups over what to do with all the code they wrote.
+
+I worked on some of the Obama campaign's tech at Blue State Digital [back in 2008](http://konklone.com/post/a-parallel-2012), but that was just a big monolithic PHP website that was sold to a bunch of clients. What's at stake here is, as I understand it, a collection of much more modular innovations that the Obama campaign team -- who made a much heavier investment in in-house tech/data talent this time -- created themselves.
+
+It actually is amazing how smart the Obama team was at tech this time around. Kyle Rush wrote a [great post-mortem](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/) on their fundraising platform and optimization, and it's obvious from that alone that they brought the spirit and skills of the modern web to presidential politics.
+
+Nathan Woodhull, a friend of mine and someone I greatly respect, used to work as a technologist at the DNC, and was [unhappy](https://twitter.com/woodhull/status/293869813196009473) with how The Verge implied he favored open sourcing everything - which [he](https://twitter.com/woodhull/status/293869338316922880) [doesn't](https://twitter.com/woodhull/status/293871975284224000). He and Jim Pugh have a [post on HuffPo](http://www.huffingtonpost.com/jim-pugh/obama-for-america-data_b_2325478.html) encouraging "investment" over "mothballing", but that's as far as it goes.
+
+Whether to open source code, and how much, is an incredibly tricky question. It's tempting to demand that it all be given to the public, full stop, but it's also simply not unreasonable for the Democratic party to act in their self-interest. I would argue that having their engineers engage with and invest in the open source community **is** in their self-interest, even if that just means some libraries and not full application code. 
+
+Below is an excerpt of the email I sent back to my friend, about the open source world. In it I make some reckless guessing at man-hours of open source labor, and I honestly have no idea if they're hyperbolicly high or insultingly low.
+
+> The thing to understand about working as a developer, a web developer especially, in modern times is that **everything** people do now is premised on open source software. Even the types of software people are charging for are themselves built on layers and layers and layers of freely donated work by the public. It is much bigger than the collective creation that went into Wikipedia - like 2-3 orders of magnitude bigger. It's nearly impossible to conceive of - my tiny blog probably rests atop 2-300,000 man-hours of others' free labor. Your Mac computer operates using probably 2-3 million man-hours of others' free labor - that's besides the labor Apple pays for. GitHub just signed up its 3 millionth user, it is a gigantic ocean of constant churning public collaboration.
+> 
+> I'm just guessing at the man-hour numbers, and I'd love to see an actual study done that quantifies it more formally, but if anything I'm probably understating it. It takes dozens of layers of work to go from electricity and 1's and 0's to anything that humans can even understand, and then another couple dozen layers of work to go from understandable to universally usable across the Internet. Each of those layers has alternatives and they're all being improved all the time and given away for free. That's just to get us all to the point where we can then compete on making things usable **well**.
+> 
+> People compete at the top, but the foundation of all modern computing is free.
+>
+> So a wonderful culture has been created on the web where its engineers feel both an incredible sense of debt to the world, and a visceral understanding of karma: when you contribute your work to the world, you are rewarded by others helping make your work better, and the respect and credibility to attract more people to your cause.
+
+I'll also point to Tom Preston-Werner's [Open Source (Almost) Everything](http://tom.preston-werner.com/2011/11/22/open-source-everything.html), which uses a similarly unsourced estimate of "millions" of hours in the context of morally framing how developers interact with the open source Internet.
+
+> Lastly, it's the right thing to do. It's almost impossible to do anything these days without directly or indirectly executing huge amounts of open source code. If you use the internet, you're using open source. That code represents millions of man-hours of time that has been spent and then given away so that everyone may benefit. We all enjoy the benefits of open source software, and I believe we are all morally obligated to give back to that community. If software is an ocean, then open source is the rising tide that raises all ships.
+
+Now let's not agree not to talk about the state of open source hardware device drivers.
