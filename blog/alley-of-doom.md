@@ -1,0 +1,7 @@
+<a href="/assets/images/alley-unicycle.jpg"><img src="/assets/images/alley-unicycle-small.jpg" style="float: right; padding: 20px"></a>
+
+I spent Saturday afternoon sweeping, pushing, filming, running, climbing, dancing, and unicycling through the <a href="http://alleyofdoom.org/">Alley of Doom</a>, created by <a href="http://twitter.com/elle_mccann">Laurenellen McCann</a>. It was a wonderful spectacle, with high turnout and a diverse crowd. It ran an hour over time because it was just too impossible to fit in all the fun people were having.
+
+The Alley of Doom allows anyone to be chased by a boulder down an alley, literally and exactly like Indiana Jones did in Raiders of the Lost Ark, figuratively speaking. The best explanation of the Alley, besides the <a href="http://www.flickr.com/groups/alleyofdoomdc/">pictures and video</a> being amassed on Flickr, may be from this <a href="http://blog.awesomefoundation.org/2011/08/27/indiana-jones-and-the-alley-of-doom/">interview with the Awesome Foundation</a> after we gave her the micro-grant to buy the zorb and make this happen.
+
+Though everyone was enthusiastic about the idea, I don't think anyone expected it to generate such prolonged fun (it ran for 4 hours, well over schedule), or the press that it got (NPR was there almost the whole time). It's a tribute to a solid idea, an open minded city, and the great word-spreading power of the modern Internet. Thanks to Laurenellen for seeing the project through, and giving it so much love and energy.
