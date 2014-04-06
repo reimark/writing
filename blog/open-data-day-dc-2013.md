@@ -1,0 +1,19 @@
+<p style="text-align: center"><iframe class="youtube" src="https://www.youtube.com/embed/e_LcBQuaM1s" frameborder="0" allowfullscreen></iframe></p>
+
+A couple Saturdays ago, I helped [Josh Tauberer](https://twitter.com/joshdata) [and](https://twitter.com/diplokat) [a](https://twitter.com/kachok) [few](https://twitter.com/OpenNotion) [others](https://twitter.com/ulkins) organize a hackathon for [Open Data Day](http://opendataday.org/), here in DC. Open Data Day is an international event, and this year [over 100 cities](http://wiki.opendataday.org/2013/City_Events) participated from [around the world](http://opendataday.org/map/). It's incredible to see. Our DC event [sold out entirely](http://opendataday2013dc.eventbrite.com/), and we got **over 150** people to join us at the World Bank to work together on a Saturday.
+
+Hackathons can get a lot of flak nowadays. For example, David Sasaki, writing in December from the perspective of someone often invited to judge, fund, and otherwise evaluate hackathons and contests, [wonders](http://davidsasaki.name/2012/12/on-hackathons-and-solutionism/) whether hackathons lead to solutions that don't understand the problem. Chinmay Pendharkar, from the perspective of a developer, started a [vigorous Hacker News discussion](http://news.ycombinator.com/item?id=5302940) a couple days ago by [writing](http://chinpen.net/blog/2013/02/hackathons-are-bad-for-you/) how hackathons are flat out bad for you and promote an irresponsible, unhealthy lifestyle.
+
+I've been to a lot of bad hackathons in my day. I've even been paid to run some! We all did some crazy things back in the "Gov 2.0" heyday of 2009 and 2010. And there's still a lot of questionable hackathon-ing happening out there. But while there's some truth to what David and Chinmay are saying, that's not how it has to be.
+
+Josh [sums up our mindset nicely](http://razor.occams.info/blog/2013/03/02/open-data-day-2013-hackathon-recap/):
+
+> Our approach to the hackathon was a little different than many others. Our goals were to strengthen the open data community, to foster connections between people and between projects, and to emphasize problem statements over prototypes and solutions. 
+
+> There was no beer or pizza at our hackathon, no competitions, and no pressure to produce outputs. Participants came motivated and stayed focused without needing to be treated like brogrammers. This created a positive, welcoming, and highly productive environment.
+
+Hopefully this is evident in our [project screenshot blog](http://opendatadaydc.tumblr.com/), our [event hackpad](https://hackpad.com/@OpenDataDay-2013-DC-XOyEe1yIUK2), and the [video](http://www.youtube.com/watch?v=e_LcBQuaM1s) Josh kindly took the time to make from his shots and interviews throughout the day.
+
+Josh also organized DC's first Open Data Day event, back in December of 2011, and I [had a fantastic time there](http://sunlightfoundation.com/blog/2011/12/08/sunlight-at-international-open-data-hackathon/). I didn't leave with working code: I left with **momentum**. I showed up with what I assumed was an arcane, intimidating idea (fording the data river from regulations back to legislation), and instead received the help of half a dozen enthusiastic people for an entire day. Most of them were not coders, just eager to work on something that mattered, and they contributed a ton of [awesome research](https://github.com/sunlightlabs/crosslaws/wiki/Working-Group-Pad). That outpouring of energy kept mine strong afterwards, and directly led to me creating [a valuable tool](https://github.com/unitedstates/citation) 7 months later. 
+
+Maybe most importantly, it introduced me to high quality people that I've kept in touch with, and has added rooms to my imagination for future work that refuse to leave. This is what I wanted to create for people at Open Data Day this year. I hope the attendees left with more energy than they came in with, until we do it again next year.
