@@ -1,0 +1,25 @@
+I got into two small debates on Twitter over the last couple of days, and they were both so similar that they made me pause and think about whether I was coming at them the right way.
+
+In one, I disagreed with Netroots Nation's no-all-white-male-panels [policy](http://www.netrootsnation.org/ProposalsInfo/) as well-intended but overly blunt. 
+
+<blockquote class="twitter-tweet tw-align-center" data-in-reply-to="287949173590982656"><p>@<a href="https://twitter.com/1uigi">1uigi</a> for small panels, that's pretty silly. If a conf had 40 panels of 5 people each, and 1 was all-white-male...that is just fine.</p>— Eric Mill (@konklone) <a href="https://twitter.com/konklone/status/287978266520862720" data-datetime="2013-01-06T17:45:43+00:00">January 6, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+My immediate reaction was that in a large conference with dozens of panels of small numbers of people, even a fictional perfectly diverse conference could see a natural distribution that included an all-white-male panel or two. (You can already see how silly pushing this point sounds.) I ultimately agreed that the policy was better than none, but [said](https://twitter.com/konklone/status/288042677004537856) that [thoughtful](http://2012.jsconf.eu/2012/09/17/beating-the-odds-how-we-got-25-percent-women-speakers.html) [policies](http://devblog.avdi.org/2012/11/19/on-britruby/) that hinge on discretion and diminish bias are superior.
+
+In another, I [defended](https://twitter.com/konklone/status/288733058281123840) Slate's [criticism of an infographic](http://www.slate.com/blogs/xx_factor/2013/01/08/the_enliven_project_s_false_rape_accusations_infographic_great_intentions.html) that showed the disparity between rapes that end up reported and the attacker imprisoned, and the (many more) cases where one or both of those don't happen. 
+
+<blockquote class="twitter-tweet tw-align-center" data-in-reply-to="288724050342207488"><p>@<a href="https://twitter.com/spavis">spavis</a> The post links to lots of supporting evidence. It *is* important to get facts and infographics right, or it's too easy to defeat.</p>— Eric Mill (@konklone) <a href="https://twitter.com/konklone/status/288733058281123840" data-datetime="2013-01-08T19:45:00+00:00">January 8, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Writing for Slate, Amanda Marcotte argued that the numbers the infographic uses are more grim than is accurate, and that for a cause as important and charged as rape awareness those inaccuracies ultimately do more harm than good. I agreed, and felt it was damaging for constructive criticism to be unwelcome within the ranks of any good cause.
+
+I've since come to think that I let myself rush to judgment on these. While I believe my points were basically valid, I was elevating their narrow worth above the larger context, which is, for lack of a better word, a totally [engineer-y](https://twitter.com/edw519/status/288059796463173632) thing to do.
+
+Netroots' policy is certainly imperfect, and they'd probably agree with that, but there's lots of benefits, and in practice the downside is likely to be little, or nothing. "Not white male" is a pretty broad criteria that most panels will be able to meet, and in the meantime they'll have raised tons of awareness (like this post), pushed the issue forward, and, assuming it works, demonstrate a pretty cool reality when the actual conference happens.
+
+I'm sure the Slate author personally felt she was helping a cause she cares about, while holding it to a high standard. But it's also very easy for a person in that position to internally downplay the counter-arguments when there's such pressure for publications like Slate to attract traffic. The Slate headline was distinctly mocking and combative ("Too Bad It's Wrong."), and while that's entirely explainable by the MO that every online for-profit magazine takes with crafting its headlines, in this context it really feels like Slate benefits more than the cause. The practical result is that a simple, well-made graphic that generated enough energy to make people re-examine their unconscious "it's probably mostly okay these days" feeling about how well rape is punished in the US had that energy sucked up into a vortex of meta, hosted at slate.com. That sucks.
+
+I instinctively distrust militarization of conversation and questioning others' motives, and I'm fine with those instincts.  In particular, I worry the ferocity with which well-meaning people who make mistakes are getting attacked for them is polarizing them to [hold](https://gist.github.com/4106776) [opinions](http://conferencequotas.com/) they otherwise might have been steered away from.
+
+But when talking about gender in 2013 elicits comments like [the ones on this post](http://fberriman.com/2013/01/06/conferences-arent-the-problem/), and talking about race in 2013 yields conversations like [this one on Hacker News](http://news.ycombinator.com/item?id=5006023), some bullheadedness and fighting spirit is probably justified for a long while yet.
