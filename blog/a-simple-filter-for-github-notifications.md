@@ -1,6 +1,6 @@
 GitHub's notification system is a thing of beauty, and it's led me to "watch" more projects. When you [watch something on GitHub](https://help.github.com/articles/watching-repositories), it notifies you of all new discussions happening on that project. It's a terrific way to ambiently track the evolution of a project relevant to your work.
 
-However, as I did more of this, notifications for threads I was **participating in** became easier to miss. GitHub considers you `Participating` if you're @-mentioned, or if you opened/commented on an issue.
+However, as I did more of this, notifications for threads I was **participating in** became easier to miss. GitHub considers you `Participating` if you're @-mentioned or if you opened/commented on an issue.
 
 GitHub does draw this distinction in its [Notification Settings](https://github.com/settings/notifications) - you can decide whether `Watching` or `Participating` notices should go into a web-only notification feed, or your email. 
 
