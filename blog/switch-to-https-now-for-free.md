@@ -166,13 +166,15 @@ Many common hosts don't give you direct access to install a certificate yourself
 
 If you use:
 
+* **Amazon S3**, as of March 2014 they support **[free SSL for custom domains](http://aws.amazon.com/cloudfront/custom-ssl-domains/)**. Bear in mind this requires [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication), which won't work for users on Windows XP. If that's a dealbreaker, then you'd have to pay an insane $600/month for a dedicated IP.
 * **Apache**, check out [kang's blog post](https://www.insecure.ws/2013/10/11/ssltls-configuration-for-apache-mod_ssl/) on making an Apache config that gets the A rating from Qualys.
 * **Heroku**, you'll need to pay $20/month for their [SSL add-on](https://addons.heroku.com/ssl), and then use it to [set up an SSL endpoint](https://devcenter.heroku.com/articles/ssl-endpoint).
 * **Webfaction**, they [provide HTTPS support](http://docs.webfaction.com/user-guide/websites.html#secure-sites-https) at no extra charge. Go [Webfaction](https://www.webfaction.com/)!
-* **Amazon S3**, you can pay an insane $600/month for [their built-in CloudFront service](http://aws.amazon.com/cloudfront/custom-ssl-domains/), or you can look elsewhere (see below).
 * **Github Pages**, they don't offer HTTPS support for either `*.github.io` domains, or custom domains, so you'll have to look elsewhere (see below).
 
-If you need to **look elsewhere** because your host makes it too expensive or impossible to set up HTTPS, another option is to sign up for [CloudFlare](https://www.cloudflare.com/). You don't need to leave your current host to use them — they sit "in front" of your website and can speed it up in various ways. Every paid plan, starting at $20/month, [includes HTTPS support](http://blog.cloudflare.com/easiest-ssl-ever-now-included-automatically-w). I haven't used them myself, so I can't vouch for them, but they have an excellent reputation.
+If you need to **look elsewhere** because your host makes it too expensive or impossible to set up HTTPS, another option is to sign up for [CloudFlare](https://www.cloudflare.com/). You don't need to leave your current host to use them — they sit "in front" of your website and can speed it up in various ways. Every paid plan, starting at $20/month, [includes HTTPS support](http://blog.cloudflare.com/easiest-ssl-ever-now-included-automatically-w).
+
+Later in 2014, Cloudflare **[plans to offer SSL for free](https://twitter.com/CloudFlare/status/450390445365800961)**, as part of their mission to [double SSL on the web in 2014](http://www.theverge.com/2013/12/17/5217800/cloudflare-pledges-to-double-ssl-usage-on-the-web-in-2014). That will be huge.
 
 ## Mixed Content Warnings
 
