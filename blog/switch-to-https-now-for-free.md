@@ -1,3 +1,7 @@
+<div class="callout">
+<strong>Attention</strong>: In the wake of <a href="http://heartbleed.com/">Heartbleed</a>, the community consensus is that if you've already got a certificate that you installed <strong>before April 7, 2014</strong>, revoke that certificate, and issue and install a new one. 
+</div>
+
 From now on, you should see a delightful lock <img src="/assets/images/blog/https/ssl-0-lock.png" /> next to [https://konklone.com](https://konklone.com) in your browser's URL bar, because I've switched this site to use HTTPS. I paid **$0** for the trouble.
 
 Why you should bother doing the same:
