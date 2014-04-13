@@ -1,5 +1,5 @@
 <div class="callout">
-<strong>Attention</strong>: In the wake of <a href="http://heartbleed.com/">Heartbleed</a>, the community consensus is that if you've already got a certificate that you installed <strong>before April 7, 2014</strong>, revoke that certificate, and issue and install a new one. Many authorities charge a revocation fee, but many may also waive that fee due to the unexpected severity and scope of the problem.
+<strong>Attention</strong>: In the wake of <a href="http://heartbleed.com/">Heartbleed</a>: if you're already using a certificate you installed <strong>before April 7, 2014</strong>, revoke that certificate, then issue and install a new one.
 </div>
 
 From now on, you should see a delightful lock <img src="/assets/images/blog/https/ssl-0-lock.png" /> next to [https://konklone.com](https://konklone.com) in your browser's URL bar, because I've switched this site to use HTTPS. I paid **$0** for the trouble.
@@ -14,7 +14,11 @@ This post shows how to do your part in building a surveillance-resistant Interne
 
 A quick overview: to use HTTPS on the web today, you need to obtain a certificate file that's signed by a company that browsers trust. Once you have it, you tell your web server where it is, where your associated private key is, and open up port 443 for business. You don't necessarily have to be a professional software developer to do this, but you do need to be **okay with the command line**, and comfortable configuring **a web server you control**.
 
-Most certificates cost money, but at Micah Lee's [suggestion](https://twitter.com/micahflee/status/368163493049933824), I used [StartSSL](https://www.startssl.com). They're who the [EFF](https://www.eff.org/) uses, and **their basic certificates for individuals are free**. (They'll ask you to pay for a higher level certificate if your site is commercial in nature.) The catch is that their website is difficult to use at first — especially if you're new to the concepts and terminology behind SSL certificates (like me). Fortunately, it's not actually that hard; it's just a lot of small steps.
+Most certificates cost money, but at Micah Lee's [suggestion](https://twitter.com/micahflee/status/368163493049933824), I used [StartSSL](https://www.startssl.com). They're who the [EFF](https://www.eff.org/) uses, and **their basic certificates for individuals are free**. 
+
+There are two things that could cost you $$. One is that if your site is commercial in nature, they'll ask you to pay for a higher level certificate. More importantly, if your certificate needs to be revoked someday, StartCom will [charge you a $30 fee](https://www.startssl.com/?app=25#72). While revocation has generally been rare, the recently discovered [Heartbleed](http://heartbleed.com/) exploit is an example where a huge portion of the Internet has had to revoke their keys. For some people who had issued a large number of free certificates, this turned out to be expensive.
+
+Still, StartCom makes getting started with SSL simple and inexpensive. Their website is difficult to use at first — especially if you're new to the concepts and terminology behind SSL certificates (like me). Fortunately, it's not actually that hard; it's just a lot of small steps.
 
 Below, we'll go step by step through signing up with StartSSL and creating your certificate. We'll also cover installing it via nginx, but you can use the certificate with whatever web server you want.
 
