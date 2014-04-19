@@ -30,6 +30,8 @@ While I'm sorry that this event happened to him, I'm extremely glad he wrote it 
 
 ## Providers who offer 2FA
 
+**Update**: I'd like the below list to remain timely and useful, but [Twofactorauth.org](http://twofactorauth.org/) is probably going to be a more comprehensive, up-to-date resource - they take contributions [via GitHub](https://github.com/jdavis/twofactorauth).
+
 Here's how to set up two factor authentication on your domain's registrar or DNS provider.
 
 * [iwantmyname](http://help.iwantmyname.com/customer/portal/articles/1139898-how-can-i-enable-two-factor-authentication-) (recommended!)
@@ -48,9 +50,11 @@ Here's how to set up two factor authentication on your domain's registrar or DNS
 
 And here are some domain providers who need some shaming.
 
+
 * [Bluehost](http://www.bluehost.com/) - demand it from [@bluehostsupport](https://twitter.com/bluehostsupport)
 * [1and1](http://www.1and1.com/) - demand it from [@1and1_4U](https://twitter.com/1and1_4U)
 * [Network Solutions](http://www.networksolutions.com/) - they [says it's supported](https://twitter.com/netsolcares/status/428650523110416384) but you have to call to activate it, and it's not publicly documented. Nowhere near easy or good enough.
+* [Namesco](http://www.names.co.uk/) - demand it from [@Namesco](https://twitter.com/Namesco)
 * [Domainmonster.com](https://www.domainmonster.com/support/) - demand it from [@domainmonster](https://twitter.com/domainmonster), because they have a [broken idea of two-factor](https://twitter.com/domainmonster/status/428929545061031937)
 * [No-IP](http://www.noip.com/) - Can't find it mentioned anywhere, demand it from [@NoIPcom](https://twitter.com/NoIPcom)
 * [DynDNS](http://dyn.com/dns/) - demand it from [@Dyn](https://twitter.com/Dyn) as a standard feature, they apparently [only offer 2FA to premium accounts](https://twitter.com/Dyn/status/430796586223161346)
