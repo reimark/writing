@@ -4,18 +4,18 @@ WebFinger is a standard way to attach information to an email address, or other 
 
 ```json
 {
-  "subject":"acct:eric@konklone.com",
-  "properties":{
+  "subject": "acct:eric@konklone.com",
+  "properties": {
     "http://schema.org/name":"Eric Mill"
   },
-  "links":[
+  "links": [
     {
-      "rel":"http://webfinger.net/rel/profile-page",
-      "href":"https://konklone.com"
+      "rel": "http://webfinger.net/rel/profile-page",
+      "href": "https://konklone.com"
     },
     {
-      "rel":"http://webfinger.net/rel/avatar",
-      "href":"https://secure.gravatar.com/avatar/ac3399caecce27cb19d381f61124539e.jpg?s=400"
+      "rel": "http://webfinger.net/rel/avatar",
+      "href": "https://secure.gravatar.com/avatar/ac3399caecce27cb19d381f61124539e.jpg?s=400"
     }
   ]
 }
