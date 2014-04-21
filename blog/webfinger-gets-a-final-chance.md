@@ -1,10 +1,25 @@
 [WebFinger](http://webfinger.net/) is **finally final**, with a real RFC and everything! It's [RFC 7033](http://tools.ietf.org/html/rfc7033). And unlike a lot of RFCs you might have glanced at, shuddered, and immediately closed, WebFinger's is **actually simple**. 
 
-WebFinger is a standard way to attach information to an email address, or other account. Here's mine:
+WebFinger is a standard way to attach information to an email address, or other account. Mine is at [https://konklone.com/.well-known/webfinger?resource=acct:eric@konklone.com](https://konklone.com/.well-known/webfinger?resource=acct:eric@konklone.com):
 
-<blockquote>
-<p><a href="https://konklone.com/.well-known/webfinger?resource=acct:eric@konklone.com" style="font-size: 90%">https://konklone.com/.well-known/webfinger?resource=acct:eric@konklone.com</a></p>
-</blockquote>
+```json
+{
+  "subject":"acct:eric@konklone.com",
+  "properties":{
+    "http://schema.org/name":"Eric Mill"
+  },
+  "links":[
+    {
+      "rel":"http://webfinger.net/rel/profile-page",
+      "href":"https://konklone.com"
+    },
+    {
+      "rel":"http://webfinger.net/rel/avatar",
+      "href":"https://secure.gravatar.com/avatar/ac3399caecce27cb19d381f61124539e.jpg?s=400"
+    }
+  ]
+}
+```
 
 Go ahead and peek at the data if you want to - it's a tiny piece of JSON, a link to my blog and my [avatar](https://secure.gravatar.com/avatar/ac3399caecce27cb19d381f61124539e.jpg?s=400). (WebFinger is HTTPS only, so you've got to [take care of that first](https://konklone.com/post/switch-to-https-now-for-free).)
 
