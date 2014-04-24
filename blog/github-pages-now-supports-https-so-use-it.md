@@ -40,7 +40,7 @@ Well, there's no easy, free way to work around this one. _Yet_!
 
 [Cloudflare](https://www.cloudflare.com/) will happily sit in front of your domain and terminate SSL for you, but right now they charge $20 per site per month. Fortunately, Cloudflare is [on a mission to double SSL on the web in 2014](http://www.theverge.com/2013/12/17/5217800/cloudflare-pledges-to-double-ssl-usage-on-the-web-in-2014), and they plan to do it by [offering SSL termination for free](https://twitter.com/CloudFlare/status/450390445365800961). That will be a serious gamechanger, not just for GitHub Pages but for the whole Internet.
 
-**Update**: Unfortunately, GitHub will **also** need to update their configuration. I've been testing out a paid $20/month CloudFlare plan against GitHub Pages' SSL configuration, and you can [see the results for yourself](https://theunitedstates.io/): `unknown domain: theunitedstates.io`. Until that's resolved, which requires action on GitHub's part, not even turning on CloudFlare will make this work.
+**Update**: Unfortunately, GitHub will **also** need to update their configuration. I've tested a paid $20/month CloudFlare plan against GitHub Pages' SSL configuration, and using "Strict" (end-to-end) SSL will get you an `unknown domain` error from GitHub. Until that's resolved, which requires action on GitHub's part, not even turning on CloudFlare will make this work.
 
 ### What GitHub can do
 
