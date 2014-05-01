@@ -119,6 +119,8 @@ Pobox has a [nice explainer on MX records](http://www.pobox.com/helpspot/index.p
 > mx-2.rightbox.com<br/>
 > mx-3.rightbox.com
 
+If you get asked for a priority, use `10`. If you get asked for a name or subdomain, use `@`.
+
 Next, we'll go the other direction, and **tell your email about your domain**. 
 
 At the end of Part 1, we were waiting for Pobox to approve your account. Now that it's been approved, you're going to tell Pobox about your domain. Log back into [Pobox's dashboard](https://pobox.com/home), and look to the sidebar:
