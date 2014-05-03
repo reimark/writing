@@ -22,28 +22,12 @@ Using it, I've neatly integrated my published blog posts with a new GitHub repos
 
 I don't have to change my workflow or give up my database, but I still get a [public revision history](https://github.com/konklone/writing/commits/master/blog/switch-to-https-now-for-free.md) and the ability to accept pull requests that automatically update my blog as soon as I press the `Merge` button.
 
-### How to sync with GitHub
-
-Any changes to my database I make from inside my blog's internal CMS get automatically synced to a corresponding Markdown file on GitHub, and any changes from GitHub get automatically synced to my blog's database.
-
-Here's what my blog's CMS looks like inside, with a few fields cleared so you can see the placeholder text:
-
-<a href="/assets/images/blog/syncing/cms.png"><img class="border block" src="/assets/images/blog/syncing/cms-small.png" /></a>
-
-Posts are linked to files on GitHub through the `github sync URL` field below the body, and "save message" will become a commit message on GitHub. A valid URL is something like this:
-
-<blockquote style="width: 600px"><p style="width: 600px; margin-top: 10px; margin-bottom: 10px">
-<a style="font-size: 10pt" href="https://github.com/konklone/writing/blob/master/blog/writing-in-public-syncing-with-github.md">https://github.com/konklone/writing/blob/master/blog/writing-in-public-syncing-with-github.md</a>
-</p></blockquote>
-
-This is the permalink to view the file on GitHub, and that URL contains all the data you need to establish the owner, repository, branch, path, and filename of a file on GitHub. It can be easily split apart into (or reassembled from) pieces on demand, and if I wanted to sync to a file from an alternate repository for some reason (e.g. a guest post), that just means a different URL.
-
 If you're curious about the technical mechanics, I created two pull requests that explain the gritty details:
 
 * [Syncing TO GitHub](https://github.com/konklone/konklone/pull/125): Any published post with an assigned URL to a file on GitHub will, upon save, use the GitHub [Repo Contents API](https://developer.github.com/v3/repos/contents/) to update that file with the post's contents. A GitHub URL is assigned to a post upon first publish, which then automatically creates a file in [konklone/writing](https://github.com/konklone/writing).
 * [Syncing FROM GitHub](https://github.com/konklone/konklone/pull/126): The `writing` repo has a [webhook](https://github.com/blog/1778-webhooks-level-up) enabled that sends a POST to a special endpoint in my blog upon any content changes. My blog accepts those changes from GitHub, while using a log of previously synced commits to avoid infinite sync loops.
 
-Though my code is designed for Sinatra and MongoDB, you could take this approach with just about anything -- it's just APIs over HTTP, the *lingua franca* of the Internet, along with a couple extra fields on posts to keep everything straight. It's not that bad.
+Though my code is customized for my blog, you could take this approach with just about anything -- it's just APIs over HTTP, the *lingua franca* of the Internet, along with a couple extra fields on posts to keep everything straight. It's not that bad.
 
 ### News In Public
 
