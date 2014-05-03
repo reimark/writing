@@ -32,7 +32,7 @@ Here's what my blog's CMS looks like inside, with a few fields cleared so you ca
 
 Posts are linked to files on GitHub through the `github sync URL` field below the body, and "save message" will become a commit message on GitHub. A valid URL is something like this:
 
-<blockquote><p>
+<blockquote style="padding: 15px 5px"><p>
 <a style="font-size: 10pt" href="https://github.com/konklone/writing/blob/master/blog/writing-in-public-syncing-with-github.md">https://github.com/konklone/writing/blob/master/blog/writing-in-public-syncing-with-github.md</a>
 </p></blockquote>
 
