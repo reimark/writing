@@ -48,7 +48,7 @@ I'm picking on the New York Times here, as my favorite newspaper and the country
 
 ### Authority Through Obscurity
 
-I've heard people tell me that adding malleability and collaboration to their public work would reduce its credibility and authority. That's not much different than believing that you're [more secure by hiding your security choices](http://lists.w3.org/Archives/Public/site-comments/2014May/0002.html). Truth withstands public scrutiny, and is stronger for it. It's not like it has to be Wikipedia: on GitHub, you're in total control over what changes you accept.
+When I've suggested this approach to others, I've been told that adding collaboration and transparency to their published work would reduce its authority. I believe this is exactly backwards, and not much different than believing that you're [more secure by hiding your security choices](http://lists.w3.org/Archives/Public/site-comments/2014May/0002.html). Truth withstands public scrutiny, and is stronger for the consensus. It's not like it has to be Wikipedia: on GitHub, you're in total control over what changes you accept.
 
 And it doesn't have to be through GitHub! Any system that lets readers suggest concrete fixes and improvements, lets writers and editors easily accept them into the published version, and offers the public a record of a story's evolution would do just fine.
 
