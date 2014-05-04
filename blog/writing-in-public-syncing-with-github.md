@@ -44,7 +44,7 @@ Don't even try to keep track of the constant headline tweaking. In one recent ex
 <blockquote class="twitter-tweet" lang="en"><p>Between the URL slug, the Twitter card, and the final headline, a NYT editor and reporter are twisting in the wind <a href="http://t.co/w3q1LFsevz">pic.twitter.com/w3q1LFsevz</a></p>— Eric Mill (@konklone) <a href="https://twitter.com/konklone/statuses/455134683940925441">April 13, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I'm picking on the New York Times here, as my favorite newspaper and the United States' paper of record, but all of this applies to any major newspaper. Can you think of a single one with a transparent changelog?
+I'm picking on the New York Times here, as my favorite newspaper and the country's paper of record, but all of this applies to any major newspaper. Can you think of a single one with a transparent changelog?
 
 ### Authority Through Obscurity
 
