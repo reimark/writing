@@ -37,7 +37,7 @@ I don't see any reason why a major newspaper can't do the same thing. The New Yo
 
 <a href="http://www.nytimes.com/2011/12/26/us/navigating-love-and-autism.html"><img src="/assets/images/blog/syncing/correction.png" class="border" /></a>
 
-Yet when the Times make changes due to less funny mistakes, like opening a [woman rocket scientist's obituary](http://www.thedailybeast.com/articles/2013/03/31/new-york-times-changes-sexist-obit.html) with a description of her cooking, you won't see a correction notice at the bottom of [the current article](http://www.nytimes.com/2013/03/31/science/space/yvonne-brill-rocket-scientist-dies-at-88.html?pagewanted=all&_r=0). You'll have to hope someone else caught it and rescued it from Google's cache or something.
+Yet when the Times makes less funny mistakes, like opening a [woman rocket scientist's obituary](http://www.thedailybeast.com/articles/2013/03/31/new-york-times-changes-sexist-obit.html) with a description of her cooking, you won't see a correction notice at the bottom of [the current article](http://www.nytimes.com/2013/03/31/science/space/yvonne-brill-rocket-scientist-dies-at-88.html?pagewanted=all&_r=0). You'll have to hope someone else caught it and rescued it from Google's cache or something.
 
 Don't even try to keep track of the constant headline tweaking. In one recent example, the Times was being [criticized](https://twitter.com/dangillmor/status/455130457223725057) for essentially running the headline the Obama administration wanted them to. The web's complex mechanics clearly demonstrates the Times responding in fits and starts:
 
