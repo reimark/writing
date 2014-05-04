@@ -30,23 +30,26 @@ The number of spaces you want will depend on how high your text is. At the defau
 
 In practice, using inline CSS in JavaScript is annoying. It helps to keep a table of styles and style generators handy, like this:
 
-<pre><code class="block">var styles = {
+```javascript
+var styles = {
   spam: "color: #336699",
   please: "color: #336699; font-weight: bold",
   emoji: function(emoji) {
     return "background-image: url(\"https://isitchristmas.com/emojis/" + emoji + ".png\"); background-size: cover";
   }
-};</code></pre>
-
+};
+```
 
 Which can be used like this:
 
-<pre><code class="block">console.log(
+```javascript
+console.log(
   "%cPlease%c don't spam and ruin the chat! %c  %c %c  %c %c  ", 
   styles.please, styles.spam, styles.emoji("smiley"),
   styles.spam, styles.emoji("heart"),
   styles.spam, styles.emoji("christmas_tree")
-);</code></pre>
+);
+```
 
 Which produces:
 
@@ -84,7 +87,8 @@ I can use the `toString` trick to provide two methods of chatting - one with par
 
 This is what the code looks like:
 
-<pre><code class="block">var say = function(message) {
+```javascript
+var say = function(message) {
   // ... code to send message ...
 
   return blank();
@@ -94,7 +98,8 @@ say.toString = function() {
   say(prompt("What do you want to say?"));
 
   return " ";
-};</code></pre>
+};
+```
 
 And I document it like this:
 
