@@ -31,7 +31,7 @@ Though my code is customized for my blog, you could take this approach with just
 
 ### News In Public
 
-I'd like this blog to be known for high quality, accurate pieces that people share and return to. I also just want to write good stuff that reads clearly. It's a lot easier to make all that happen with an obvious path for readers to contribute, and an annotated history of changes.
+I'd like this blog to be known for high quality, accurate pieces that people share and return to. I also just want to write good stuff that reads clearly. It's a lot easier to make all that happen with an obvious path for readers to contribute, and an annotated history of changes. And in my case, my early drafts are written freely and in private -- I'm only automatically syncing changes to GitHub once I've hit the Publish button.
 
 I don't see any reason why a major newspaper can't do the same thing. The New York Times cares deeply about precision, enough to run <a href="http://www.nytimes.com/2011/12/26/us/navigating-love-and-autism.html">corrections like this</a>:
 
