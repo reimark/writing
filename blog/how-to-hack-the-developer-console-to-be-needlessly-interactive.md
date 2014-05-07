@@ -10,7 +10,7 @@ This isn't really a trick, but I don't know that enough people are aware that `c
 
 <img src="https://konklone.com/assets/images/blog/console/console-styling-example.png" class="block border" />
 
-Sadly, Firefox's more recent built-in console doesn't support this, and nor does Internet Explorer. I'm told Safari does. Fortunately, Chrome is by far [the most used browser](https://github.com/isitchristmas/data/blob/gh-pages/2012/browsers.csv) for my site, so I'm fine with this. I have [a simple console.log wrapper](https://github.com/isitchristmas/web/blob/e332f791f83853e161019ac6098f73becdd8235e/views/index.html#L1056-L1074) that "downgrades" the console to plain-text in Internet Explorer.
+Sadly, Firefox's native developer console doesn't support this (but [it will in Firefox 31!](https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/)), and nor does Internet Explorer. I'm told Safari does. Fortunately, Chrome is by far [the most used browser](https://github.com/isitchristmas/data/blob/gh-pages/2012/browsers.csv) for my site, so I'm fine with this. I have [a simple console.log wrapper](https://github.com/isitchristmas/web/blob/e332f791f83853e161019ac6098f73becdd8235e/views/index.html#L1056-L1074) that "downgrades" the console to plain-text in Internet Explorer.
 
 ### Creating sprites
 
