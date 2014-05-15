@@ -1,5 +1,5 @@
 <figure>
-<a href="https://twitter.com/alykat/status/347719216499130369" target="_blank"><img src="/assets/images/blog/syncing/work-in-public.jpg" /></a>
+<a href="https://twitter.com/alykat/status/347719216499130369" target="_blank"><img src="https://konklone.com/assets/images/blog/syncing/work-in-public.jpg" /></a>
 <figcaption>unofficial motto of the NPR News Applications team, <a href="http://www.flickr.com/photos/alykat/9093785148/">by Alyson Hurt</a></figcaption>
 </figure>
 
