@@ -12,7 +12,7 @@ It's such a healthy, beautiful approach to public writing. Why doesn't every new
 
 ### Making this work for my blog
 
-<img style="padding-top: 10px" class="border" src="/assets/images/blog/syncing/github-diff-2.png" />
+<img style="padding-top: 10px" class="border" src="https://konklone.com/assets/images/blog/syncing/github-diff-2.png" />
 
 And why not my blog? Well, Ben has the advantage of using GitHub Pages, which weaves his blog directly into [GitHub](https://github.com), one of the greatest systems for collaboration that mankind has yet crafted. And GitHub Pages, while [incredibly powerful](https://konklone.com/post/the-power-and-potential-of-github-pages), isn't for everyone. For me, I like having a database that can hold private content, and a comment system that belongs to me and not to Disqus. My blog is built on [Sinatra](http://www.sinatrarb.com/) and [MongoDB](https://www.mongodb.org/) and hosted on [Amazon](https://aws.amazon.com/ec2/), which costs more time and money than GitHub Pages but affords me more control.
 
@@ -35,7 +35,7 @@ I'd like this blog to be known for high quality, accurate pieces that people sha
 
 I don't see any reason why a major newspaper can't do the same thing. The New York Times cares deeply about precision, enough to run <a href="http://www.nytimes.com/2011/12/26/us/navigating-love-and-autism.html">corrections like this</a>:
 
-<a href="http://www.nytimes.com/2011/12/26/us/navigating-love-and-autism.html"><img src="/assets/images/blog/syncing/correction.png" class="border" /></a>
+<a href="http://www.nytimes.com/2011/12/26/us/navigating-love-and-autism.html"><img src="https://konklone.com/assets/images/blog/syncing/correction.png" class="border" /></a>
 
 Yet when the Times makes less funny mistakes, like opening a [woman rocket scientist's obituary](http://www.thedailybeast.com/articles/2013/03/31/new-york-times-changes-sexist-obit.html) with a description of her cooking, you won't see a correction notice at the bottom of [the current article](http://www.nytimes.com/2013/03/31/science/space/yvonne-brill-rocket-scientist-dies-at-88.html?pagewanted=all&_r=0). You'll have to hope someone else caught it and rescued it from Google's cache or something.
 
