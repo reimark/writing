@@ -15,7 +15,7 @@ So, I've done my civic duty and begun a White House petition to keep the lights 
 
 Now, why appeal to the White House? After all, doesn't the National Park Service [manage the Monument](http://www.nps.gov/wamo/index.htm)?
 
-Well, apparently during the monument's 1999 renovation, they put up [the same piece of scaffolding](https://web.archive.org/web/19991014014106/http://www.keepitcovered.org/)! And people loved it -- especially that site's creator, [an enthusiastic man named Chad Allen](<a href="http://www.washingtoncitypaper.com/articles/17247/know-when-to-scaffold-em):
+Well, apparently during the monument's 1999 renovation, they put up [the same piece of scaffolding](https://web.archive.org/web/19991014014106/http://www.keepitcovered.org/)! And people loved it -- especially that site's creator, [an enthusiastic man named Chad Allen](http://www.washingtoncitypaper.com/articles/17247/know-when-to-scaffold-em):
 
 > The new look wasn't quite Blade Runner's future world, but it still lent the old granite-and-marble monolith a modern metallic flourish for the next century. As time went by, the structure designed by architect Michael Graves slowly engulfed the obelisk, the sun glinting off the blue aluminum surface. But when [Chad] Allen saw the monument at night—burning bright in its metal-and-nylon-netting cage as if lit from within—he became a full convert: "It has this luminescent quality," he says. "It really stands out now. Whereas before it was kind of muted, now it grabs your attention, out there glowing in the dark.
 
