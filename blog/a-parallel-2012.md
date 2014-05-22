@@ -1,6 +1,6 @@
 Obama gave a <a href="https://my.barackobama.com/page/share/thank-you-from-president-obama?source=20121108_OFA_TWS">wonderful speech</a> thanking his young Chicago staff, and telling them how inspired they make him. It comes across as extremely sincere, more for all the pausing and "errs" and thought he puts in than the crying, but, that too.
 
-<center><iframe class="youtube" src="http://www.youtube.com/embed/pBK2rfZt32g" frameborder="0" allowfullscreen></iframe></center>
+<p style="text-align: center"><iframe class="youtube" src="https://www.youtube.com/embed/pBK2rfZt32g" frameborder="0" allowfullscreen></iframe></p>
 
 There's a bit of "what could have been" for me, watching it; I probably could have been in the room for it, if I'd made different choices. I <a href="http://konklone.com/post/moving-on">worked for Obama's web team</a> at Blue State Digital in 2008, on the campaign's donation system, event planning platform, and many other things. Working at <a href="http://www.bluestatedigital.com/">Blue State</a>'s boiler room in Boston, my connection to the official Obama campaign was a little indirect, but only a little. I moved to DC soon after, and in the years since have met a great number of people who worked on the 2008 campaign in Chicago and around the country. I also know folks who worked for the DNC leading up to 2010, and more recently friends who've gone to work for Obama and other Democrats around the country for 2012. 
 
