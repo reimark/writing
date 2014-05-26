@@ -52,7 +52,3 @@ Should you want to actually **use** the FISA Court by filing a motion of some ki
 If the Foreign Intelligence Surveillance Court is supposed to be an actual Court, functioning in the service of the public and the Constitution as an independent overseer of the executive branch, where is its public face? Where are its unclassified records? Why can't we talk to its Clerk?
 
 And if nothing else: why won't it put its name on its door?
-
-<!--<div class="footer-text">
-Keep up with the Court by following <a href="https://twitter.com/FISACourt">@FISACourt</a> for live updates. All drawings by <a href="https://twitter.com/not_young">@not_young</a>.
-</div>-->
