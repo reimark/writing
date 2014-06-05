@@ -18,9 +18,9 @@ And why not my blog? Well, Ben has the advantage of using GitHub Pages, which we
 
 Fortunately, GitHub is much more than a nice website and host -- it's also home to an [extraordinarily rich and well-documented API](https://developer.github.com/v3/), through which you can order GitHub to do just about anything you need. 
 
-Using it, I've neatly integrated my published blog posts with a new GitHub repository, [konklone/writing](https://github.com/konklone/writing). There's now an "edit this post on GitHub" link on the sidebar, to make the connection obvious. You can [suggest an edit to this post itself](https://github.com/konklone/writing/edit/master/blog/writing-in-public-syncing-with-github.md) with the greatest of ease, and when I accept your edit, the post will automatically update.
+Using it, I've neatly integrated my published blog posts with a new GitHub repository, [konklone/writing](https://github.com/konklone/writing). There's now an "edit this post on GitHub" link on the sidebar, to make the connection obvious. You can [suggest an edit to this post itself](https://github.com/konklone/writing/edit/writing/blog/writing-in-public-syncing-with-github.md) with the greatest of ease, and when I accept your edit, the post will automatically update.
 
-I don't have to change my workflow or give up my database, but I still get a [public revision history](https://github.com/konklone/writing/commits/master/blog/writing-in-public-syncing-with-github.md) and the ability to accept pull requests that automatically update my blog as soon as I press the `Merge` button.
+I don't have to change my workflow or give up my database, but I still get a [public revision history](https://github.com/konklone/writing/commits/writing/blog/writing-in-public-syncing-with-github.md) and the ability to accept pull requests that automatically update my blog as soon as I press the `Merge` button.
 
 If you're curious about the technical mechanics, I created two pull requests that explain the gritty details:
 
