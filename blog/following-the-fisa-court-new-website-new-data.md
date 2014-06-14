@@ -63,7 +63,7 @@ I'm now doing a proper crawl of the entire FISC website, and saving [data for ev
 
 ```
 
-That data is in [YAML](https://en.wikipedia.org/wiki/YAML#Features), a humane data format that lends itself well to human readability, and line-by-line diffs.
+That data is in [YAML](https://en.wikipedia.org/wiki/YAML#Features), a humane data format that lends itself well to human readability, and [line-by-line diffs](https://github.com/konklone/fisacourt/commit/e15d2c6deca3456ccc0c453d23019187c00ac608#diff-79).
 
 I'm also downloading [the actual PDFs](https://github.com/konklone/fisacourt/tree/docket/filings/pdfs), and watching them for any future changes. As the Court showed with its unexplained withdrawal detailed above (and as the [Supreme Court frequently demonstrates](http://www.nytimes.com/2014/05/25/us/final-word-on-us-law-isnt-supreme-court-keeps-editing.html?_r=0)), it's important to watch the public record for revisions of its history.
 
