@@ -46,7 +46,7 @@ Well, there's no easy, free way to work around this one. _Yet_!
 
 It's unlikely that GitHub is going to create the infrastructure needed to natively support custom domains, and Cloudflare's leadership will render that less of a problem. 
 
-However, there's still a few things GitHub can do to lower the barrier to using HTTPS and to make people more aware of it.
+However, there are still a few things GitHub can do to lower the barrier to using HTTPS and to make people more aware of it.
 
 * **Document the feature.** There's no formal announcement or description of SSL for GitHub Pages; it could disappear any time. It's worth a quick blog post and a help page, to cement GitHub's commitment and describe how to avoid common mixed content pitfalls.
 * **Allow SSL for custom domains configured elsewhere.** As mentioned above, even if you configure your custom domain with a service like CloudFlare and point a CNAME at GitHub Pages, you'll get an [error like this one](https://theunitedstates.io). That requires action on GitHub's part to fix.
