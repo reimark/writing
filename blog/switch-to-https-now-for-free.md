@@ -176,7 +176,7 @@ If you use:
 * **Apache**, check out [kang's blog post](https://www.insecure.ws/2013/10/11/ssltls-configuration-for-apache-mod_ssl/) on making an Apache config that gets the A rating from Qualys.
 * **Heroku**, you'll need to pay $20/month for their [SSL add-on](https://addons.heroku.com/ssl), and then use it to [set up an SSL endpoint](https://devcenter.heroku.com/articles/ssl-endpoint).
 * **Webfaction**, they [provide HTTPS support](http://docs.webfaction.com/user-guide/websites.html#secure-sites-https) at no extra charge. Go [Webfaction](https://www.webfaction.com/)!
-* **Github Pages**, they don't offer HTTPS support for either `*.github.io` domains, or custom domains, so you'll have to look elsewhere (see below).
+* **Github Pages**, they offer [undocumented HTTPS support](https://konklone.com/post/github-pages-now-supports-https-so-use-it) for `*.github.io` domains. However, they offer no HTTPS support at all for custom domains, so for that you'll have to look elsewhere (see below).
 
 If you need to **look elsewhere** because your host makes it too expensive or impossible to set up HTTPS, another option is to sign up for [CloudFlare](https://www.cloudflare.com/). You don't need to leave your current host to use them — they sit "in front" of your website and can speed it up in various ways. Every paid plan, starting at $20/month, [includes HTTPS support](http://blog.cloudflare.com/easiest-ssl-ever-now-included-automatically-w).
 
