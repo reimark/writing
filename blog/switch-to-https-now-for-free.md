@@ -74,7 +74,7 @@ They'll email you a validation code, which you can enter into the field to valid
 
 Now that StartSSL knows who you are, and knows you own a domain, you can generate your certificate using a private key.
 
-While StartSSL **can** generate a private key for you — and their FAQ assures you they use only the [highest quality random numbers](https://www.startssl.com/?app=25#43) and [don't hold onto the key](https://www.startssl.com/?app=25#44) afterwards — it's also easy to create your own. 
+While StartSSL **can** generate a private key for you — and their FAQ assures you they use only the [highest quality random numbers](https://www.startssl.com/?app=25#43) and [don't hold onto the key](https://www.startssl.com/?app=25#44) afterwards — it's also easy to create your own. The benefit of creating your own is that StartSSL never sees your private key.
 
 This guide will cover creating your own via the command line. If you choose to let StartSSL's wizard do it, you can pick back up with this guide a couple steps down, where you choose the domain the certificate should apply to.
 
