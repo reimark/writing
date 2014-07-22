@@ -130,7 +130,7 @@ That should do it — your certificate will appear in a text field for you to co
 
 If you have direct access to your web server and its nginx configuration, here's how to install your certificate. If you don't, check out [setup options for other common hosts](#setup-with-other-common-hosts) or [for Apache](https://www.insecure.ws/2013/10/11/ssltls-configuration-for-apache-mod_ssl/).
 
-First, make sure **port 443 is open** on your web server. Many web hosts automatically keep this port open for you. If you're using Amazon Web Services, you'll need to make sure your instance's Security Group has port 443 open.
+First, make sure **port 443 is open** on your web server. Many web hosts automatically keep this port open for you. If you're using Amazon Web Services, you'll need to make sure your instance's security group has port 443 open.
 
 Next, we're going to create the "certificate chain" that your web server will use. It contains your certificate, and StartSSL's intermediary certificate. (Including StartSSL's root cert is not necessary, because browsers ship with it already.) Download the intermediate certificate from StartSSL:
 
