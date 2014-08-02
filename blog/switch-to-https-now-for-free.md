@@ -14,7 +14,7 @@ Most certificates cost money, but at Micah Lee's [suggestion](https://twitter.co
 
 There are two things that could cost you money. One is that if your site is commercial in nature, they'll ask you to pay for a higher level certificate. 
 
-More importantly, if your certificate needs to be revoked someday, StartCom will [charge you a $30 fee](https://www.startssl.com/?app=25#72). While revocation has generally been rare, the [Heartbleed](http://heartbleed.com/) exploit is an example where a huge portion of the Internet has had to revoke their keys. For some people who had issued a large number of free certificates, this turned out to be expensive.
+More importantly, if your certificate needs to be revoked someday, StartCom will [charge you a $30 fee](https://www.startssl.com/?app=25#72). While revocation has generally been rare, the [Heartbleed](http://heartbleed.com/) exploit is an example where a huge portion of the Internet had to revoke their keys. For some people who had issued a large number of free certificates, this turned out to be expensive.
 
 Still, StartCom makes getting started with SSL simple and inexpensive. Their website is difficult to use at first — especially if you're new to the concepts and terminology behind SSL certificates (like me). Fortunately, it's not actually that hard; it's just a lot of small steps.
 
