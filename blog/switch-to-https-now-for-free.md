@@ -90,7 +90,7 @@ The next step is to decrypt it so that you can generate a "certificate signing r
 
 Now, generate a certificate signing request:
 
-`openssl req -new -key my-private-decrypted.key -out mydomain.com.csr`
+`openssl req -new -sha256 -key my-private-decrypted.key -out mydomain.com.csr`
 
 Go back to StartSSL's control panel and click the "Certificates Wizard" tab, and select "Web Server SSL/TLS Certificate" from the dropdown.
 
