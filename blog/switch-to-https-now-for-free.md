@@ -80,17 +80,23 @@ This guide will cover creating your own via the command line. If you choose to l
 
 To create a new 2048-bit RSA key, open up your terminal and run:
 
-`openssl genrsa -aes256 -out my-private-encrypted.key 2048`
+```bash
+openssl genrsa -aes256 -out my-private-encrypted.key 2048`
+```
 
 You'll be asked to choose a pass phrase. [Pick a good one](http://xkcd.com/936/), and **remember it**. This will generate an *encrypted* private key. If you ever need to transfer your key, via the network or anything else, use the encrypted version.
 
 The next step is to decrypt it so that you can generate a "certificate signing request" with it. To decrypt your private key:
 
-`openssl rsa -in my-private-encrypted.key -out my-private-decrypted.key`
+```bash
+openssl rsa -in my-private-encrypted.key -out my-private-decrypted.key
+```
 
 Now, generate a certificate signing request:
 
-`openssl req -new -sha256 -key my-private-decrypted.key -out mydomain.com.csr`
+```bash
+openssl req -new -sha256 -key my-private-decrypted.key -out mydomain.com.csr
+```
 
 Go back to StartSSL's control panel and click the "Certificates Wizard" tab, and select "Web Server SSL/TLS Certificate" from the dropdown.
 
