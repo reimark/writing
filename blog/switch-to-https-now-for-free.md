@@ -162,11 +162,15 @@ Qualys' SSL Labs offers an excellent <a href="https://www.ssllabs.com/ssltest/an
 
 Now, ensure your nginx configuration is okay (this also verifies that the key and certificate are in working order):
 
-`sudo nginx -t`
+```bash
+sudo nginx -t
+```
 
 Then restart nginx:
 
-`sudo service nginx restart`
+```bash
+sudo service nginx restart
+```
 
 Cross your fingers and try it out in your browser! If all goes well, the <img src="/assets/images/blog/https/ssl-0-lock.png" /> will be yours.
 
