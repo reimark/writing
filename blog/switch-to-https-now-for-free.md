@@ -81,7 +81,7 @@ This guide will cover creating your own via the command line. If you choose to l
 To create a new 2048-bit RSA key, open up your terminal and run:
 
 ```bash
-openssl genrsa -aes256 -out my-private-encrypted.key 2048`
+openssl genrsa -aes256 -out my-private-encrypted.key 2048
 ```
 
 You'll be asked to choose a pass phrase. [Pick a good one](http://xkcd.com/936/), and **remember it**. This will generate an *encrypted* private key. If you ever need to transfer your key, via the network or anything else, use the encrypted version.
