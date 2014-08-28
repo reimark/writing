@@ -10,9 +10,9 @@ This post shows how to do your part in building a surveillance-resistant Interne
 
 A quick overview: to use HTTPS on the web today, you need to obtain a certificate file that's signed by a company that browsers trust. Once you have it, you tell your web server where it is, where your associated private key is, and open up port 443 for business. You don't necessarily have to be a professional software developer to do this, but you do need to be **okay with the command line**, and comfortable configuring **a web server you control**.
 
-Most certificates cost money, but at Micah Lee's [suggestion](https://twitter.com/micahflee/status/368163493049933824), I used [StartSSL](https://www.startssl.com). They're who the [EFF](https://www.eff.org/) uses, and **their basic certificates for individuals are free**. 
+Most certificates cost money, but at Micah Lee's [suggestion](https://twitter.com/micahflee/status/368163493049933824), I used [StartSSL](https://www.startssl.com). They're who the [EFF](https://www.eff.org/) uses, and **their basic certificates for individuals are free**.
 
-There are two things that could cost you money. One is that if your site is commercial in nature, they'll ask you to pay for a higher level certificate. 
+There are two things that could cost you money. One is that if your site is commercial in nature, they'll ask you to pay for a higher level certificate.
 
 More importantly, if your certificate needs to be revoked someday, StartCom will [charge you a $30 fee](https://www.startssl.com/?app=25#72). While revocation has generally been rare, the [Heartbleed](http://heartbleed.com/) exploit is an example where a huge portion of the Internet had to revoke their keys. For some people who had issued a large number of free certificates, this turned out to be expensive.
 
@@ -30,7 +30,7 @@ They'll email you a verification code. They tell you to **not close the tab** or
 
 <img src="/assets/images/blog/https/ssl-2-signup-verify.png" class="block upper border" />
 
-You'll need to wait for certification, but it should only take a few minutes. Once you're approved, they'll email you a special link and a verification code to type in. 
+You'll need to wait for certification, but it should only take a few minutes. Once you're approved, they'll email you a special link and a verification code to type in.
 
 That'll bring you to a screen to generate a private key. They're generating you this private key inside your browser, using the ["keygen" tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen). However, **this isn't the key you use to make your SSL certificate**. They're using it to create a separate "authentication certificate" that you will use to log in to StartSSL's control panel going forward. You'll make a separate certificate for your website later.
 
@@ -40,7 +40,7 @@ Finally, they'll ask you to "Install" the certificate:
 
 <img src="/assets/images/blog/https/ssl-4-auth-cert.png" class="block upper border" />
 
-Which installs your authentication certificate directly into your browser. 
+Which installs your authentication certificate directly into your browser.
 
 <img src="/assets/images/blog/https/ssl-5-auth-cert-installed.png" class="block upper border" />
 
@@ -58,13 +58,13 @@ Enter your domain name.
 
 <img src="/assets/images/blog/https/ssl-8-choose-domain.png" class="block upper border" />
 
-Next, you'll select an email address that StartSSL will use to verify you own the domain name. 
+Next, you'll select an email address that StartSSL will use to verify you own the domain name.
 
 As you can see, StartSSL will believe you own the domain if you control webmaster@, postmaster@, or hostmaster@ with the domain name, **OR** if you own the email address listed as part of the domain's registrant information (in my case, that's currently `konklone@gmail.com`). Choose an email address where you can receive mail.
 
 <img src="/assets/images/blog/https/ssl-9-choose-domain-email.png" class="block upper border" />
 
-They'll email you a validation code, which you can enter into the field to validate the domain. 
+They'll email you a validation code, which you can enter into the field to validate the domain.
 
 <img src="/assets/images/blog/https/ssl-10-domain-validate.png" class="block upper border" />
 
@@ -78,7 +78,7 @@ While StartSSL **can** generate a private key for you — and their FAQ assures 
 
 This guide will cover creating your own via the command line. If you choose to let StartSSL's wizard do it, you can pick back up with this guide a couple steps down, where you choose the domain the certificate should apply to.
 
-To create a new 2048-bit RSA key, open up your terminal and run: 
+To create a new 2048-bit RSA key, open up your terminal and run:
 
 `openssl genrsa -aes256 -out my-private-encrypted.key 2048`
 
@@ -116,7 +116,7 @@ It requires you to add a subdomain. I added "www" for mine.
 
 <img src="/assets/images/blog/https/ssl-17-choose-subdomain.png" class="block upper border" />
 
-It will ask you to confirm. If it looks right, hit "Continue". 
+It will ask you to confirm. If it looks right, hit "Continue".
 
 <img src="/assets/images/blog/https/ssl-18-cert-ready.png" class="block upper border" />
 
@@ -134,7 +134,7 @@ First, make sure **port 443 is open** on your web server. Many web hosts automat
 
 Next, we're going to create the "certificate chain" that your web server will use. It contains your certificate, and StartSSL's intermediary certificate. (Including StartSSL's root cert is not necessary, because browsers ship with it already.) Download the intermediate certificate from StartSSL:
 
-`wget https://www.startssl.com/certs/sub.class1.server.ca.pem`
+`wget https://www.startssl.com/certs/class1/sha2/pem/sub.class1.server.sha2.ca.pem`
 
 Then concatenate your certificate with theirs:
 
@@ -145,7 +145,7 @@ Finally, tell your web server about your unified certificate, and your decrypted
 <script src="https://gist.github.com/konklone/6416795.js"></script>
 
 <div class="callout">
-You can also check out <a href="https://gist.github.com/konklone/6532544">a more complete HTTPS nginx configuration</a> that turns on <a href="http://www.chromium.org/spdy/spdy-whitepaper">SPDY</a>, <a href="https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security">HSTS</a>, SSL <a href="https://code.google.com/p/sslyze/wiki/SessionResumption">session resumption</a>, <a href="http://en.wikipedia.org/wiki/OCSP_stapling">OCSP stapling</a>, and enables <a href="https://www.eff.org/deeplinks/2013/08/pushing-perfect-forward-secrecy-important-web-privacy-protection">Forward Secrecy</a>. 
+You can also check out <a href="https://gist.github.com/konklone/6532544">a more complete HTTPS nginx configuration</a> that turns on <a href="http://www.chromium.org/spdy/spdy-whitepaper">SPDY</a>, <a href="https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security">HSTS</a>, SSL <a href="https://code.google.com/p/sslyze/wiki/SessionResumption">session resumption</a>, <a href="http://en.wikipedia.org/wiki/OCSP_stapling">OCSP stapling</a>, and enables <a href="https://www.eff.org/deeplinks/2013/08/pushing-perfect-forward-secrecy-important-web-privacy-protection">Forward Secrecy</a>.
 <br/><br/>
 Qualys' SSL Labs offers an excellent <a href="https://www.ssllabs.com/ssltest/analyze.html">SSL testing tool</a> you can use to see how you're doing.
 </div>
