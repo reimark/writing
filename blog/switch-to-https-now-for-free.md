@@ -134,13 +134,15 @@ First, make sure **port 443 is open** on your web server. Many web hosts automat
 
 Next, we're going to create the "certificate chain" that your web server will use. It contains your certificate, and StartSSL's intermediary certificate. (Including StartSSL's root cert is not necessary, because browsers ship with it already.) Download the intermediate certificate from StartSSL:
 
-```
+```bash
 wget https://www.startssl.com/certs/class1/sha2/pem/sub.class1.server.sha2.ca.pem
 ```
 
 Then concatenate your certificate with theirs:
 
-`cat mydomain.com.crt sub.class1.server.ca.pem > unified.crt`
+```bash
+cat mydomain.com.crt sub.class1.server.ca.pem > unified.crt
+```
 
 Finally, tell your web server about your unified certificate, and your decrypted private key. I use nginx — below is the bare minimum nginx configuration you need. It redirects all HTTP requests to HTTPS requests using a 301 permanent redirect, and points the server to the certificate and key.
 
