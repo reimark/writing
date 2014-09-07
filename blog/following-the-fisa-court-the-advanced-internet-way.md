@@ -8,7 +8,7 @@ So I wrote some code to check the FISA Court myself, and set it to run every 5 m
 
 This new setup does more than check for changes and update a Twitter account — it also sends me an email and a text message so that I know an update just went out. This way, I can quickly figure out what changed and promptly add some human explanation of what the FISA Court just did, like so:
 
-<blockquote class="twitter-tweet"><p>FISA Court just ordered the US to redact and declassify its 2008 opinion ruling against Yahoo, and associated briefs: <a href="http://t.co/wF547a8iCZ">http://t.co/wF547a8iCZ</a></p>&mdash; FISA Court (@FISACourt) <a href="https://twitter.com/FISACourt/statuses/356878749649739776">July 15, 2013</a></blockquote>
+<blockquote class="twitter-tweet"><p>FISA Court just ordered the US to redact and declassify its 2008 opinion ruling against Yahoo, and associated briefs: <a href="http://t.co/wF547a8iCZ">http://t.co/wF547a8iCZ</a></p>— FISA Court (@FISACourt) <a href="https://twitter.com/FISACourt/statuses/356878749649739776">July 15, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 It's written in Ruby, and optionally uses [Twilio](http://www.twilio.com/) for text messages (which cost me all of one penny apiece). For emails, you need to use an SMTP server (you can [use your Gmail account](http://email.about.com/od/accessinggmail/f/Gmail_SMTP_Settings.htm), but Google doesn't like to talk about it), and to connect it to Twitter, go to [their developer portal](https://dev.twitter.com/) and create an application for the account you want to post from. 
