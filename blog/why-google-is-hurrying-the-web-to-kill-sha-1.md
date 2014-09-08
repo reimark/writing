@@ -151,7 +151,7 @@ If you have a site but some other company controls the certs, email their custom
 I could also use some help on [shaaaaaaaaaaaaa.com](https://shaaaaaaaaaaaaa.com) — if you feel like chipping in, check out the [open issues](https://github.com/konklone/shaaaaaaaaaaaaa/issues) and lend a hand.
 
 <div class="callout">
-<strong>SHA-1 roots</strong>: You <em>don't</em> need to worry about root certificates that ship with browsers that are signed with SHA-1, because their integrity is verified without using a digital signature.
+<strong>SHA-1 roots</strong>: You <em>don't</em> need to worry about SHA-1 root certificates that ship with browsers, because their integrity is verified without using a digital signature.
 </div>
 
 ## Changing certificates shouldn't be this hard
