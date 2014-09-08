@@ -184,7 +184,7 @@ Google has made it somewhat easier for themselves to do this, by setting up a [p
 
 A SHA-1 push like this should have started years ago. Any annoyance at Google for amping up the pressure should be channeled towards the Certificate Authorities instead, for allowing nothing to happen for so long.
 
-For individuals, obtaining a certificate needs to be as easy as buying a domain name, installing it needs to be easy as turning on a website, and replacing it needs to be automatic. There are some pretty clear business opportunities here.
+For individuals, obtaining a certificate needs to be as easy as buying a domain name, installing it needs to be easy as turning on a website, and replacing it needs to be automatic. There are some pretty clear business opportunities and open source tooling gaps here.
 
 For organizations, frequent certificate rotation needs to be prioritized in their infrastructure design and update processes. Organizations that have already done a good job of this should talk about it, and open source their work.
 
