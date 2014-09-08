@@ -36,9 +36,9 @@ When you show up to a website using <img style="margin-bottom: -3px" src="https:
 
 Any certificate can be used to encrypt your connection. But to verify that you're at the real Facebook, your browser has to have a way to decide whether to trust that certificate, and show you a green lock.
 
-Your browser does this by figuring out whether the website's certificate file has been issued by a "Certificate Authority" (CA). CAs generally charge money to give website owners this file. Your browser trusts over 50 CAs to create and vouch for certificates, ranging from Verisign to GoDaddy to the US Department of Defense — and the [many hundreds of intermediary CAs](https://www.eff.org/files/colour_map_of_CAs.pdf) to whom those 50+ have delegated trust. As you might guess, this is [a **very** flawed system](https://konklone.com/post/certificate-authorities-are-actually-a-tremendous-problem), but it's the system that we have right now.
+Your browser does this by figuring out whether the website's certificate file has been issued by a "Certificate Authority" (CA). CAs generally charge money to give website owners this file. Your browser trusts over 50 Certificate Authorities to create and vouch for certificates, ranging from Verisign to GoDaddy to the US Department of Defense — and the [many hundreds of intermediary CAs](https://www.eff.org/files/colour_map_of_CAs.pdf) to whom those 50+ have delegated trust. As you might guess, this is [a **very** flawed system](https://konklone.com/post/certificate-authorities-are-actually-a-tremendous-problem), but it's the system that we have right now.
 
-This website's CA, for the time being, is [Comodo](http://www.comodo.com), purchased through [Namecheap](https://www.namecheap.com/security/ssl-certificates/domain-validation.aspx).
+This website's Certificate Authority, for the time being, is [Comodo](http://www.comodo.com), purchased through [Namecheap](https://www.namecheap.com/security/ssl-certificates/domain-validation.aspx).
 
 <figure>
 <img title="screengrab of certificate information for konklone.com" class="border block" src="https://konklone.com/assets/images/blog/sha-1/certificate-connection.png" />
@@ -47,7 +47,7 @@ This website's CA, for the time being, is [Comodo](http://www.comodo.com), purch
 
 So another crucial test your browser demands, when a website's SSL certificate claims to be issued for that website by a particular Certificate Authority, is: **can the certificate prove it?**
 
-Wherever practical, the internet proves things through math. When a certificate is issued, the CA includes this proof by cryptographically "signing" the certificate using a private key, in a way only the real CA could do and that browsers can verify.
+Wherever practical, the internet proves things through math. When a certificate is issued, the Certificate Authority includes this proof by cryptographically "signing" the certificate using a private key, in a way only the real CA could do and that browsers can verify.
 
 But the CA doesn't actually sign the raw certificate: it first condenses the certificate into a unique slug by running it through a "one-way hash" algorithm, like MD5, SHA-1, or SHA-256.
 
@@ -67,7 +67,7 @@ One-way hash algorithms like SHA-1 are designed to produce unique, irreversible 
 
 If two files are discovered to produce the same slug when run through a one-way hash like SHA-1, that's called a "collision". Collisions are always theoretically possible, but they're supposed to be so rare as to be practically impossible. 
 
-When your browser sees a certificate, it can calculate the SHA-1 for that certificate's information itself, and then compare it to the SHA-1 signed by the CA that the certificate offered as proof. Because SHA-1 promises unique slugs, the browser trusts that if they match, the certificate on offer is the same one the CA signed.
+When your browser sees a certificate, it can calculate the SHA-1 for that certificate's information itself, and then compare it to the signed SHA-1 that the certificate offered as proof. Because SHA-1 promises unique slugs, the browser trusts that if they match, the certificate on offer is the same one the Certificate Authority signed.
 
 If you could engineer a certificate that "collides" with a target certificate, and coax a Certificate Authority to issue you that certificate, then you would successfully forge a certificate that a browser would find indistinguishable from the target.
 
@@ -83,7 +83,7 @@ Then the internet just kept using SHA-1. In 2012, Jesse Walker wrote an estimate
 
 Walker's estimate suggested then that a SHA-1 collision would cost **$2M** in 2012, **$700K** in 2015, **$173K** in 2018, and **$43K** in 2021. Based on these numbers, Schneier suggested that an "organized crime syndicate" would be able to forge a certificate in 2018, and that a university could do it in 2021.
 
-Walker's estimates and Schneier's characterization have become [widely cited](http://arstechnica.com/security/2012/10/sha1-crypto-algorithm-could-fall-by-2018/) in the planning and debate over transitioning from SHA-1. A [group of leading CAs](http://en.wikipedia.org/wiki/Certificate_Authority_Security_Council) cited them recently to [complain about Google's schedule](https://casecurity.org/2014/08/28/google-plans-to-deprecate-sha-1-certificates/). In that complaint, the CAs use those estimates to suggest "the lack of a practical attack until 2018".
+Walker's estimates and Schneier's characterization have become [widely cited](http://arstechnica.com/security/2012/10/sha1-crypto-algorithm-could-fall-by-2018/) in the planning and debate over transitioning from SHA-1. A group of leading Certificate Authorities, the [CA Security Council](https://en.wikipedia.org/wiki/Certificate_Authority_Security_Council) ,cited them recently to [complain about Google's schedule](https://casecurity.org/2014/08/28/google-plans-to-deprecate-sha-1-certificates/). In that complaint, the CAs use those estimates to suggest "the lack of a practical attack until 2018".
 
 I find this to be an absolutely cartoonish stance for the CA Security Council to take in 2014. They are clearly rationalizing the issue, based on how inconvenient they think a more rapid transition would be.
 
@@ -102,7 +102,7 @@ Flame relied on an SSL certificate forged by engineering a collision with SHA-1'
 
 And it's a funny story about MD5, because, like SHA-1, it was discovered to be breakably weak a very long time ago, and then, like SHA-1, it took a horrifying number of years to rid the internet of it.
 
-MD5 was first shown to be theoretically weak in 1995, and over time was shown to be even weaker. But MD5 was still used by some CAs until 2008, when researchers [successfully engineered a collision](http://www.win.tue.nl/hashclash/rogue-ca/) and got a forged certificate issued. That certificate, issued to "MD5 Collisions, Inc." has been [immortalized inside your browser](http://www.csoonline.com/article/2136863/core-javasl-hackers-immortalized-by-firefox/core-java/ssl-hackers-immortalized-by-firefox.html) so that it can be specifically blacklisted.
+MD5 was first shown to be theoretically weak in 1995, and over time was shown to be even weaker. But MD5 was still used by some Certificate Authorities until 2008, when researchers [successfully engineered a collision](http://www.win.tue.nl/hashclash/rogue-ca/) and got a forged certificate issued. That certificate, issued to "MD5 Collisions, Inc." has been [immortalized inside your browser](http://www.csoonline.com/article/2136863/core-javasl-hackers-immortalized-by-firefox/core-java/ssl-hackers-immortalized-by-firefox.html) so that it can be specifically blacklisted.
 
 <figure>
 <img title="screengrab of MD5 Collisions Inc. certificate in Chrome" class="border" src="https://konklone.com/assets/images/blog/sha-1/md5-collisions-inc.png" />
@@ -121,7 +121,7 @@ Google, on the other hand, recently dropped a truth bomb by [announcing that Chr
 
 > We plan to surface, in the HTTPS security indicator in Chrome, the fact that SHA-1 does not meet its design guarantee. We are taking a measured approach, gradually ratcheting down the security indicator and gradually moving the timetable up.
 
-Google's Ryan Sleevi had first announced Chrome's intended policy a couple weeks before, and I strongly recommend [reading the full discussion](https://groups.google.com/a/chromium.org/d/msg/security-dev/2-R4XziFc7A/NDI8cOwMGRQJ) — you will get to see many CAs and large site operators show up and nervously attempt to reason with this wild-eyed man who appears to be telling them that they should stop issuing weak certificates not late next year, but **right now**.
+Google's Ryan Sleevi had first announced Chrome's intended policy a couple weeks before, and I strongly recommend [reading the full discussion](https://groups.google.com/a/chromium.org/d/msg/security-dev/2-R4XziFc7A/NDI8cOwMGRQJ) — you will get to see many Certificate Authorities and large site operators show up and nervously attempt to reason with this wild-eyed man who appears to be telling them that they should stop issuing weak certificates not late next year, but **right now**.
 
 This is a gutsy move by Google, and represents substantial risk. One major reason why it's been so hard for browsers to move away from signature algorithms is that when browsers tell a user an important site is broken, the user believes the browser is broken and switches browsers. Google seems to be betting that Chrome is trusted enough for its security and liked enough by its users that they can withstand the first mover disadvantage.
 
@@ -156,7 +156,7 @@ I could also use some help on [shaaaaaaaaaaaaa.com](https://shaaaaaaaaaaaaa.com)
 
 ## Changing certificates shouldn't be this hard
 
-There is a larger issue here: there's no reason that fixing security issues should be so aggravating. A big reason why websites and CAs are dragging their feet on updating to SHA-2 is because it means reissuing certificates, and _everyone_ hates replacing SSL certificates.
+There is a larger issue here: there's no reason that fixing security issues should be so aggravating. A big reason why websites and Certificate Authorities are dragging their feet on updating to SHA-2 is because it means reissuing certificates, and _everyone_ hates replacing SSL certificates.
 
 For individuals, the certificate process [can be strange](https://konklone.com/post/switch-to-https-now-for-free#register-with-startssl), filled with arcane terminology and confusing user interfaces.
 
