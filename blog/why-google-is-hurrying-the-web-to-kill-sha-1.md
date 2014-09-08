@@ -199,4 +199,4 @@ I'll be updating [shaaaaaaaaaaaaa.com](https://shaaaaaaaaaaaaa.com) throughout t
 <li>Heroku has an interesting <a href="https://addons.heroku.com/expeditedssl">all-in-one SSL management service</a> for apps hosted there.</li>
 </div>
 
-<p style="font-size: 80%; font-style: italic">Thanks to Jacob Hoffman-Andrews, Tom Macwright, and Lindsay Young for reading drafts of this post.</p>
+<section class="discuss footer">Thanks to Jacob Hoffman-Andrews, Tom Macwright, and Lindsay Young for reading drafts of this post.</p>
