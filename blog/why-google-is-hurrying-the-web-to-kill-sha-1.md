@@ -34,9 +34,9 @@ To understand why replacing SHA-1 is so important, you have to put yourself in a
 
 When you show up to a website using <img style="margin-bottom: -3px" src="https://konklone.com/assets/images/blog/sha-1/green-lock.png" title="green lock" />, the website presents a file — an SSL "certificate" — to your browser. This certificate is used to do two things: encrypt your connection to the website, and verify that you've connected to the real website.
 
-Any certificate can be used to encrypt your connection. To verify that you're at the real Facebook, your browser has to decide whether to trust that certificate and show you a green lock.
+Any certificate can be used to encrypt your connection. But to verify that you're at the real Facebook, your browser has to have a way to decide whether to trust that certificate, and show you a green lock.
 
-One dealbreaker for your browser is whether the website's certificate file has been issued by a "Certificate Authority" (CA). CAs generally charge money to give website owners this file. Your browser trusts over 50 CAs to create and vouch for certificates, ranging from Verisign to GoDaddy to the US Department of Defense — and the [many hundreds of intermediary CAs](https://www.eff.org/files/colour_map_of_CAs.pdf) to whom those 50 have delegated trust. As you might guess, this is [a very flawed system](https://konklone.com/post/certificate-authorities-are-actually-a-tremendous-problem), but it's the system that we have right now.
+Your browser does this by figuring out whether the website's certificate file has been issued by a "Certificate Authority" (CA). CAs generally charge money to give website owners this file. Your browser trusts over 50 CAs to create and vouch for certificates, ranging from Verisign to GoDaddy to the US Department of Defense — and the [many hundreds of intermediary CAs](https://www.eff.org/files/colour_map_of_CAs.pdf) to whom those 50 have delegated trust. As you might guess, this is [a **very** flawed system](https://konklone.com/post/certificate-authorities-are-actually-a-tremendous-problem), but it's the system that we have right now.
 
 This website's CA, for the time being, is [Comodo](http://www.comodo.com), purchased through [Namecheap](https://www.namecheap.com/security/ssl-certificates/domain-validation.aspx).
 
