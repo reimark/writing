@@ -133,7 +133,7 @@ To help with the transition, I've built a small website at [**shaaaaaaaaaaaaa.co
 
 <figure>
 <a href="https://shaaaaaaaaaaaaa.com" target="_blank"><img title="SHAAAAAAAAAAAAA" class="border" src="https://konklone.com/assets/images/blog/sha-1/shaaaaa-site.png" /></a>
-<figcaption>It's thirteen A's.</figcaption>
+<figcaption>I chose a large, unguessable prime number of A's.</figcaption>
 </figure>
 
 Requesting a new certificate is usually very simple. You'll need to [generate a new certificate request](https://konklone.com/post/switch-to-https-now-for-free#generating-the-certificate) that asks your CA to use SHA-2, using the `-sha256` flag.
