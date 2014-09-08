@@ -195,7 +195,8 @@ I'll be updating [shaaaaaaaaaaaaa.com](https://shaaaaaaaaaaaaa.com) throughout t
 <div class="footer-text">
 <strong>Related Stuff</strong>
 <li>The 2008 <a href="http://www.win.tue.nl/hashclash/rogue-ca/">MD5 Collisions, Inc. attack</a> is really a terrific read.</li>
-<li>Yes, there is a <a href="https://en.wikipedia.org/wiki/SHA-3">SHA-3</a>, finalized in 2012. We'll probably need to upgrade to it someday.</li>
+<li>Do you like math papers about cryptography? Here's <a href="https://marc-stevens.nl/research/papers/EC13-S.pdf">how</a> to <a href="http://people.scs.carleton.ca/~paulv/papers/JoC97.pdf">break</a> SHA-1.</li>
+<li>Yes, there is a <a href="https://en.wikipedia.org/wiki/SHA-3">SHA-3</a>, finalized in 2012.</li>
 <li>Heroku has an interesting <a href="https://addons.heroku.com/expeditedssl">all-in-one SSL management service</a> for apps hosted there.</li>
 </div>
 
