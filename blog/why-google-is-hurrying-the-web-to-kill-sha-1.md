@@ -20,7 +20,7 @@ What's <a href="http://googleonlinesecurity.blogspot.com/2014/09/gradually-sunse
 
 The first set of warnings will hit before Christmas, and will keep getting more stern over the next 6 months. Eventually, even sites with SHA-1 certificates expiring in 2016 will be given yellow warnings.
 
-By rolling out a staged set of warnings, Google is declaring a slow-motion, [Heartbleed](https://en.wikipedia.org/wiki/Heartbleed)-style emergency, and hurrying people to update their websites. That's a good thing, because **SHA-1 has got to go**, and no one else is taking it as seriously as it deserves.
+By rolling out a staged set of warnings, Google is declaring a slow-motion emergency, and hurrying people to update their websites before things get worse. That's a good thing, because **SHA-1 has got to go**, and no one else is taking it as seriously as it deserves.
 
 If you run a website that uses SSL, you can test your website using a [small SHA-1 testing tool](https://shaaaaaaaaaaaaa.com) I built that will tell you [what you need to do](#what-you-can-do).
 
