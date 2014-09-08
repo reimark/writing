@@ -1,18 +1,18 @@
 <figure>
-<img title="hilbert map of hashing algorithms" src="/assets/images/blog/sha-1/hashing-650.png" />
+<img title="hilbert map of hashing algorithms" src="https://konklone.com/assets/images/blog/sha-1/hashing-650.png" />
 <figcaption>Hilbert map of hashing algorithms, <a href="http://programmers.stackexchange.com/questions/49550/which-hashing-algorithm-is-best-for-uniqueness-and-speed">by Ian Boyd</a></figcaption>
 </figure>
 
-Most of the secure web is using an insecure algorithm, and Google's just declared it to be a slow-motion emergency. 
+Most of the secure web is using an insecure algorithm, and Google's just declared it to be a slow-motion emergency.
 
-Something like [90% of websites](http://news.netcraft.com/archives/2014/05/05/sha-2-very-cryptographic-so-secure-such-growth-wow.html) that use SSL encryption — <img style="margin-bottom: -3px" src="/assets/images/blog/sha-1/green-lock.png" title="green lock" /> — use an algorithm called [SHA-1](https://en.wikipedia.org/wiki/SHA-1) to protect themselves from being impersonated. This guarantees that when you go to <img style="margin-bottom: -6px" src="/assets/images/blog/sha-1/facebook-green.png" title="green lock for facebook.com" />, you're visiting the real Facebook and not giving your password to an attacker.
+Something like [90% of websites](http://news.netcraft.com/archives/2014/05/05/sha-2-very-cryptographic-so-secure-such-growth-wow.html) that use SSL encryption — <img style="margin-bottom: -3px" src="https://konklone.com/assets/images/blog/sha-1/green-lock.png" title="green lock" /> — use an algorithm called [SHA-1](https://en.wikipedia.org/wiki/SHA-1) to protect themselves from being impersonated. This guarantees that when you go to <img style="margin-bottom: -6px" src="https://konklone.com/assets/images/blog/sha-1/facebook-green.png" title="green lock for facebook.com" />, you're visiting the real Facebook and not giving your password to an attacker.
 
 Unfortunately, [**SHA-1 is dangerously weak**](http://arstechnica.com/security/2012/10/sha1-crypto-algorithm-could-fall-by-2018/), and has been for a [long](https://www.schneier.com/blog/archives/2005/02/sha1_broken.html) [time](https://www.schneier.com/blog/archives/2005/02/cryptanalysis_o.html). It gets weaker every year, but remains widely used on the internet. 
 
 Google [recently announced](http://googleonlinesecurity.blogspot.com/2014/09/gradually-sunsetting-sha-1.html) that if you use Chrome, then you're about to start seeing a progression of warnings for many secure websites:
 
 <figure>
-<a href="http://googleonlinesecurity.blogspot.com/2014/09/gradually-sunsetting-sha-1.html" target="_blank"><img class="border" title="browser warning progression" src="/assets/images/blog/sha-1/chrome-warnings.png"></a>
+<a href="http://googleonlinesecurity.blogspot.com/2014/09/gradually-sunsetting-sha-1.html" target="_blank"><img class="border" title="browser warning progression" src="https://konklone.com/assets/images/blog/sha-1/chrome-warnings.png"></a>
 <figcaption>
 What's <a href="http://googleonlinesecurity.blogspot.com/2014/09/gradually-sunsetting-sha-1.html">about to befall websites</a> with SHA-1 certificates that expire in 2017, in Chrome.
 </figcaption>
@@ -32,7 +32,7 @@ As importantly, the security community needs to [**make changing certificates a 
 
 To understand why replacing SHA-1 is so important, you have to put yourself in a browser's shoes.
 
-When you show up to a website using <img style="margin-bottom: -3px" src="/assets/images/blog/sha-1/green-lock.png" title="green lock" />, the website presents a file — an SSL "certificate" — to your browser. This certificate is used to do two things: encrypt your connection to the website, and verify that you've connected to the real website.
+When you show up to a website using <img style="margin-bottom: -3px" src="https://konklone.com/assets/images/blog/sha-1/green-lock.png" title="green lock" />, the website presents a file — an SSL "certificate" — to your browser. This certificate is used to do two things: encrypt your connection to the website, and verify that you've connected to the real website.
 
 Any certificate can be used to encrypt your connection. To verify that you're at the real Facebook, your browser has to decide whether to trust that certificate and show you a green lock.
 
@@ -41,7 +41,7 @@ One dealbreaker for your browser is whether the website's certificate file has b
 This website's CA, for the time being, is [Comodo](http://www.comodo.com), purchased through [Namecheap](https://www.namecheap.com/security/ssl-certificates/domain-validation.aspx).
 
 <figure>
-<img title="screengrab of certificate information for konklone.com" class="border block" src="/assets/images/blog/sha-1/certificate-connection.png" />
+<img title="screengrab of certificate information for konklone.com" class="border block" src="https://konklone.com/assets/images/blog/sha-1/certificate-connection.png" />
 <figcaption>What you see in Chrome if you click the green lock for this site.</figcaption>
 </figure>
 
@@ -52,14 +52,14 @@ Wherever practical, the internet proves things through math. When a certificate 
 But the CA doesn't actually sign the raw certificate: it first condenses the certificate into a unique slug by running it through a "one-way hash" algorithm, like MD5, SHA-1, or SHA-256.
 
 <figure>
-<img title="screengrab of more certificate information for konklone.com" class="border block" src="/assets/images/blog/sha-1/certificate-detail.png" />
+<img title="screengrab of more certificate information for konklone.com" class="border block" src="https://konklone.com/assets/images/blog/sha-1/certificate-detail.png" />
 <figcaption>An excerpt of what you see in Chrome if you ask for more certificate information.</figcaption>
 </figure>
 
 Using a one-way hash keeps things small: for example, running [this exact 3.2MB version of War And Peace](/assets/images/blog/sha-1/war-and-peace.txt) through SHA-1 gives you `baeb2c3a70c85d44947c1b92b448655273ce22bb`.
 
 <figure>
-<a href="https://md5file.com/calculator" target="_blank"><img title="War and Peace run through several one-way hash algorithms" class="border" src="/assets/images/blog/sha-1/war-and-peace-results.png" /></a>
+<a href="https://md5file.com/calculator" target="_blank"><img title="War and Peace run through several one-way hash algorithms" class="border" src="https://konklone.com/assets/images/blog/sha-1/war-and-peace-results.png" /></a>
 <figcaption>Calculated using <a href="https://md5file.com/calculator">MD5file.com</a>, a pleasant online hash calculator.</figcaption>
 </figure>
 
@@ -92,7 +92,7 @@ Walker and Schneier's estimates were pre-Snowden, before the public properly und
 How do we know that they would? **Because they have.**
 
 <figure>
-<a href="http://securelist.com/blog/incidents/34344/the-flame-questions-and-answers-51/" target="_blank"><img title="Flame-infected computers, by Kaspersky Labs" src="/assets/images/blog/sha-1/kaspersky-flame.png" /></a>
+<a href="http://securelist.com/blog/incidents/34344/the-flame-questions-and-answers-51/" target="_blank"><img title="Flame-infected computers, by Kaspersky Labs" src="https://konklone.com/assets/images/blog/sha-1/kaspersky-flame.png" /></a>
 <figcaption>Computers infected with Flame, <a href="http://securelist.com/blog/incidents/34344/the-flame-questions-and-answers-51/">as measured by Kaspersky Labs</a></figcaption>
 </figure>
 
@@ -105,7 +105,7 @@ And it's a funny story about MD5, because, like SHA-1, it was discovered to be b
 MD5 was first shown to be theoretically weak in 1995, and over time was shown to be even weaker. But MD5 was still used by some CAs until 2008, when researchers [successfully engineered a collision](http://www.win.tue.nl/hashclash/rogue-ca/) and got a forged certificate issued. That certificate, issued to "MD5 Collisions, Inc." has been [immortalized inside your browser](http://www.csoonline.com/article/2136863/core-javasl-hackers-immortalized-by-firefox/core-java/ssl-hackers-immortalized-by-firefox.html) so that it can be specifically blacklisted.
 
 <figure>
-<img title="screengrab of MD5 Collisions Inc. certificate in Chrome" class="border" src="/assets/images/blog/sha-1/md5-collisions-inc.png" />
+<img title="screengrab of MD5 Collisions Inc. certificate in Chrome" class="border" src="https://konklone.com/assets/images/blog/sha-1/md5-collisions-inc.png" />
 <figcaption>In Chrome, you can see these by visiting <a href="chrome://settings/certificates">chrome://settings/certificates</a>.</figcaption>
 </figure>
 
@@ -132,7 +132,7 @@ Opera has also [backed Google's plan](https://groups.google.com/a/chromium.org/d
 To help with the transition, I've built a small website at [**shaaaaaaaaaaaaa.com**](https://shaaaaaaaaaaaaa.com) that checks whether your site is using SHA-1 and needs to be updated:
 
 <figure>
-<a href="https://shaaaaaaaaaaaaa.com" target="_blank"><img title="SHAAAAAAAAAAAAA" class="border" src="/assets/images/blog/sha-1/shaaaaa-site.png" /></a>
+<a href="https://shaaaaaaaaaaaaa.com" target="_blank"><img title="SHAAAAAAAAAAAAA" class="border" src="https://konklone.com/assets/images/blog/sha-1/shaaaaa-site.png" /></a>
 <figcaption>It's thirteen A's.</figcaption>
 </figure>
 
