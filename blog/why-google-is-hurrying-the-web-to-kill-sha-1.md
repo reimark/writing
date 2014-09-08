@@ -144,7 +144,7 @@ openssl req -new -sha256 -key your-private.key -out your-domain.csr
 
 I'm [keeping track of issues and workarounds](https://shaaaaaaaaaaaaa.com/#sha2-certificate) for getting SHA-2 certificates from various CAs. If you run into a problem not mentioned there, [please ring in here](https://github.com/konklone/shaaaaaaaaaaaaa/issues/24) and I'll update the site.
 
-You may also need to update any SHA-1 intermediate certificate(s), as they're also verified using a digital signature. This means tracking down whether and where your CA has published their SHA-2 intermediates. I'm [keeping track of SHA-2 intermediate locations](https://shaaaaaaaaaaaaa.com/#sha2-intermediate) for various CAs. If you find some not mentioned, or your CA doesn't have them yet, [please ring in](https://github.com/konklone/shaaaaaaaaaaaaa/issues/24).
+You may also need to update any SHA-1 intermediate certificate(s), as they're also verified using a digital signature. This means tracking down whether and where your CA has published their SHA-2 intermediates. I'm [keeping track of SHA-2 intermediate locations](https://shaaaaaaaaaaaaa.com/#sha2-intermediate) for various CAs. If you find some not mentioned, or your CA doesn't have them yet, [please ring in](https://github.com/konklone/shaaaaaaaaaaaaa/issues/36).
 
 If you have a site but some other company controls the certs, email their customer support and tweet at them. Link to [Google's announcement](http://googleonlinesecurity.blogspot.com/2014/09/gradually-sunsetting-sha-1.html), and ask for their timeline.
 
