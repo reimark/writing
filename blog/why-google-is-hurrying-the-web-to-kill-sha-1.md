@@ -190,8 +190,6 @@ For organizations, frequent certificate rotation needs to be prioritized in thei
 
 In the meantime, site operators should update their certificates and use the lack of Heartbleed-level urgency as an opportunity to revisit their SSL configuration and turn on things like [forward secrecy](https://community.qualys.com/blogs/securitylabs/2013/08/05/configuring-apache-nginx-and-openssl-for-forward-secrecy).
 
-I'll be updating [shaaaaaaaaaaaaa.com](https://shaaaaaaaaaaaaa.com) throughout the transition, so please [open some discussions and report some bugs](https://github.com/konklone/shaaaaaaaaaaaaa/issues).
-
 <div class="footer-text">
 <strong>Related Stuff</strong>
 <li>The 2008 <a href="http://www.win.tue.nl/hashclash/rogue-ca/">MD5 Collisions, Inc. attack</a> is really a terrific read.</li>
