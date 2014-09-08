@@ -87,7 +87,7 @@ Walker's estimates and Schneier's characterization have become [widely cited](ht
 
 I find this to be an absolutely cartoonish stance for the CA Security Council to take in 2014. They are clearly rationalizing the issue, based on how inconvenient they think a more rapid transition would be.
 
-Walker and Schneier's estimates were pre-Snowden, before the public properly understood that [governments are adversaries too](http://www.nytimes.com/interactive/2013/09/05/us/documents-reveal-nsa-campaign-against-encryption.html?_r=0). By their numbers, a forged certificate in 2014 would cost less than $2 million, a sum that many determined actors in this world would pay.
+Walker and Schneier's estimates were pre-Snowden, before the public properly understood that [governments are adversaries too](http://www.nytimes.com/interactive/2013/09/05/us/documents-reveal-nsa-campaign-against-encryption.html?_r=0). By their estimates, a forged certificate in 2014 would cost less than $2 million, a sum that many determined actors in this world would pay.
 
 How do we know that they would? **Because they have.**
 
