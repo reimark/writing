@@ -125,7 +125,7 @@ Google's Ryan Sleevi had first announced Chrome's intended policy a couple weeks
 
 This is a gutsy move by Google, and represents substantial risk. One major reason why it's been so hard for browsers to move away from signature algorithms is that when browsers tell a user an important site is broken, the user believes the browser is broken and switches browsers. Google seems to be betting that Chrome is trusted enough for its security and liked enough by its users that they can withstand the first mover disadvantage.
 
-Opera has also [backed Google's plan](https://groups.google.com/a/chromium.org/d/msg/security-dev/2-R4XziFc7A/-DyHwJRR7-AJ). I'm not aware of an announcement by the Safari team on SHA-1 deprecation.
+Opera has also [backed Google's plan](https://groups.google.com/a/chromium.org/d/msg/security-dev/2-R4XziFc7A/-DyHwJRR7-AJ). The Safari team is [watching developments](https://cabforum.org/pipermail/public/2014-August/003769.html) and hasn't announced anything.
 
 ## What you can do
 
