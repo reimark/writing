@@ -136,10 +136,10 @@ To help with the transition, I've built a small website at [**shaaaaaaaaaaaaa.co
 <figcaption>It's thirteen A's.</figcaption>
 </figure>
 
-Requesting a new certificate is usually very simple. You'll need to [generate a new certificate request](https://konklone.com/post/switch-to-https-now-for-free#generating-the-certificate) that asks your CA to use SHA-2.
+Requesting a new certificate is usually very simple. You'll need to [generate a new certificate request](https://konklone.com/post/switch-to-https-now-for-free#generating-the-certificate) that asks your CA to use SHA-2. 
 
-```bash
-openssl req -new -sha256 -key your-private.key -out your-domain.csr
+```
+openssl req -new **-sha256** -key your-private.key -out your-domain.csr
 ```
 
 I'm [keeping track of issues and workarounds](https://shaaaaaaaaaaaaa.com/#sha2-certificate) for getting SHA-2 certificates from various CAs. If you run into a problem not mentioned there, [please ring in here](https://github.com/konklone/shaaaaaaaaaaaaa/issues/24) and I'll update the site.
