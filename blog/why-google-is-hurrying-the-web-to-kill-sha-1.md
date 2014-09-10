@@ -111,7 +111,7 @@ MD5 was first shown to be theoretically weak in 1995, and over time was shown to
 
 That was an emergency, and yet Chrome wasn't able to remove support for MD5 [until 2011](https://code.google.com/p/chromium/issues/detail?id=101123) — **16 years** after MD5 was first shown to be untrustworthy.
 
-That's because there's a particular challenge with updating signature algorithms on the internet today: as long as browsers need to support SHA-1 for someone, [anyone's certificate can be forged with it](https://github.com/konklone/shaaaaaaaaaaaaa/issues/25). In other words, it's not enough for "lots" of sites to upgrade: like a tumor, **you have to get rid of it all**, so that support for the algorithm can be removed entirely.
+That's because there's a particular challenge with updating signature algorithms on the internet today: as long as browsers need to support SHA-1 for someone, [anyone's certificate can be forged with it](https://github.com/konklone/shaaaaaaaaaaaaa/issues/25) ([see this comment](#comment-540fc6da86a0c6d7190000a9)). In other words, it's not enough for "lots" of sites to upgrade: like a tumor, **you have to get rid of it all**, so that support for the algorithm can be removed entirely.
 
 ## What browsers are doing
 
