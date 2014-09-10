@@ -111,15 +111,9 @@ MD5 was first shown to be theoretically weak in 1995, and over time was shown to
 
 That was an emergency, and yet Chrome wasn't able to remove support for MD5 [until 2011](https://code.google.com/p/chromium/issues/detail?id=101123) — **16 years** after MD5 was first shown to be untrustworthy.
 
-That's because there's a particular challenge with updating signature algorithms on the internet today: as long as browsers need to support SHA-1 for someone, [anyone's certificate can be forged with it](https://github.com/konklone/shaaaaaaaaaaaaa/issues/25). In other words, it's not enough for "lots" of sites to upgrade: like a tumor, **you have to get rid of it all**, so that support for the algorithm can be removed entirely. 
+That's because there's a particular challenge with updating signature algorithms on the internet today: as long as browsers need to support SHA-1 for someone, [anyone's certificate can be forged with it](https://github.com/konklone/shaaaaaaaaaaaaa/issues/25). **You can impersonate a SHA-2-signed cert with a SHA-1-signed forgery**, because the browser will only be looking at the forgery and not know that there's a "real" cert or that that cert is "supposed" to be signed with SHA-2.
 
-<div class="callout">
-<strong>What do you mean, get rid of it all?</strong>
-
-You can impersonate a SHA-2-signed cert with a SHA-1-signed forgery, because the browser will only be looking at the forgery and not know that there's a "real" cert or that that cert is "supposed" to be signed with SHA-2.
-
-The only way to prevent forgeries of SSL certs on the web using SHA-1 is to remove SHA-1 support from browsers. Thus, all efforts to remove SHA-1 certificates help in achieving that goal.
-</div>
+In other words, the only way to prevent certificate forgeries using SHA-1 is to remove SHA-1 support from browsers. Like a tumor, you have to get rid of it all.
 
 ## What browsers are doing
 
