@@ -196,7 +196,7 @@ In the meantime, site operators should update their certificates and use the lac
 <strong>Related Stuff</strong>
 <li>The 2008 <a href="http://www.win.tue.nl/hashclash/rogue-ca/">MD5 Collisions, Inc. attack</a> is really a terrific read.</li>
 <li>Do you like math papers about cryptography? Here's <a href="https://marc-stevens.nl/research/papers/EC13-S.pdf">how</a> to <a href="http://people.scs.carleton.ca/~paulv/papers/JoC97.pdf">break</a> SHA-1.</li>
-<li>Yes, there is a <a href="https://en.wikipedia.org/wiki/SHA-3">SHA-3</a>, finalized in 2012.</li>
+<li>Yes, there is a <a href="https://en.wikipedia.org/wiki/SHA-3">SHA-3</a>, selected in a 2012 contest, and being <a href="http://csrc.nist.gov/publications/drafts/fips-202/fips_202_draft.pdf">finalized now</a>.</li>
 <li>Heroku has an interesting <a href="https://addons.heroku.com/expeditedssl">all-in-one SSL management service</a> for apps hosted there.</li>
 </div>
 
