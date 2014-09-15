@@ -20,6 +20,10 @@ Still, StartCom makes getting started with SSL simple and inexpensive. Their web
 
 Below, we'll go step by step through signing up with StartSSL and creating your certificate. We'll also cover installing it via nginx, but you can use the certificate with whatever web server you want.
 
+<div class="callout">
+<strong>Update:</strong> You may notice that my blog is now using Comodo, not StartSSL. I've been testing out Comodo on my blog, but I still recommend StartSSL, and still use it on <a href="https://isitchristmas.com/">my</a> <a href="https://oversight.io/">other</a> <a href="https://shaaaaaaaaaaaaa.com/">sites</a>.
+</div>
+
 ## Register with StartSSL
 
 To get started, [visit their signup page](https://www.startssl.com/?app=11&action=regform) and enter your information.
