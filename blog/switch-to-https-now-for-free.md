@@ -147,7 +147,7 @@ wget https://www.startssl.com/certs/class1/sha2/pem/sub.class1.server.sha2.ca.pe
 Then concatenate your certificate with theirs:
 
 ```bash
-cat mydomain.com.crt sub.class1.server.ca.pem > unified.crt
+cat mydomain.com.crt sub.class1.server.sha2.ca.pem > unified.crt
 ```
 
 Finally, tell your web server about your unified certificate, and your decrypted private key. I use nginx — below is the bare minimum nginx configuration you need. It redirects all HTTP requests to HTTPS requests using a 301 permanent redirect, and points the server to the certificate and key.
