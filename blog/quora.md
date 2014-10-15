@@ -44,7 +44,7 @@ Quora recognizes that this is significant enough to [merit an explanation](https
  Disallow: /
 </pre></div>
 
-So, Quora's rationale for blocking the Internet Archive is that **Quora can't go back and rewrite history whenever one of its users wants to**.
+So, Quora's rationale for blocking the Internet Archive is that **Quora can't go back and automatically rewrite history whenever one of its users wants to**.
 
 Can you imagine if the Archive implemented such a feature? It would make the Archive's historical record completely untrustworthy, and destroy its credibility. You can bet many people, companies, and governments would love the ability to go in and selectively excise or modify the historical record of their work.
 
