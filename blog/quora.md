@@ -69,7 +69,7 @@ Quora's question-and-answer system is a generalization of the extraordinarily su
 
 Like Quora, Stack Overflow is privately run, and like Quora, Stack Overflow depends on a community of active users to generate activity, knowledge, and [revenue](https://meta.stackexchange.com/questions/79435/what-is-stack-overflows-business-model).
 
-Unlike Quora, Stack Overflow has no problem being [archived back to Day 1 of its existence](https://web.archive.org/web/20141013225838/http://stackoverflow.com/) — presumably because the founders understand how the Internet works and understand what it actually means to grow the world's knowledge.
+_Unlike_ Quora, Stack Overflow has no problem being [archived back to Day 1 of its existence](https://web.archive.org/web/20141013225838/http://stackoverflow.com/) — presumably because the founders understand how the Internet works and understand what it actually means to grow the world's knowledge.
 
 Until Quora understands this, I'll be contributing my knowledge to the world, and not to Quora.
 
