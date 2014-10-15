@@ -59,7 +59,7 @@ What Quora is asking for from the Internet Archive — and really, since the Arc
 
 I usually try to be generous about people's motives, but I'm comfortable assuming the worst here. Quora's reason is simply too flimsy, and its business incentives too tangled up in the outcome, for their comment above to be the full story. 
 
-Quora is a free service built on [venture capital](http://blogs.wsj.com/digits/2014/04/09/with-80-million-in-new-capital-quora-still-has-no-business-model/) that will need to monetize its users over the next couple years, and wouldn't you know, they really want you visit quora.com, and they *really* want you to create an account. 
+Quora is a free service built on [venture capital](http://blogs.wsj.com/digits/2014/04/09/with-80-million-in-new-capital-quora-still-has-no-business-model/) that will need to monetize its users over the next couple years, and wouldn't you know, they really want you to visit quora.com, and they *really* want you to create an account. 
 
 In fact, until very recently, Quora would [block visitors from seeing more than the first answer](http://devilsworkshop.org/block-automatic-quora-login-popup/) unless they logged in. I'm willing to bet most people reading this have run into that popup before. 
 
