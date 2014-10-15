@@ -1,5 +1,5 @@
 <figure>
-<a href="http://www.cgsociety.org/index.php/CGSFeatures/CGSFeatureSpecial/stockholm_library_interior" target="_blank"><img class="border block" style="width: 650px" src="/assets/images/blog/quora/library-of-the-future.jpg" /></a>
+<a href="http://www.cgsociety.org/index.php/CGSFeatures/CGSFeatureSpecial/stockholm_library_interior" target="_blank"><img class="border block" style="width: 650px" src="https://konklone.com/assets/images/blog/quora/library-of-the-future.jpg" /></a>
 <figcaption>The <a href="http://www.cgsociety.org/index.php/CGSFeatures/CGSFeatureSpecial/stockholm_library_interior">Stockholm Public Library's</a> Wall of Knowledge.</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ Can you imagine if the Archive implemented such a feature? It would make the Arc
 But that's not how history works, and it's _definitely_ not how the Internet works. Quora is not a private communications network. When users contribute to Quora, they're participating in Quora's mission: to ["share and grow the world's knowledge"](https://www.quora.com/about). Like publishing a book, making a TV show, or any other form of human broadcasting: once it's out there, you can shape its use, but you don't get to withdraw it from the public record.
 
 <figure>
-<a href="http://io9.com/the-great-library-at-alexandria-was-destroyed-by-budget-1442659066" target="_blank"><img class="border" style="width: 650px" src="/assets/images/blog/quora/library-of-alexandria.jpg" /></a>
+<a href="http://io9.com/the-great-library-at-alexandria-was-destroyed-by-budget-1442659066" target="_blank"><img class="border" style="width: 650px" src="https://konklone.com/assets/images/blog/quora/library-of-alexandria.jpg" /></a>
 <figcaption>The <a href="http://io9.com/the-great-library-at-alexandria-was-destroyed-by-budget-1442659066">Library of Alexandria</a>.</figcaption>
 </figure>
 
@@ -63,7 +63,7 @@ Quora is a free service built on [venture capital](http://blogs.wsj.com/digits/2
 
 In fact, until very recently, Quora would [block visitors from seeing more than the first answer](http://devilsworkshop.org/block-automatic-quora-login-popup/) unless they logged in. I'm willing to bet most people reading this have run into that popup before. They've taken it down, but all that content is still entirely under Quora's control. If Quora was to collapse next year, it's completely unclear what would happen to the human output they've collected. This is not theoretical: unilateral mass destruction of user-generated content [happens](http://www.archiveteam.org/index.php?title=Geocities) [all](http://www.archiveteam.org/index.php?title=Friendster) [the](http://www.archiveteam.org/index.php?title=Google_Video) [time](http://www.archiveteam.org/index.php?title=Yahoo!_Video).
 
-<a href="https://www.quora.com/about" target="_blank"><img class="border" style="width: 650px" src="/assets/images/blog/quora/quora-logo.png" /></a>
+<a href="https://www.quora.com/about" target="_blank"><img class="border" style="width: 650px" src="https://konklone.com/assets/images/blog/quora/quora-logo.png" /></a>
 
 Quora's question-and-answer system is a generalization of the extraordinarily successful model of [Stack Overflow](https://stackoverflow.com), a Q&A site for coders that quickly became the world's free google-able university and teaching assistant for anyone working in technology. It's not an understatement to say that Stack Overflow has completely changed how and how fast software developers get their work done today. If you were to chart the days I visit Stack Overflow, it would look awfully similar to the [chart on my GitHub profile](https://github.com/konklone). 
 
@@ -74,7 +74,7 @@ _Unlike_ Quora, Stack Overflow has no problem being [archived back to Day 1 of i
 Until Quora understands this, I'll be contributing my knowledge to the world, and not to Quora.
 
 <figure>
-<a href="http://www.siliconvalleywatcher.com/mt/archives/2014/06/culturewatch_internet.php" target="_blank"><img class="border" src="/assets/images/blog/quora/archive-1.jpg" /></a>
+<a href="http://www.siliconvalleywatcher.com/mt/archives/2014/06/culturewatch_internet.php" target="_blank"><img class="border" src="https://konklone.com/assets/images/blog/quora/archive-1.jpg" /></a>
 <figcaption>The Internet Archive's ceramic archivists. <a href="
 http://www.siliconvalleywatcher.com/mt/archives/2014/06/culturewatch_internet.php">Photo by Tom Foremski of Silicon Valley Watcher</a>.</figcaption>
 </figure>
