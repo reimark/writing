@@ -1,6 +1,6 @@
 <figure>
 <a href="http://www.cgsociety.org/index.php/CGSFeatures/CGSFeatureSpecial/stockholm_library_interior" target="_blank"><img class="border block" style="width: 650px" src="https://konklone.com/assets/images/blog/quora/library-of-the-future.jpg" /></a>
-<figcaption>The <a href="http://www.cgsociety.org/index.php/CGSFeatures/CGSFeatureSpecial/stockholm_library_interior">Stockholm Public Library's</a> Wall of Knowledge.</figcaption>
+<figcaption>The <a href="http://www.cgsociety.org/index.php/CGSFeatures/CGSFeatureSpecial/stockholm_library_interior">Stockholm Public Library's</a> proposed Wall of Knowledge.</figcaption>
 </figure>
 
 I recently made the mistake of answering a question on Quora: **["What is it like to be a member of the 18F team?"](https://www.quora.com/What-is-it-like-to-be-a-member-of-the-18F-team)**
