@@ -192,9 +192,14 @@ If you use:
 * **Webfaction**, they [provide HTTPS support](http://docs.webfaction.com/user-guide/websites.html#secure-sites-https) at no extra charge. Go [Webfaction](https://www.webfaction.com/)!
 * **Github Pages**, they offer [undocumented HTTPS support](https://konklone.com/post/github-pages-now-supports-https-so-use-it) for `*.github.io` domains. However, they offer no HTTPS support at all for custom domains, so for that you'll have to look elsewhere (see below).
 
-If you need to **look elsewhere** because your host makes it too expensive or impossible to set up HTTPS, another option is to sign up for [CloudFlare](https://www.cloudflare.com/). You don't need to leave your current host to use them — they sit "in front" of your website and can speed it up in various ways. Every paid plan, starting at $20/month, [includes HTTPS support](http://blog.cloudflare.com/easiest-ssl-ever-now-included-automatically-w).
+If you need to **look elsewhere** because your host makes it too expensive or impossible to set up HTTPS, another option is to sign up for [CloudFlare](https://www.cloudflare.com/). You don't need to leave your current host to use them — they sit "in front" of your website and can speed it up in various ways. 
 
-Later in 2014, Cloudflare **[plans to offer SSL for free](https://twitter.com/CloudFlare/status/450390445365800961)**, as part of their mission to [double SSL on the web in 2014](http://www.theverge.com/2013/12/17/5217800/cloudflare-pledges-to-double-ssl-usage-on-the-web-in-2014). That will be huge.
+CloudFlare **offers HTTPS for free**, but there are two catches:
+
+* The free plan's HTTPS requires SNI, and so doesn't support Windows XP or Python 2. To support older clients, you need a paid plan (which start at $20/month).
+* **All** CloudFlare plans can only encrypt between the visitor and CloudFlare. To ensure that the connection is encrypted all the way from the visitor to your website, you'll need to install your own certificate on your website anyway, and tell CloudFlare to use and validate that certificate.
+
+The tradeoffs are yours to choose, and yours alone!
 
 ## Mixed Content Warnings
 
