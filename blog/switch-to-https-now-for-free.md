@@ -16,12 +16,12 @@ There are two things that could cost you money. One is that if your site is comm
 
 More importantly, if your certificate needs to be revoked someday, StartCom will [charge you a $30 fee](https://www.startssl.com/?app=25#72). While revocation has generally been rare, the [Heartbleed](http://heartbleed.com/) exploit is an example where a huge portion of the Internet had to revoke their keys. For some people who had issued a large number of free certificates, this turned out to be expensive.
 
-Still, StartCom makes getting started with SSL simple and inexpensive. Their website is difficult to use at first — especially if you're new to the concepts and terminology behind SSL certificates (like me). Fortunately, it's not actually that hard; it's just a lot of small steps.
+Still, StartCom makes getting started with SSL simple and inexpensive. Their website is difficult to use at first — especially if you're new to the concepts and terminology behind SSL certificates (like I was). Fortunately, it's not actually that hard; it's just a lot of small steps.
 
 Below, we'll go step by step through signing up with StartSSL and creating your certificate. We'll also cover installing it via nginx, but you can use the certificate with whatever web server you want.
 
 <div class="callout">
-<strong>Update:</strong> You may notice that my blog is now using Comodo, not StartSSL. I've been testing out Comodo on my blog, but I still recommend StartSSL, and still use it on <a href="https://isitchristmas.com/">my</a> <a href="https://oversight.io/">other</a> <a href="https://shaaaaaaaaaaaaa.com/">sites</a>.
+<strong>Update:</strong> You may notice that my blog is now using Comodo, not StartSSL. I've been using my blog to test out Comodo and Namecheap, but I still recommend StartSSL and use it on <a href="https://isitchristmas.com/">my</a> <a href="https://oversight.io/">other</a> <a href="https://shaaaaaaaaaaaaa.com/">sites</a>.
 </div>
 
 ## Register with StartSSL
