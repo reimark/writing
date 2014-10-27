@@ -194,10 +194,10 @@ If you use:
 
 If you need to **look elsewhere** because your host makes it too expensive or impossible to set up HTTPS, another option is to sign up for [CloudFlare](https://www.cloudflare.com/). You don't need to leave your current host to use them — they sit "in front" of your website and can speed it up in various ways. 
 
-CloudFlare **offers HTTPS for free**, but there are two catches:
+CloudFlare [offers HTTPS to anyone for free](https://blog.cloudflare.com/introducing-universal-ssl/), but there are two big catches:
 
-* The free plan's HTTPS requires SNI, and so doesn't support Windows XP or Python 2. To support older clients, you need a paid plan (which start at $20/month).
-* **All** CloudFlare plans can only encrypt between the visitor and CloudFlare. To ensure that the connection is encrypted all the way from the visitor to your website, you'll need to install your own certificate on your website anyway, and tell CloudFlare to use and validate that certificate.
+* The free plan doesn't support clients using Windows XP or Python 2. To support older clients, you need a paid plan (which start at $20/month).
+* **All** CloudFlare plans can only encrypt between the visitor and CloudFlare. To ensure that the connection is encrypted all the way from the visitor to your website, you'll need to install your own certificate on your website anyway and tell CloudFlare to use and validate that certificate.
 
 The tradeoffs are yours to choose, and yours alone!
 
