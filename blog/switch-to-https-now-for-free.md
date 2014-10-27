@@ -178,8 +178,6 @@ Cross your fingers and try it out in your browser! If all goes well, the <img sr
 
 <div class="callout">
 <strong>Important:</strong> the StartSSL free Class 1 certificate is good for just <strong>1 year</strong>. Don't forget to renew it before then! Set a calendar reminder or something!
-<br/><br/>
-If you want a longer lifespan of 2 years, you can get a <a href="https://www.startssl.com/?app=34">Class 2 Identity</a> certificate, just be prepared to pay $60 and get your address verified (possibly through the physical mail!).
 </div>
 
 ## Setup with other common hosts
