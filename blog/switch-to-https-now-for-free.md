@@ -197,7 +197,7 @@ If you need to **look elsewhere** because your host makes it too expensive or im
 CloudFlare [offers HTTPS to anyone for free](https://blog.cloudflare.com/introducing-universal-ssl/), but there are two big catches:
 
 * The free plan doesn't support clients using Windows XP or Python 2. To support older clients, you need a paid plan (which start at $20/month).
-* **All** CloudFlare plans can only encrypt between the visitor and CloudFlare. To ensure that the connection is encrypted all the way from the visitor to your website, you'll need to install your own certificate on your website anyway and tell CloudFlare to use and validate that certificate.
+* **All** CloudFlare plans can only encrypt between the visitor and CloudFlare. To ensure that the connection is encrypted all the way from the visitor to your website, you'll need to install your own certificate on your own web server anyway and tell CloudFlare to use and validate that certificate.
 
 The tradeoffs are yours to choose, and yours alone!
 
