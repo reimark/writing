@@ -11,7 +11,7 @@ But I hate web notifications (anywhere), and always fall behind on them. Email i
 Fortunately, GitHub's smart about marking `Participating` notifications as `To:` your email address, so I was able to fix this for me with a filter:
 
 ```text
-from:(notifications@github.com) to:(eric@konklone.com)
+from:(notifications@github.com) to:me
 ```
 
 And making any emails matching that filter get auto-labeled with something colorful:
