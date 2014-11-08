@@ -14,7 +14,7 @@ Sadly, Quora's policy is to lock that snapshot in their own private store, and o
 
 The [Internet Archive](https://archive.org) is one of the world's [most fantastical organizations](https://en.wikipedia.org/wiki/Internet_Archive), housed in a [majestic temple](http://www.sfgate.com/news/article/Brewster-Kahle-s-Internet-Archive-3946898.php), and is maniacally devoted to **_archiving the entire Internet_** since **_1996_**. 
 
-At the Archive's [Wayback Machine](https://archive.org/web/), you can search through and relive an unbelievably rich swath of the Internet's history. It's one of the world's most valuable and widely cited collections, and it's actually difficult now to imagine tolerating an Internet without it.
+At the Archive's [Wayback Machine](https://archive.org/web/), you can search through and relive an unbelievably rich swath of the Internet's history. It's one of the most valuable and widely cited collections in the world, and it's actually difficult now to imagine tolerating an Internet without it.
 
 But if you visit Quora's [`/robots.txt`](https://www.quora.com/robots.txt) (the Internet's standard for sending web crawlers a strongly worded letter) you'll see that they single out the Internet Archive for exclusion. The Internet Archive respects the robots.txt standard, and so [there is no Wayback Machine content for Quora](https://web.archive.org/web/*/https://www.quora.com). 
 
