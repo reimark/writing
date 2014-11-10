@@ -188,9 +188,11 @@ If you use:
 
 * **Amazon S3**, as of March 2014 they support **[free SSL for custom domains](http://aws.amazon.com/cloudfront/custom-ssl-domains/)** via CloudFront. Bear in mind this requires [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication), which won't work for users running Internet Explorer on Windows XP or Android 2.x's default browser. It's also unsupported by Python 2.x. If that's a dealbreaker, then you'll have to pay an insane $600/month for a dedicated IP.
 * **Apache**, check out [kang's blog post](https://www.insecure.ws/linux/apache_ssl.html) on making an Apache config that gets the A rating from Qualys.
+* **Bytemark** and other servers using **[Symbiosis](https://www.bytemark.co.uk/hosting/symbiosis/)** for Debian support [simple SSL hosting as standard](http://symbiosis.bytemark.co.uk/docs/ch-ssl-hosting.html). Use the key generation guide above and name it `ssl.key`, following the Symbiosis documentation. Likewise, the certificate when generated should be `ssl.crt`. You'll also need [StartSSL's `ca-bundle.crt`](http://www.startssl.com/certs/) renamed to `ssl.bundle`.
+* **Github Pages**, they offer [undocumented HTTPS support](https://konklone.com/post/github-pages-now-supports-https-so-use-it) for `*.github.io` domains. However, they offer no HTTPS support at all for custom domains, so for that you'll have to look elsewhere (see below).
 * **Heroku**, you'll need to pay $20/month for their [SSL add-on](https://addons.heroku.com/ssl), and then use it to [set up an SSL endpoint](https://devcenter.heroku.com/articles/ssl-endpoint).
 * **Webfaction**, they [provide HTTPS support](http://docs.webfaction.com/user-guide/websites.html#secure-sites-https) at no extra charge. Go [Webfaction](https://www.webfaction.com/)!
-* **Github Pages**, they offer [undocumented HTTPS support](https://konklone.com/post/github-pages-now-supports-https-so-use-it) for `*.github.io` domains. However, they offer no HTTPS support at all for custom domains, so for that you'll have to look elsewhere (see below).
+
 
 If you need to **look elsewhere** because your host makes it too expensive or impossible to set up HTTPS, another option is to sign up for [CloudFlare](https://www.cloudflare.com/). You don't need to leave your current host to use them — they sit "in front" of your website and can speed it up in various ways. 
 
