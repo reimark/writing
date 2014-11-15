@@ -20,7 +20,7 @@ The keys will Just Work on Mac and Windows. Unfortunately for Linux users...
 
 I use Ubuntu, and couldn't figure out why it wasn't working. I also couldn't find a simple set of instructions anywhere. Fortunately, it's extremely easy, and the solution should work for any Linux computer.
 
-You need to get your computer to recognize the key by adding a `udev` file to your system and rebooting. Yubico makes this easy by [publishing the rules file you need on GitHub](https://github.com/Yubico/libu2f-host/blob/master/70-u2f.rules), `70-u2f.rules`:
+You need to get your computer to recognize the key by adding a `udev` file to your system and rebooting. Yubico makes this easy by [publishing the rules file you need on GitHub](https://github.com/Yubico/libu2f-host/blob/master/70-u2f.rules):
 
 ```text
 ACTION!="add|change", GOTO="u2f_end"
