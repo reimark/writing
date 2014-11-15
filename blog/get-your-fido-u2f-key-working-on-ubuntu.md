@@ -32,4 +32,4 @@ LABEL="u2f_end"
 
 Copy the text of that file to `/etc/udev/rules.d/70-u2f.rules`, and reboot your computer. (Or maybe you're smarter at Linux than I, and know the command to run to avoid rebooting.) 
 
-You should be all set! If things don't work, leave a comment, [email me](mailto:eric@konklone.com), or [edit my blog post](#) to fix it.
+You should be all set! If things don't work, leave a comment, [email me](mailto:eric@konklone.com), or [edit my blog post](https://github.com/konklone/writing/blob/writing/blog/get-your-fido-u2f-key-working-on-ubuntu.md) to fix it.
