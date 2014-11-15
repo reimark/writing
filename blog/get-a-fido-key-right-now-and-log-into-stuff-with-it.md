@@ -1,4 +1,6 @@
-<a target="_blank" href="http://www.amazon.com/Yubico-Y-123-FIDO-U2F-Security/dp/B00NLKA0D8/ref=sr_1_1?ie=UTF8&qid=1416087355&sr=8-1&keywords=%22FIDO+U2F+Security+Key%22&pebp=1416087293560"><img src="/assets/images/blog/fido/fido-key-1.jpg" style="width: 650px" /></a>
+<figure><a target="_blank" href="http://www.amazon.com/Yubico-Y-123-FIDO-U2F-Security/dp/B00NLKA0D8/ref=sr_1_1?ie=UTF8&qid=1416087355&sr=8-1&keywords=%22FIDO+U2F+Security+Key%22&pebp=1416087293560"><img src="/assets/images/blog/fido/fido-key-1.jpg" style="width: 650px" /></a>
+<figcaption>This is a stock photo, but it's the same model I own.</figcaption>
+</figure>
 
 I just got a [FIDO security key](http://www.amazon.com/gp/product/B00NLKA0D8/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1), for less than $20, to use as the second factor to log into my Google account. My model is by Yubicorp, sometimes called a "Yubikey". It's a super-light USB wafer you put into your computer, with a button you tap to log in to websites.
 
