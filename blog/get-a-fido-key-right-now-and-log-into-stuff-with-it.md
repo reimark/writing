@@ -32,6 +32,12 @@ KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1050", ATTRS{idProduct
 LABEL="u2f_end"
 ```
 
-Copy the text of that file to `/etc/udev/rules.d/70-u2f.rules`, and reboot your computer. (Or maybe you're smarter at Linux than I, and know the command to run to avoid rebooting.) 
+Copy the text of that file to `/etc/udev/rules.d/70-u2f.rules`, and run:
 
-You should be all set! If things don't work, leave a comment, [email me](mailto:eric@konklone.com), or [edit my blog post](https://github.com/konklone/writing/blob/writing/blog/get-your-fido-u2f-key-working-on-ubuntu.md) to fix it. 
+```bash
+sudo service udev restart
+```
+
+Then unplug and re-plug in the FIDO, and it should work. 
+
+If things don't work, well, try rebooting. If that still doesn't work, leave a comment, [email me](mailto:eric@konklone.com), or [edit my blog post](https://github.com/konklone/writing/blob/writing/blog/get-your-fido-u2f-key-working-on-ubuntu.md) to fix it.
