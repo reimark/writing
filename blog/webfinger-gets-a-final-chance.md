@@ -78,6 +78,6 @@ Will Norris and Matthias Pfefferle have created [webfinger.net](http://webfinger
 
 Also, if you're using Apache, Aaron Parecki has a nice [example Apache .htaccess](https://gist.github.com/aaronpk/5846789) that uses a static file.
 
-If you're still rocking a `@gmail.com` address or something, and don't control their WebFinger support, you can still participate! **[WebFist](http://webfist.org/)** is a sort of community fallback service. Set up a WebFinger endpoint anywhere you want, then email `fist@webfist.org` with `webfinger = http://your-actual.com/webfinger/endpoint`, and they'll list an entry for you that directs participating clients to your endpoint.
+If you're still rocking a `@gmail.com` address or something, and don't control their WebFinger support, you can still participate! **[WebFist](http://webfist.org/)** is a sort of community fallback service. Set up a WebFinger endpoint anywhere you want, then email `fist@webfist.org` with `webfinger = https://your-actual.com/webfinger/endpoint`, and they'll list an entry for you that directs participating clients to your endpoint.
 
 I don't know whether this turns out to be the the beginning of WebFinger's next chapter, or just a coda to a shared, flawed dream. But right now, WebFinger is a working piece of what a better Web could be, and I want to see it get the best shot it can.
