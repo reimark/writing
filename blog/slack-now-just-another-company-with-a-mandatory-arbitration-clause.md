@@ -16,6 +16,8 @@ After a [2011 5-4 Supreme Court decision](https://en.wikipedia.org/wiki/AT%26T_M
 
 eBay and PayPal added these clauses [back in October 2012](http://consumerist.com/2012/10/09/paypal-slips-forced-arbitration-clause-into-user-agreement-gives-you-until-dec-1-to-opt-out/), primarily to avoid class action lawsuits. People correctly saw this as an abrogation of their rights and a dire warning, but they have not stopped; Dropbox just [added one in 2014](http://consumerist.com/2014/02/21/dropbox-jumps-on-forced-arbitration-bandwagon-but-offers-online-opt-out/).
 
+Many companies which have added these clauses include an opt-out process. Slack does not appear to have done this.
+
 Consumerist has a great explanation of why [forced arbitration does not work in your favor](http://consumerist.com/2014/02/25/why-you-should-opt-out-of-forced-arbitration-in-3-sentences/):
 
 > 1. Forced arbitration takes away your right to file a complaint in a court of law against a company that’s wronged you.
