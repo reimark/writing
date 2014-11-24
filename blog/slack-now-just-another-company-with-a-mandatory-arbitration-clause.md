@@ -47,3 +47,16 @@ I just sent them a support ticket with my feelings on the matter, which I've cop
 > I won't be deactivating my account over this. But it very much increases the likelihood that other concerns might push me to leave in the future. It's a factor, and one I hope Slack's competition recognizes and applies pressure to Slack over.
 > 
 > Slack is one of my favorite services on the internet, and I've generally been a vocal supporter of the company's work. Slack clearly prides itself on being humane and a representative of the very best of the Internet. Mandatory arbitration clauses are the opposite of this. I urge Slack to revisit this clause.
+
+### Response from Slack
+
+Slack's CEO, [Stewart Butterfield](https://twitter.com/stewart), was kind enough to respond on Twitter with some rationale:
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/konklone">@konklone</a> FWIW, I (Slack CEO) fought pretty hard against this at first, but in the end I was brought around by two things: (1) No one could…</p>&mdash; Stewart Butterfield (@stewart) <a href="https://twitter.com/stewart/status/536975596920635393">November 24, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/konklone">@konklone</a> …come up with a scenario where it made a significant difference for a product offered to businesses (vs consumers) &amp; (2) having a…</p>&mdash; Stewart Butterfield (@stewart) <a href="https://twitter.com/stewart/status/536975711102193664">November 24, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/konklone">@konklone</a> …lot of cash in the bank is like having a giant target on your back for scammy class action specialist firms. Those cases ≠ cheap.</p>&mdash; Stewart Butterfield (@stewart) <a href="https://twitter.com/stewart/status/536975848046206976">November 24, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
