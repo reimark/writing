@@ -50,13 +50,13 @@ I just sent them a support ticket with my feelings on the matter, which I've cop
 
 ### Response from Slack
 
-Slack's CEO, [Stewart Butterfield](https://twitter.com/stewart), was kind enough to respond on Twitter with some rationale:
+Slack's CEO, [Stewart Butterfield](https://twitter.com/stewart), was kind enough to respond on Twitter with some rationale. I recommend reading [the whole thread](https://twitter.com/stewart/status/536975848046206976), but here are the first few:
 
-<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/konklone">@konklone</a> FWIW, I (Slack CEO) fought pretty hard against this at first, but in the end I was brought around by two things: (1) No one could…</p>&mdash; Stewart Butterfield (@stewart) <a href="https://twitter.com/stewart/status/536975596920635393">November 24, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/konklone">@konklone</a> FWIW, I (Slack CEO) fought pretty hard against this at first, but in the end I was brought around by two things: (1) No one could…</p>— Stewart Butterfield (@stewart) <a href="https://twitter.com/stewart/status/536975596920635393">November 24, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/konklone">@konklone</a> …come up with a scenario where it made a significant difference for a product offered to businesses (vs consumers) &amp; (2) having a…</p>&mdash; Stewart Butterfield (@stewart) <a href="https://twitter.com/stewart/status/536975711102193664">November 24, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/konklone">@konklone</a> …come up with a scenario where it made a significant difference for a product offered to businesses (vs consumers) & (2) having a…</p>— Stewart Butterfield (@stewart) <a href="https://twitter.com/stewart/status/536975711102193664">November 24, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/konklone">@konklone</a> …lot of cash in the bank is like having a giant target on your back for scammy class action specialist firms. Those cases ≠ cheap.</p>&mdash; Stewart Butterfield (@stewart) <a href="https://twitter.com/stewart/status/536975848046206976">November 24, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/konklone">@konklone</a> …lot of cash in the bank is like having a giant target on your back for scammy class action specialist firms. Those cases ≠ cheap.</p>— Stewart Butterfield (@stewart) <a href="https://twitter.com/stewart/status/536975848046206976">November 24, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
