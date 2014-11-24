@@ -4,7 +4,7 @@
 
 [Slack](https://slack.com), a young and wildly successful team chat and collaboration service, [updated its TOS and Privacy Policy](http://slackhq.com/post/103473448150/slacks-policy-update) today. They have a [friendly explainer](https://slack.zendesk.com/hc/en-us/articles/203950296) that describes a very unfriendly new policy: **mandatory dispute resolution through arbitration**. You give up your right to sue, or to join a class action lawsuit, and instead agree that any disputes will be resolved through [arbitration](https://en.wikipedia.org/wiki/Arbitration_in_the_United_States).
 
-Slack's [explanation](https://slack.zendesk.com/hc/en-us/articles/203950296#arbitration):
+You can read [the full Terms](https://slack.com/terms-of-service), and Slack's [explanation of the arbitration clause](https://slack.zendesk.com/hc/en-us/articles/203950296#arbitration):
 
 > We hope we don’t have any arbitration or any lawsuits, ever. However, a Terms of Service is a legal document, and legal documents are written with lawsuits in mind. As we considered this option, it mainly came down to two things: speed and cost. Litigation is costly and time consuming. After examining arbitration as an option, we decided that it offers a better, more cost-effective, and faster means of adjudicating disputes.
 
