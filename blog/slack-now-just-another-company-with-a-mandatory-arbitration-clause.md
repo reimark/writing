@@ -50,7 +50,7 @@ I just sent them a support ticket with my feelings on the matter, which I've cop
 
 ### Response from Slack
 
-**Update:** A member of Slack's customer service team responded to my help ticket. I asked if they minded if I posted it here, and they were fine with that.
+**Update:** A member of Slack's customer service team responded to my help ticket. I asked if they minded if I posted it here, and they were fine with that. Links are theirs.
 
 > Hi Eric,
 > 
