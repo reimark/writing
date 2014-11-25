@@ -2,7 +2,7 @@
 <figcaption>This is a stock photo, but it's the same model I own.</figcaption>
 </figure>
 
-I just got a [FIDO security key](http://www.amazon.com/gp/product/B00NLKA0D8/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1), for less than $20, to use as the second factor to log into my Google account. My model is by Yubicorp, sometimes called a "Yubikey". It's a super-light USB wafer you put into your computer, with a button you tap to log in to websites.
+I just got a [FIDO security key](http://www.amazon.com/gp/product/B00NLKA0D8/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1), for less than $20, to use as the second factor to log into my Google account. My model is by Yubico, sometimes called a "Yubikey". It's a super-light USB wafer you put into your computer, with a button you tap to log in to websites.
 
 This is a new thing: Google just recently [announced support for security keys](http://googleonlinesecurity.blogspot.com/2014/10/strengthening-2-step-verification-with.html) for their login system. Chrome is the first to ship support for them, but other browsers should follow soon.
 
