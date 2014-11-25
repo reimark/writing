@@ -50,7 +50,7 @@ I just sent them a support ticket with my feelings on the matter, which I've cop
 
 ### Response from Slack
 
-A member of Slack's customer service team responded to my help ticket. I asked if they minded if I posted it here, and they were fine with that.
+**Update:** A member of Slack's customer service team responded to my help ticket. I asked if they minded if I posted it here, and they were fine with that.
 
 > Hi Eric,
 > 
@@ -61,10 +61,10 @@ A member of Slack's customer service team responded to my help ticket. I asked i
 > In running Slack, we're always trying to make decisions that make the best sense to all the people involved. The decision to add an arbitration clause if our [Terms of Service](https://slack.com/terms-of-service) is one of those decisions that tries to strike the right balance for all the people involved with Slack. Only time will tell if it's the right decision.
 > 
 > Again, we appreciate you sharing your feedback and caring about the issue. Your blog post has been shared internally (on Slack, naturally) and is getting the attention of many folks on our team, who also care about issues like user rights.
+> 
+> Please let me know I can help with anything else and I'll be happy to help out.
 
-
-Please let me know I can help with anything else and I'll be happy to help out.
-Slack's CEO, [Stewart Butterfield](https://twitter.com/stewart), was kind enough to respond on Twitter with some rationale. I recommend reading [the whole thread](https://twitter.com/stewart/status/536975848046206976), but here are the first few:
+**Also Update:** Slack's CEO, [Stewart Butterfield](https://twitter.com/stewart), was kind enough to respond on Twitter with some rationale. I recommend reading [the whole thread](https://twitter.com/stewart/status/536975848046206976), but here are the first few:
 
 <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/konklone">@konklone</a> FWIW, I (Slack CEO) fought pretty hard against this at first, but in the end I was brought around by two things: (1) No one could…</p>— Stewart Butterfield (@stewart) <a href="https://twitter.com/stewart/status/536975596920635393">November 24, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
