@@ -8,8 +8,8 @@ This is a new thing: Google just recently [announced support for security keys](
 
 These keys are based on an [open standard](https://fidoalliance.org/), and you should **absolutely use one instead of Google Authenticator or SMS**. For one, the usability of "just push the button" is a hell of a lot better than fishing out your phone, opening an app, and typing in a 6-digit number. For another, the keys use fancy crypto to **[completely protect you from phishing and tracking](https://security.stackexchange.com/a/71704/37288)**:
 
-> In the case of U2F, the device creates a public/private key pair for each site and burns the site's identity into the "Key Handle" that the site is supposed to use to request authentication. Then, that site identity is verified by the browser each time before any authentication is attempted. The site identity can even be tied to a specific TLS public key. And since it's a challenge-response protocol, replay is not possible either. And if the server accidentally leaks your "Key Handle" in a database breach, it still doesn't affect your security or reveal your identity. 
-> 
+> In the case of U2F, the device creates a public/private key pair for each site and burns the site's identity into the "Key Handle" that the site is supposed to use to request authentication. Then, that site identity is verified by the browser each time before any authentication is attempted. The site identity can even be tied to a specific TLS public key. And since it's a challenge-response protocol, replay is not possible either. And if the server accidentally leaks your "Key Handle" in a database breach, it still doesn't affect your security or reveal your identity.
+>
 > **Employing this device effectively eliminates phishing as a possibility**, which is a big deal to a security-sensitive organization.
 
 The keys also never identify _themselves_ to the site, meaning that no one can track use of the same key across multiple websites — even _the site owners themselves_.
@@ -38,6 +38,6 @@ Copy the text of that file to `/etc/udev/rules.d/70-u2f.rules`, and run:
 sudo service udev restart
 ```
 
-Then unplug and re-plug in the FIDO, and it should work. 
+Then unplug and re-plug in the FIDO, and it should work.
 
-If things don't work, well, try rebooting. If that still doesn't work, leave a comment, [email me](mailto:eric@konklone.com), or [edit my blog post](https://github.com/konklone/writing/blob/writing/blog/get-your-fido-u2f-key-working-on-ubuntu.md) to fix it.
+If things don't work, well, try rebooting. If that still doesn't work, leave a comment, [email me](mailto:eric@konklone.com), or [edit my blog post](https://github.com/konklone/writing/blob/writing/blog/get-a-fido-key-right-now-and-log-into-stuff-with-it.md) to fix it.
