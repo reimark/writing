@@ -50,6 +50,20 @@ I just sent them a support ticket with my feelings on the matter, which I've cop
 
 ### Response from Slack
 
+A member of Slack's customer service team responded to my help ticket. I asked if they minded if I posted it here, and they were fine with that.
+
+> Hi Eric,
+> 
+> Thank you for writing in, for [writing the post on your blog](https://konklone.com/post/slack-is-now-forcing-users-into-arbitration-and-that-is-terrible) and for caring about issues that matter – like user rights.
+> 
+> We appreciate you sharing the post with us and writing in public about your view. We're always gathering feedback and always seeking to improve our service. Feedback like you've provided is valuable in that continual improvement.
+> 
+> In running Slack, we're always trying to make decisions that make the best sense to all the people involved. The decision to add an arbitration clause if our [Terms of Service](https://slack.com/terms-of-service) is one of those decisions that tries to strike the right balance for all the people involved with Slack. Only time will tell if it's the right decision.
+> 
+> Again, we appreciate you sharing your feedback and caring about the issue. Your blog post has been shared internally (on Slack, naturally) and is getting the attention of many folks on our team, who also care about issues like user rights.
+
+
+Please let me know I can help with anything else and I'll be happy to help out.
 Slack's CEO, [Stewart Butterfield](https://twitter.com/stewart), was kind enough to respond on Twitter with some rationale. I recommend reading [the whole thread](https://twitter.com/stewart/status/536975848046206976), but here are the first few:
 
 <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/konklone">@konklone</a> FWIW, I (Slack CEO) fought pretty hard against this at first, but in the end I was brought around by two things: (1) No one could…</p>— Stewart Butterfield (@stewart) <a href="https://twitter.com/stewart/status/536975596920635393">November 24, 2014</a></blockquote>
