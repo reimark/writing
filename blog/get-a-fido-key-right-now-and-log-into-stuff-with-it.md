@@ -40,4 +40,4 @@ sudo service udev restart
 
 Then unplug and re-plug in the FIDO, and it should work. 
 
-If things don't work, well, try rebooting. If that still doesn't work, leave a comment, [email me](mailto:eric@konklone.com), or [edit my blog post](https://github.com/konklone/writing/blob/writing/blog/get-your-fido-u2f-key-working-on-ubuntu.md) to fix it.
+If things don't work, well, try rebooting. If that still doesn't work, leave a comment, [email me](mailto:eric@konklone.com), or [edit my blog post](https://github.com/konklone/writing/blob/writing/blog/get-a-fido-key-right-now-and-log-into-stuff-with-it.md) to fix it.
