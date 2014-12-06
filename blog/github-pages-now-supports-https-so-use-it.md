@@ -2,7 +2,7 @@ Recently, GitHub Pages [began supporting HTTPS](https://twitter.com/benbalter/st
 
 In my opinion, this is a **huge** deal - GitHub Pages is the only major, free, general-purpose web host which also offers a secure channel. Given [how many simple and powerful uses](https://konklone.com/post/the-power-and-potential-of-github-pages) GitHub Pages has, and how vital secure and confidential connections are to the future of the web, I see this as a big step forward for developers, GitHub, and everyday people.
 
-There are two catches: you *can't* force your site to only run over HTTPS, and you *can't* use HTTPS for custom domains.
+There are two catches: you *can't* force your `*.github.io` site to only run over HTTPS, and you *can't* use a fully secured HTTPS connection for custom domains.
 
 But there's a lot you **can** do! Let's work around the problems.
 
@@ -54,10 +54,7 @@ More generally problematic is that the browser has no way of indicating to the u
 <blockquote class="twitter-tweet" lang="en"><p>Gotta say, I agree with <a href="https://twitter.com/__agwa">@__agwa</a> - CloudFlare has good intentions, but their Flexible SSL dilutes the value of HTTPS: <a href="https://t.co/6B3dqMzHgK">https://t.co/6B3dqMzHgK</a></p>— Eric Mill (@konklone) <a href="https://twitter.com/konklone/status/539543267311091715">December 1, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I'm not saying to never use CloudFlare's Flexible SSL - but know exactly what you are doing, and communicate to CloudFlare that they need to add a way for outsiders to know how secure the connection is.
-
-<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p>One way CloudFlare can seriously address the problem is to add an HTTP header that indicates it's not encrypted all the way back.</p>— Eric Mill (@konklone) <a href="https://twitter.com/konklone/status/539545338672336896">December 1, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+I'm not saying to never use CloudFlare's Flexible SSL - but know exactly what you are doing, and communicate to CloudFlare that they need to [add a way for outsiders to know how secure the connection is](https://twitter.com/ivanristic/status/530761077001162753).
 
 ### What GitHub can do
 
