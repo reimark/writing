@@ -34,7 +34,7 @@ Make no mistake, client-side redirecting is a hack and an imperfect solution by 
 
 If you're using Jekyll, you may wish to [follow my example](https://github.com/sunlightlabs/congress/commit/6426761a671d46df6fc5d2526bdaf506c39d789c) of using a `site.enforce_ssl` parameter, or you can just hardcode it like above. It'd be nicer if this could get baked into a Jekyll plugin, but GitHub Pages only supports a couple of whitelisted plugins. 
 
-### Using your custom domain
+### Using a custom domain with CloudFlare
 
 [**Update**: Rewrote this section later in 2014, after CloudFlare released their free SSL plan.]
 
@@ -51,12 +51,12 @@ But **be careful**. This is a tempting, but incomplete solution. I was [very dis
 
 More generally problematic is that the browser has no way of indicating to the user that the connection is not fully secure. Right now, people generally expect that if there's a lock symbol in the browser, the connection is secure between them and the website. CloudFlare's Flexible SSL configuration breaks this expectation, and there is no way from the outside to tell whether a website is using it.
 
-<blockquote class="twitter-tweet" lang="en"><p>Gotta say, I agree with <a href="https://twitter.com/__agwa">@__agwa</a> - CloudFlare has good intentions, but their Flexible SSL dilutes the value of HTTPS: <a href="https://t.co/6B3dqMzHgK">https://t.co/6B3dqMzHgK</a></p>&mdash; Eric Mill (@konklone) <a href="https://twitter.com/konklone/status/539543267311091715">December 1, 2014</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p>Gotta say, I agree with <a href="https://twitter.com/__agwa">@__agwa</a> - CloudFlare has good intentions, but their Flexible SSL dilutes the value of HTTPS: <a href="https://t.co/6B3dqMzHgK">https://t.co/6B3dqMzHgK</a></p>— Eric Mill (@konklone) <a href="https://twitter.com/konklone/status/539543267311091715">December 1, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I'm not saying to never use CloudFlare's Flexible SSL - but know exactly what you are doing, and communicate to CloudFlare that they need to add a way for outsiders to know how secure the connection is.
 
-<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p>One way CloudFlare can seriously address the problem is to add an HTTP header that indicates it&#39;s not encrypted all the way back.</p>&mdash; Eric Mill (@konklone) <a href="https://twitter.com/konklone/status/539545338672336896">December 1, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p>One way CloudFlare can seriously address the problem is to add an HTTP header that indicates it's not encrypted all the way back.</p>— Eric Mill (@konklone) <a href="https://twitter.com/konklone/status/539545338672336896">December 1, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### What GitHub can do
