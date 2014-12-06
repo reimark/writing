@@ -36,11 +36,28 @@ If you're using Jekyll, you may wish to [follow my example](https://github.com/s
 
 ### Using your custom domain
 
-Well, there's no easy, free way to work around this one. _Yet_! 
+[**Update**: Rewrote this section later in 2014, after CloudFlare released their free SSL plan.]
 
-[Cloudflare](https://www.cloudflare.com/) will happily sit in front of your domain and terminate SSL for you, but right now they charge $20 per site per month. Fortunately, Cloudflare is [on a mission to double SSL on the web in 2014](http://www.theverge.com/2013/12/17/5217800/cloudflare-pledges-to-double-ssl-usage-on-the-web-in-2014), and they plan to do it by [offering SSL termination for free](https://twitter.com/CloudFlare/status/450390445365800961). That will be a serious gamechanger, not just for GitHub Pages but for the whole Internet.
+[CloudFlare](https://www.cloudflare.com/) now offers **[free SSL termination](https://blog.cloudflare.com/introducing-universal-ssl/)** for any website they host, under their "Universal SSL" plan. 
 
-**Update**: Unfortunately, GitHub will **also** need to update their configuration. I've tested a paid $20/month CloudFlare plan against GitHub Pages' SSL configuration, and using "Strict" (end-to-end) SSL will get you an `unknown domain` error from GitHub. Until that's resolved, which requires action on GitHub's part, not even turning on CloudFlare will make this work.
+There are a couple of caveats:
+
+* The free plan uses only modern technical standards ([ECDSA](https://blog.cloudflare.com/ecdsa-the-digital-signature-algorithm-of-a-better-internet/), [SHA-2](http://googleonlinesecurity.blogspot.com/2014/09/gradually-sunsetting-sha-1.html), [SNI](https://www.mnot.net/blog/2014/05/09/if_you_can_read_this_youre_sniing)), so customers visiting using Windows XP and/or old Internet Explorer browsers may not be able to connect.
+* Until GitHub Pages or CloudFlare fix things, you'll only be able to encrypt the connection between the user and CloudFlare. The connection between CloudFlare and GitHub Pages will need to remain in plaintext, using CloudFlare's "Flexible SSL" option. For more information on why this is the case, read [these](https://github.com/isaacs/github/issues/156#issuecomment-57271637) [comments](https://github.com/isaacs/github/issues/156#issuecomment-60453315) that lay out how it works.
+
+If you're okay not supporting ancient clients, and with traffic flowing in clear text between CloudFlare and GitHub, you can turn on SSL for free in front of your GitHub Pages site with a custom domain.
+
+But **be careful**. This is a tempting, but incomplete solution. I was [very disappointed](https://github.com/MayOneUS/homepage_redesign/issues/82) to see the [MayDay SuperPAC](https://mayday.us) use this configuration to solicit donations. An attacker who could get between CloudFlare and GitHub could have altered the form in transit to send payment information to anywhere they wanted.
+
+More generally problematic is that the browser has no way of indicating to the user that the connection is not fully secure. Right now, people generally expect that if there's a lock symbol in the browser, the connection is secure between them and the website. CloudFlare's Flexible SSL configuration breaks this expectation, and there is no way from the outside to tell whether a website is using it.
+
+<blockquote class="twitter-tweet" lang="en"><p>Gotta say, I agree with <a href="https://twitter.com/__agwa">@__agwa</a> - CloudFlare has good intentions, but their Flexible SSL dilutes the value of HTTPS: <a href="https://t.co/6B3dqMzHgK">https://t.co/6B3dqMzHgK</a></p>&mdash; Eric Mill (@konklone) <a href="https://twitter.com/konklone/status/539543267311091715">December 1, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+I'm not saying to never use CloudFlare's Flexible SSL - but know exactly what you are doing, and communicate to CloudFlare that they need to add a way for outsiders to know how secure the connection is.
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p>One way CloudFlare can seriously address the problem is to add an HTTP header that indicates it&#39;s not encrypted all the way back.</p>&mdash; Eric Mill (@konklone) <a href="https://twitter.com/konklone/status/539545338672336896">December 1, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### What GitHub can do
 
