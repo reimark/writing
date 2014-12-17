@@ -24,6 +24,8 @@ Consumerist has a great explanation of why [forced arbitration does not work in 
 > 2. Companies want you to arbitrate because the system has been shown to be heavily unbalanced in favor of businesses — who have the legal knowledge, experience, and funding to put up a proper defense — while harmed consumers often enter into the complicated process without legal representation.
 > 3. Most arbitration clauses also take away the right of groups of harmed consumers to pool their similar complaints together, forcing each customer into going through a binding arbitration that puts limits on damages; meaning companies can harm large groups of customers but get away with only paying out to those people who are willing to arbitrate.
 
+**Update:** Read [MuckRock's explanation](https://www.muckrock.com/news/archives/2014/dec/17/update-muckrocks-terms-service/) of why they _removed_ their arbitration clause (and weren't even specifically aware they had one). These things aren't inevitable - they're just boilerplate, and they can be removed.
+
 ### Slack was supposed to be better than this
 
 I've been one of Slack's [biggest](https://twitter.com/konklone/status/463767312818917376) [fans](https://twitter.com/konklone/status/501723350495133696). I started using it at the very beginning of 2014 — you know, before it was (very) cool — and introduced it to my friends and my [then-workplace](https://sunlightfoundation.com).
