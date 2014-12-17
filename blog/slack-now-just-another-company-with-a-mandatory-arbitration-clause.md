@@ -12,7 +12,7 @@ Slack has a disarming communication style, and I think they likely internally be
 
 ### Mandatory arbitration clauses are terrible
 
-After a [2011 5-4 Supreme Court decision](https://en.wikipedia.org/wiki/AT%26T_Mobility_v._Concepcion) that affirmed these clauses, [many companies have added them](http://www.citizen.org/rigged-justice-rogues-gallery), creating a disastrous new norm for the balance of power between individuals and powerful institutions on the internet. 
+After a [5-4 Supreme Court decision in 2011](https://en.wikipedia.org/wiki/AT%26T_Mobility_v._Concepcion) that affirmed these clauses, [many companies have added them](http://www.citizen.org/rigged-justice-rogues-gallery), creating a disastrous new norm for the balance of power between individuals and powerful institutions on the internet. 
 
 eBay and PayPal added these clauses [back in October 2012](http://consumerist.com/2012/10/09/paypal-slips-forced-arbitration-clause-into-user-agreement-gives-you-until-dec-1-to-opt-out/), primarily to avoid class action lawsuits. People correctly saw this as an abrogation of their rights and a dire warning, but they have not stopped; Dropbox just [added one in 2014](http://consumerist.com/2014/02/21/dropbox-jumps-on-forced-arbitration-bandwagon-but-offers-online-opt-out/).
 
