@@ -14,7 +14,7 @@ Sadly, Firefox's native developer console doesn't support this (but [it will in 
 
 ### Creating sprites
 
-While you can't use `%c` for much past basic text styling, you **can** apply a background image to spaces, and achieve some crude sprites. You can't set a width — just pick the best number of spaces — but with a `background-position` of `cover`, it should roughly do what you want.
+While you can't use `%c` for much past basic text styling, you **can** apply a background image to spaces, and achieve some crude sprites. You can't set a width — just pick the best number of spaces — but with a `background-size` of `cover`, it should roughly do what you want.
 
 <img src="https://konklone.com/assets/images/blog/console/console-images-1.png" class="block border" />
 
