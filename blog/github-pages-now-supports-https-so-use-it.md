@@ -7,7 +7,7 @@ There are two major catches:
 * You **can't force HTTPS** for your `*.github.io` site.
 * You **can't use a custom domain name** with a fully secured HTTPS connection.
 
-But let's work with what we've got!
+But you **can** use an `https://yourname.github.io` URL. So let's work with what we've got!
 
 ### Defaulting to HTTPS
 
