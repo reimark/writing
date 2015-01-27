@@ -17,7 +17,23 @@ If you have a GitHub Pages site, and you'd like it to run as close to HTTPS-only
 * If there are any external and prominent links to your site, ask the site owner to update their link to use `https://`.
 * If you're a go-getter, do a GitHub search for [anyone linking to your domain](https://github.com/search?q=%22sunlightlabs.github.io%22&ref=cmdform&type=Code), and file some quick in-browser PRs to switch people's links.
 
-But none of those are important as...
+### Telling search engines
+
+Use **[canonical URLs](https://support.google.com/webmasters/answer/139066?hl=en)** to tell search engines to use the HTTPS version of your website.
+
+```html
+<link rel="canonical" href="https://yoursite.github.io" />
+```
+
+In Jekyll, this looks like:
+
+```html
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+```
+
+Where you've set the `url` field in your site's `_config.yml` file. See [here](https://github.com/18F/18f.gsa.gov/blob/b58cbcd66d2535746bfa43d42f670b9b1c105fd3/_config.yml#L26) and [here](https://github.com/18F/18f.gsa.gov/blob/b58cbcd66d2535746bfa43d42f670b9b1c105fd3/_includes/head.html#L27) for an example.
+
+(Thanks to Ylon for [suggesting this](#comment-54c505e769702d16212a0000)!)
 
 ### Forcing a redirect
 
