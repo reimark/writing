@@ -31,7 +31,7 @@ But plenty of other open data services have found the time to do it. [GovTrack](
 
 And frankly, it's just the way the internet is moving.
 
-* The W3C's Technical Architecture Group is working on [Securing The Web](https://w3ctag.github.io/web-https/), whose draft findings say that the web should actively prefer secure connections and transition entirely to HTTPS. 
+* The W3C's Technical Architecture Group has found that [the web should actively prefer secure connections](https://w3ctag.github.io/web-https/) and transition entirely to HTTPS. 
 * The Internet Engineering Task Force (the internet's standards body) said in May 2014 that [pervasive monitoring is an attack](https://datatracker.ietf.org/doc/rfc7258/).
 * The IETF's parent, the Internet Architecture Board, said [encryption should be the norm](http://www.internetsociety.org/news/internet-society-commends-internet-architecture-board-recommendation-encryption-default) in November 2014.
 * The Chrome security team is working on [marking every plain HTTP request as non-secure](https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure).
