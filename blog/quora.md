@@ -44,7 +44,9 @@ Quora recognizes that this is significant enough to [merit an explanation](https
  Disallow: /
 </pre></div>
 
-So, Quora's rationale for blocking the Internet Archive is that **Quora can't go back and automatically rewrite history whenever one of its users wants to**. Bear in mind, you can already remove individual pages (in their entirety) from the Internet Archive by [adding them to your robots.txt](https://archive.org/about/exclude.php). Quora is asking for the ability to excise specific _content_ from already archived pages.
+So, Quora's rationale for blocking the Internet Archive is that **Quora can't go back and automatically rewrite history whenever one of its users wants to**. 
+
+Bear in mind, you can already remove individual pages (in their entirety) from the Internet Archive by [adding them to your robots.txt](https://archive.org/about/exclude.php). Quora is asking for the ability to excise specific _content_ from already archived pages.
 
 Can you imagine if the Archive implemented such a feature? It would make the Archive's historical record completely untrustworthy, and destroy its credibility. You can bet many people, companies, and governments would love the ability to go in and selectively excise or modify the historical record of their work.
 
