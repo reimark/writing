@@ -1,5 +1,5 @@
 <blockquote class="twitter-tweet" lang="en"><p>I’m increasingly convinced that SSL is an inherent requirement to publish open data. It’s the easiest way to ensure that data is authentic.</p>— Waldo Jaquith (@waldojaquith) <a href="https://twitter.com/waldojaquith/status/551089956870193152">January 2, 2015</a></blockquote>
-<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Recently, [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) (inventor of the web  and [President of the Open Data Institute](http://theodi.org/team/timbl)) informally [asked a W3C working group]((http://lists.w3.org/Archives/Public/public-webappsec/2015Jan/0002.html)) to consider relaxing "mixed-content" restrictions on fetching insecure data in web browsers, apparently [in order to support "open data mashups"](https://github.com/w3ctag/web-https/issues/12). 
 
@@ -45,3 +45,5 @@ Those who love and care for the internet agree: **those are all attacks**, and t
 <hr/>
 
 <sup id="fn1">1. <strong>Mixed content</strong> is when you visit a website over `https://`, and it tries to load images or fonts over insecure `http://`. Browsers today will let images by with a warning, but will block fonts, scripts, and other forms of "active" data. Without this protection, the promise of a website's `https://` doesn't mean very much, because pulling in insecure assets could completely compromise the security of the website. <a href="#ref1" title="Jump back">↩</a></sup>
+
+<img src="http://www.codeforamerica.org/assets/logo.png" />
