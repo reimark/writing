@@ -45,5 +45,3 @@ Those who love and care for the internet agree: **those are all attacks**, and t
 <hr/>
 
 <sup id="fn1">1. <strong>Mixed content</strong> is when you visit a website over `https://`, and it tries to load images or fonts over insecure `http://`. Browsers today will let images by with a warning, but will block fonts, scripts, and other forms of "active" data. Without this protection, the promise of a website's `https://` doesn't mean very much, because pulling in insecure assets could completely compromise the security of the website. <a href="#ref1" title="Jump back">↩</a></sup>
-
-<img src="http://www.codeforamerica.org/assets/logo.png" />
