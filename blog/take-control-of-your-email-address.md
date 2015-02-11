@@ -169,6 +169,8 @@ Next, Google will ask you which servers should send your email. You can leave it
 
 <img src="/assets/images/domains/gmail-new-email-3.png" class="block upper border" />
 
+That's an SMTP server address of `smtp.pobox.com`, a username of `[username]@pobox.com` (where `[username]` is the username your Pobox account is tied to), and your Pobox password. Choose port 587, and a "secured connection using TLS".
+
 **Note**: If you ever set up [two factor authentication for Pobox](https://www.pobox.com/profile/otp) (and [you should](https://konklone.com/post/protect-your-domain-name-with-two-factor-authentication)), you will need to [create an app-specific password](https://www.pobox.com/profile/apptoken) and give that to Gmail, instead of your normal Pobox password.
 
 Finally, Google will send you an email with a verification link. After you click it, go back to the Accounts settings and click "make default" next to your new email address. This will send emails "as" your new address, and when people reply to you, they'll automatically send it to that new address. This will work your new address into other people's contacts, and over time people should begin to always email your new address.
