@@ -94,7 +94,7 @@ The next step is to decrypt it so that you can generate a "certificate signing r
 openssl rsa -in my-private-encrypted.key -out my-private-decrypted.key
 ```
 
-Now, generate a certificate signing request:
+Now, generate a certificate signing request. Don't worry about the details - all StartSSL cares about is the public key associated with the CSR.
 
 ```bash
 openssl req -new -sha256 -key my-private-decrypted.key -out mydomain.com.csr
