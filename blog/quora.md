@@ -18,7 +18,7 @@ At the Archive's [Wayback Machine](https://archive.org/web/), you can search thr
 
 But if you visit Quora's [`/robots.txt`](https://www.quora.com/robots.txt) (the Internet's standard for sending web crawlers a strongly worded letter) you'll see that they single out the Internet Archive for exclusion. The Internet Archive respects the robots.txt standard, and so [there is no Wayback Machine content for Quora](https://web.archive.org/web/*/https://www.quora.com). 
 
-Quora recognizes that this is significant enough to [merit an explanation](https://www.quora.com/robots.txt) in their `robots.txt`:
+Quora recognizes that this is significant enough to [merit an explanation](https://www.quora.com/robots.txt) in their `robots.txt`.
 
 <div class="highlight"><pre style="padding-left: 0">
  # People share a lot of sensitive material on Quora - controversial political
@@ -49,7 +49,7 @@ Quora recognizes that this is significant enough to [merit an explanation](https
  Disallow: /
 </pre></div>
 
-(**Update, 2015-03-07**: After publication of this piece, Quora added the first paragraph above. I've updated the except above to match their current robots.txt. You can [view my post's edit history](https://github.com/konklone/writing/commits/writing/blog/quora.md) to see changes.)
+> (**Update, 2015-03-07**: After publication of this piece, Quora added the first paragraph below. I've [updated the excerpt](https://github.com/konklone/writing/commit/c18b2118193b725376a7648112701e5eb283cb9f) above to match their current robots.txt. You can [view my post's edit history](https://github.com/konklone/writing/commits/writing/blog/quora.md) to see changes.)
 
 So, Quora's rationale for blocking the Internet Archive is that **Quora can't go back and automatically rewrite history whenever one of its users wants to**. 
 
