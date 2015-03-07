@@ -49,7 +49,7 @@ Quora recognizes that this is significant enough to [merit an explanation](https
  Disallow: /
 </pre></div>
 
-> (**Update, 2015-03-07**: After publication of this piece, Quora added the first paragraph below. I've [updated the excerpt](https://github.com/konklone/writing/commit/c18b2118193b725376a7648112701e5eb283cb9f) above to match their current robots.txt. You can [view my post's edit history](https://github.com/konklone/writing/commits/writing/blog/quora.md) to see changes.)
+_**Update, 2015-03-07**: After publication of this piece, Quora added the first paragraph above. I've [updated the excerpt](https://github.com/konklone/writing/commit/c18b2118193b725376a7648112701e5eb283cb9f) above to match their current robots.txt. You can [view my post's edit history](https://github.com/konklone/writing/commits/writing/blog/quora.md) to see changes._
 
 So, Quora's rationale for blocking the Internet Archive is that **Quora can't go back and automatically rewrite history whenever one of its users wants to**. 
 
