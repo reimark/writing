@@ -178,7 +178,7 @@ In discussing Chrome's new policy, Google's Ryan Sleevi makes this exact point �
 
 If you poke around [Google's SSL configuration](https://www.ssllabs.com/ssltest/analyze.html?d=google.com), you'll see that (!) they use certificates signed with SHA-1. But each certificate expires in 3 months, a short-lived window that reduces the chances that a certificate could be forged, while they [migrate to SHA-2 in 2015](https://twitter.com/agl__/status/503694839481761792).
 
-As importantly, a 3-month window **forces Google to make cert rotation operationally simple**. This is the equivalent of [Netflix's Chaos Monkey](http://blog.codinghorror.com/working-with-the-chaos-monkey/) — forcing yourself to take entropy and change seriously by turning it from an emergency into the routine.
+As importantly, a 3-month window **forces Google to make cert rotation operationally simple** across its own services. This is the equivalent of [Netflix's Chaos Monkey](http://blog.codinghorror.com/working-with-the-chaos-monkey/) — forcing yourself to take entropy and change seriously by turning it from an emergency into the routine.
 
 Google has made it somewhat easier for themselves to do this, by setting up a [private intermediate certificate authority for themselves](https://pki.google.com/), signed by GeoTrust, that can reissue certificates on demand. But you don't need to own an intermediate CA to make frequent certificate rotation a part of your business processes — you need to prioritize it. That's what Google's doing, and that's what they're arguing we should all do.
 
