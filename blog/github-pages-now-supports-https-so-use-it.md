@@ -82,7 +82,7 @@ It's unlikely that GitHub is going to create the infrastructure needed to native
 However, there are still a few things GitHub can do to lower the barrier to using HTTPS and to make people more aware of it.
 
 * **Document the feature.** There's no formal announcement or description of SSL for GitHub Pages; it could disappear any time. It's worth a quick blog post and a help page, to cement GitHub's commitment and describe how to avoid common mixed content pitfalls.
-* **Allow SSL for custom domains configured elsewhere.** As mentioned above, even if you configure your custom domain with a service like CloudFlare and point a CNAME at GitHub Pages, you'll get an [error like this one](https://theunitedstates.io). That requires action on GitHub's part to fix.
+* **Allow SSL for custom domains configured elsewhere.** As mentioned above, even if you configure your custom domain with a service like CloudFlare and point a CNAME at GitHub Pages, you'll get an error, and one that requires action on GitHub's part to fix.
 * **Shore up the SSL configuration.** `github.com`'s SSL is [world-class](https://www.ssllabs.com/ssltest/analyze.html?d=github.com&s=192.30.252.128&hideResults=on), but `github.io`'s could still [use some tweaks](https://www.ssllabs.com/ssltest/analyze.html?d=sunlightlabs.github.io) around forward secrecy and cipher choices.
 * Most importantly, **let users turn HTTPS on by default**, with a checkbox in their settings that forces a redirect at the server level. That would render the entire hack above unnecessary, and lead a lot more people to Just Do It. In fact, turn on the checkbox by default for new users, and for existing users who don't yet have any GitHub Pages!
 
