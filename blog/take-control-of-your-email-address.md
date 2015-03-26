@@ -197,7 +197,13 @@ Once the majority of your emails are getting labeled like that, you can reverse 
 
 **4. Gradually update your online accounts.** It may be obvious, but don't stress out about updating all of your online accounts. It's impossible to remember all of them, and impractical to go update them all at once. It's much easier to make it a habit to go change your email address whenever you end up on a site you have an account with. You'll naturally get the most important ones changed quickly.
 
-**5. (iOS only) Set it up on your phone.** If you use Gmail and an iPhone or iPad, and you use the default Mail app, you can configure it to use your own domain name. Phil Montero at The Anywhere Office has [a video walkthrough](http://www.youtube.com/watch?feature=player_embedded&v=0qx_UfsronA) of the process, and a [larger article](http://www.theanywhereoffice.com/digital-lifestyle/how-to-send-mail-from-your-own-domain-using-gmail-and-iphone.htm) that describes it along with some other things.
+**5. (iOS only) Set it up on your phone.** If you use Gmail and an iPhone or iPad, and you use the **native Gmail app**, it's pretty easy. Michael Alderman writes:
+
+> I removed my Gmail account from the app, then added it again. Once re-added, all the settings updated (defaulting the send-from alias, the "michael@" label, etc.). This was the same on both iOS apps (iPhone and iPad).
+
+In other words, Gmail for iOS automatically syncs with the settings you've created on the web. I can verify that the native Gmail app on Android does this too.
+
+If you use the **default Mail app** on iOS, you can also configure it to use your own domain name. Phil Montero at The Anywhere Office has [a video walkthrough](http://www.youtube.com/watch?feature=player_embedded&v=0qx_UfsronA) of the process, and a [larger article](http://www.theanywhereoffice.com/digital-lifestyle/how-to-send-mail-from-your-own-domain-using-gmail-and-iphone.htm) that describes it along with some other things.
 
 <p style="text-align: center"><iframe class="youtube" src="https://www.youtube.com/embed/0qx_UfsronA" frameborder="0" allowfullscreen></iframe></p>
 
