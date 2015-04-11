@@ -169,7 +169,7 @@ Next, Google will ask you which servers should send your email. You can leave it
 
 <img src="/assets/images/domains/gmail-new-email-3.png" class="block upper border" style="max-width: 650px" />
 
-That's an SMTP server address of `smtp.pobox.com`, a username of `[username]@pobox.com` (where `[username]` is the username your Pobox account is tied to), and your Pobox password. Choose port 587, and a "secured connection using TLS".
+Use `smtp.pobox.com` for your SMTP server. Use your new email address as your username, followed by your Pobox password. Choose port 587, and a "secured connection using TLS".
 
 **Note**: If you ever set up [two factor authentication for Pobox](https://www.pobox.com/profile/otp) (and [you should](https://konklone.com/post/protect-your-domain-name-with-two-factor-authentication)), you will need to [create an app-specific password](https://www.pobox.com/profile/apptoken) and give that to Gmail, instead of your normal Pobox password.
 
