@@ -167,7 +167,7 @@ Then enter your new email address in the popup window, and click "Next Step".
 
 Next, Google will ask you which servers should send your email. You can leave it as "Send through Gmail" if you want — but if you do that, many mail clients will show both of your email addresses to people. So, I recommend choosing "Send through [your domain's] SMTP servers" instead, and filling it out like so:
 
-<img src="/assets/images/domains/gmail-new-email-3.png" class="block upper border" />
+<img src="/assets/images/domains/gmail-new-email-3.png" class="block upper border" style="max-width: 650px" />
 
 That's an SMTP server address of `smtp.pobox.com`, a username of `[username]@pobox.com` (where `[username]` is the username your Pobox account is tied to), and your Pobox password. Choose port 587, and a "secured connection using TLS".
 
