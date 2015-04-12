@@ -234,7 +234,7 @@ You should also **back up your authentication certificate** that you use to log 
 <div class="footer-text">
 <strong>More Resources</strong>
 <br/>
-Did I mention how great <aa href="https://ssslmate.com">SSLMate</a> is yet?
+Did I mention how great <a href="https://sslmate.com">SSLMate</a> is yet?
 <br/>
 <a href="http://arstechnica.com/security/2009/12/how-to-get-set-with-a-secure-sertificate-for-free/">Glenn Fleishman's 2009 article</a> covers setting up HTTPS with Mac OS X and Apache.
 <br/>
