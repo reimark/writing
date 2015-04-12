@@ -144,6 +144,8 @@ That should do it — your certificate will appear in a text field for you to co
 
 ## Creating the full certificate chain
 
+(If you used <a href="https://sslmate.com">SSLMate</a>, you can <a href="#installing-the-certificates">skip this step</a>.)
+
 Next, we're going to create the "certificate chain" that your web server will use. It contains your certificate, and StartSSL's intermediary certificate. (Including StartSSL's root cert is not necessary, because browsers ship with it already.) Download the intermediate certificate from StartSSL:
 
 ```bash
