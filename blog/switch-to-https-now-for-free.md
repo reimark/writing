@@ -234,7 +234,7 @@ You should also **back up your authentication certificate** that you use to log 
 <div class="footer-text">
 <strong>More Resources</strong>
 <br/>
-<a href="http://www.troyhunt.com/2013/09/the-complete-guide-to-loading-free-ssl.html">Troy Hunt posted</a> his own guide to HTTPS with StartSSL for Windows and Azure users.
+Did I mention how great <aa href="https://ssslmate.com">SSLMate</a> is yet?
 <br/>
 <a href="http://arstechnica.com/security/2009/12/how-to-get-set-with-a-secure-sertificate-for-free/">Glenn Fleishman's 2009 article</a> covers setting up HTTPS with Mac OS X and Apache.
 <br/>
