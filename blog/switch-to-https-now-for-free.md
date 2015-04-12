@@ -140,11 +140,7 @@ It will ask you to confirm. If it looks right, hit "Continue".
 
 That should do it — your certificate will appear in a text field for you to copy and paste into a file. Call it whatever you want, but the rest of the guide will refer to it as `mydomain.com.crt`.
 
-## Installing the certificate in nginx
-
-If you have direct access to your web server and its nginx configuration, here's how to install your certificate. If you don't, check out [setup options for other common hosts](#setup-with-other-common-hosts) or [for Apache](https://www.insecure.ws/2013/10/11/ssltls-configuration-for-apache-mod_ssl/).
-
-First, make sure **port 443 is open** on your web server. Many web hosts automatically keep this port open for you. If you're using Amazon Web Services, you'll need to make sure your instance's security group has port 443 open.
+## Creating the full certificate chain
 
 Next, we're going to create the "certificate chain" that your web server will use. It contains your certificate, and StartSSL's intermediary certificate. (Including StartSSL's root cert is not necessary, because browsers ship with it already.) Download the intermediate certificate from StartSSL:
 
@@ -157,6 +153,16 @@ Then concatenate your certificate with theirs:
 ```bash
 cat mydomain.com.crt sub.class1.server.sha2.ca.pem > unified.crt
 ```
+
+## Installing the certificate
+
+If you have direct access to your web server and its nginx configuration, here's how to install your certificate. If you don't, check out [setup options for other common hosts](#setup-with-other-common-hosts) or [for Apache](https://www.insecure.ws/2013/10/11/ssltls-configuration-for-apache-mod_ssl/).
+
+First, make sure **port 443 is open** on your web server. Many web hosts automatically keep this port open for you. If you're using Amazon Web Services, you'll need to make sure your instance's security group has port 443 open.
+
+<div class="callout">
+Also, take a look at David Zvenyach's <a href="https://github.com/vzvenyach/nginx-ssl">nginx-ssl</a>, a simple script to bootstrap the nginx/HTTPS process.
+</div>
 
 Finally, tell your web server about your unified certificate, and your decrypted private key. I use nginx — below is the bare minimum nginx configuration you need. It redirects all HTTP requests to HTTPS requests using a 301 permanent redirect, and points the server to the certificate and key.
 
