@@ -29,7 +29,7 @@ Still, StartCom makes getting started with SSL simple and inexpensive. Their web
 Below, we'll go step by step through signing up with StartSSL and creating your certificate. We'll also cover installing it via nginx, but you can use the certificate with whatever web server you want.
 
 <div class="callout">
-<strong>Update:</strong> You may notice that my blog is now using Comodo, not StartSSL. I've been using my blog to test out Comodo and Namecheap, but I still recommend StartSSL and use it on <a href="https://isitchristmas.com/">my</a> <a href="https://oversight.io/">other</a> <a href="https://shaaaaaaaaaaaaa.com/">sites</a>.
+Final reminder: <strong><a href="https://sslmate.com">SSLMate</a> is <a href="https://sslmate.com/help/getting_started">way easier</a> than this. It's not too late!
 </div>
 
 ## Register with StartSSL
