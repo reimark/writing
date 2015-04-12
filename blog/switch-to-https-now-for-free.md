@@ -154,7 +154,7 @@ Then concatenate your certificate with theirs:
 cat mydomain.com.crt sub.class1.server.sha2.ca.pem > unified.crt
 ```
 
-## Installing the certificate
+## Installing the certificates
 
 If you have direct access to your web server and its nginx configuration, here's how to install your certificate. If you don't, check out [setup options for other common hosts](#setup-with-other-common-hosts) or [for Apache](https://www.insecure.ws/2013/10/11/ssltls-configuration-for-apache-mod_ssl/).
 
