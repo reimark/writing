@@ -1,5 +1,5 @@
 <div class="callout">
-<strong>Update, April 2015:</strong> While you can still get a free certificate from StartSSL, these days I use <strong><a href="https://sslmate.com">SSLMate</a></strong> for my domains, at home and at work. They're $16/year, but it's more than worth it to be able to run <code>sslmate buy</code> and have it Just Work.
+<strong>Update, April 2015:</strong> While you can still get a free certificate from StartSSL, these days I use <strong><a href="https://sslmate.com">SSLMate</a></strong> for my domains, at home and at work. They're $16/year, but it's more than worth it to be able to run <code>sslmate buy domain.com</code> and have it Just Work.
 <br/><br/>
 And: unlike StartSSL, you can reissue and revoke for free and as many times as you need. <strong><a href="https://sslmate.com">SSLMate</a></strong> is fantastic and I recommend the hell out of them. (They're not paying me, I swear!)
 </div>
