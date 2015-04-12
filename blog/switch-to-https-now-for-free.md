@@ -29,7 +29,7 @@ Still, StartCom makes getting started with SSL simple and inexpensive. Their web
 Below, we'll go step by step through signing up with StartSSL and creating your certificate. We'll also cover installing it via nginx, but you can use the certificate with whatever web server you want.
 
 <div class="callout">
-Final reminder: <strong><a href="https://sslmate.com">SSLMate</a>** is <a href="https://sslmate.com/help/getting_started">way easier</a> than this. It's not too late!
+Final reminder: <strong><a href="https://sslmate.com">SSLMate</a></strong> is <a href="https://sslmate.com/help/getting_started">way easier</a> than this. It's not too late!
 </div>
 
 ## Register with StartSSL
