@@ -202,11 +202,11 @@ Many common hosts don't give you direct access to install a certificate yourself
 
 If you use:
 
+* **Heroku**, you'll need to pay $20/month for their [SSL add-on](https://addons.heroku.com/ssl), and then use it to [set up an SSL endpoint](https://devcenter.heroku.com/articles/ssl-endpoint). Check out Moncef Belyamani's [SSLMate + Heroku tutorial](http://www.moncefbelyamani.com/how-to-add-ssl-to-your-heroku-custom-domain-with-sslmate/) for some straightforward assistance.
 * **Amazon S3**, as of March 2014 they support **[free SSL for custom domains](http://aws.amazon.com/cloudfront/custom-ssl-domains/)** via CloudFront. Bear in mind this requires [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication), which won't work for users running Internet Explorer on Windows XP or Android 2.x's default browser. It's also unsupported by Python 2.x. If that's a dealbreaker, then you'll have to pay an insane $600/month for a dedicated IP.
 * **Apache**, check out [kang's blog post](https://www.insecure.ws/linux/apache_ssl.html) on making an Apache config that gets the A rating from Qualys.
 * **Bytemark** and other servers using **[Symbiosis](https://www.bytemark.co.uk/hosting/symbiosis/)** for Debian support [simple SSL hosting as standard](http://symbiosis.bytemark.co.uk/docs/ch-ssl-hosting.html). Use the key generation guide above and name it `ssl.key`, following the Symbiosis documentation. Likewise, the certificate when generated should be `ssl.crt`. You'll also need StartSSL intermediate certificate that's mentioned above: [`sub.class1.server.sha2.ca.pem`](https://www.startssl.com/certs/class1/sha2/pem/sub.class1.server.sha2.ca.pem). Rename this to `ssl.bundle`.
 * **Github Pages**, they offer [undocumented HTTPS support](https://konklone.com/post/github-pages-now-supports-https-so-use-it) for `*.github.io` domains. However, they offer no HTTPS support at all for custom domains, so for that you'll have to look elsewhere (see below).
-* **Heroku**, you'll need to pay $20/month for their [SSL add-on](https://addons.heroku.com/ssl), and then use it to [set up an SSL endpoint](https://devcenter.heroku.com/articles/ssl-endpoint).
 * **Webfaction**, they [provide HTTPS support](http://docs.webfaction.com/user-guide/websites.html#secure-sites-https) at no extra charge. Go [Webfaction](https://www.webfaction.com/)!
 
 
@@ -238,6 +238,7 @@ You should also **back up your authentication certificate** that you use to log 
 <br/>
 Did I mention how great <a href="https://sslmate.com">SSLMate</a> is yet?
 <br/>
+This <a href="http://www.moncefbelyamani.com/how-to-add-ssl-to-your-heroku-custom-domain-with-sslmate/">Heroku + SSLMate tutorial</a> could be helpful.
 <a href="http://arstechnica.com/security/2009/12/how-to-get-set-with-a-secure-sertificate-for-free/">Glenn Fleishman's 2009 article</a> covers setting up HTTPS with Mac OS X and Apache.
 <br/>
 <a href="http://www.westphahl.net/blog/2012/01/03/setting-up-https-with-nginx-and-startssl/">Simon Westphahl's 2012 blog post</a> describes setting up HTTPS using the command line and nginx.
