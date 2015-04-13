@@ -238,7 +238,8 @@ You should also **back up your authentication certificate** that you use to log 
 <br/>
 Did I mention how great <a href="https://sslmate.com">SSLMate</a> is yet?
 <br/>
-This <a href="http://www.moncefbelyamani.com/how-to-add-ssl-to-your-heroku-custom-domain-with-sslmate/">Heroku + SSLMate tutorial</a> could be helpful.
+Moncef Belyamani wrote a helpful <a href="http://www.moncefbelyamani.com/how-to-add-ssl-to-your-heroku-custom-domain-with-sslmate/">Heroku + SSLMate tutorial</a>.
+<br/>
 <a href="http://arstechnica.com/security/2009/12/how-to-get-set-with-a-secure-sertificate-for-free/">Glenn Fleishman's 2009 article</a> covers setting up HTTPS with Mac OS X and Apache.
 <br/>
 <a href="http://www.westphahl.net/blog/2012/01/03/setting-up-https-with-nginx-and-startssl/">Simon Westphahl's 2012 blog post</a> describes setting up HTTPS using the command line and nginx.
