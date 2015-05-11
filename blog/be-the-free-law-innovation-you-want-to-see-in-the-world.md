@@ -1,5 +1,5 @@
 <figure>
-<a href="https://screendoor.dobt.co/opengov-foundation/free-law-innovation-fellowship-civic-hacking-on-the-d-c-council/responses/new" target="_blank"><img src="https://konklone.com/assets/images/blog/dave/dave.png" style="width: 650px" /></a>
+<a href="https://screendoor.dobt.co/opengov-foundation/free-law-innovation-fellowship-civic-hacking-on-the-d-c-council/responses/new" target="_blank"><img src="https://konklone.com/assets/images/blog/dave/dave.png" /></a>
 <figcaption>Don't let Dave Zvenyach down. <a href="https://screendoor.dobt.co/opengov-foundation/free-law-innovation-fellowship-civic-hacking-on-the-d-c-council/responses/new">Apply to the Free Law Innovation Fellowship.</a></figcaption>
 </figure> 
 
