@@ -1,5 +1,5 @@
 <figure>
-<a target="_blank" href="http://lance.wordpress.com/2014/10/30/slack-hq/"><img src="/assets/images/blog/slack/slack-hq.jpg" style="width: 650px"></a>
+<a target="_blank" href="http://lance.wordpress.com/2014/10/30/slack-hq/"><img src="/assets/images/blog/slack/slack-hq.jpg"></a>
 </figure>
 
 [Slack](https://slack.com), a young and wildly successful team chat and collaboration service, [updated its TOS and Privacy Policy](http://slackhq.com/post/103473448150/slacks-policy-update) today. They have a [friendly explainer](https://slack.zendesk.com/hc/en-us/articles/203950296) that describes a very unfriendly new policy: **mandatory dispute resolution through arbitration**. You give up your right to sue, or to join a class action lawsuit, and instead agree that any disputes will be resolved through [arbitration](https://en.wikipedia.org/wiki/Arbitration_in_the_United_States).
