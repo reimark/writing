@@ -48,7 +48,7 @@ Starting that movement doesn't happen in a vacuum. [Chrome is there](https://www
 
 There are plenty of folks who feel like HTTPS configuration and the CA system need to become painless before we can make it the new standard. However, this has cause and effect backwards: the **only** way to motivate the investment and market demand necessary to make HTTPS free, easy, and everywhere is to make it part of the baseline, like DNS is today.
 
-The transition to HTTPS won't be painless, but it is necessary, and it's getting [easier](https://sslmate.com/ every [year](https://letsencrypt.org). The web will evolve, and when it does we'll have pushed some of its power back out of the center and into its edges for another generation to wield, love, and defend.
+The transition to HTTPS won't be painless, but it is necessary, and it's getting [easier](https://sslmate.com) every [year](https://letsencrypt.org). The web will evolve, and when it does we'll have pushed some of its power back out of the center and into its edges for another generation to wield, love, and defend.
 
 <div class="callout">
 If you're really concerned about keeping the internet a place for everyone, look at what's happening right now with DNS and ICANN, as the US government attempts to voluntarily relinquish control over IANA responsibilities. There's even a <a href="https://energycommerce.house.gov/hearing/stakeholder-perspectives-iana-transition">House committee hearing on the subject</a> happening today. 
