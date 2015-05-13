@@ -1,5 +1,3 @@
-# We're Deprecating HTTP And It's Going To Be Okay
-
 Mozilla recently announced their **[intent to deprecate the insecure HTTP protocol in Firefox](https://blog.mozilla.org/security/2015/04/30/deprecating-non-secure-http/)**. In practice, they plan to do this by gradually removing the ability for HTTP websites to use various web features. They're joined by the Chrome security team, which declared something similar in December.
 
 Mozilla's announcement has gotten a lot of attention, more than Chrome's, and much of it negative. There have been various laments, but the most sincere and helpful one is Ben Klemens' ["HTTPS: the end of an era"](https://medium.com/@b_k/https-the-end-of-an-era-c106acded474):
