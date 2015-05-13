@@ -1,6 +1,5 @@
 <figure>
 <img title="the internet forever" src="https://konklone.com/assets/images/blog/deprecating-http/deprecating-http.jpg" />
-<figcaption>life in the future, today</figcaption>
 </figure>
 
 Mozilla recently announced their **[intent to deprecate the insecure HTTP protocol in Firefox](https://blog.mozilla.org/security/2015/04/30/deprecating-non-secure-http/)**. In practice, they plan to do this by gradually removing the ability for HTTP websites to use various web features. They're joined by the Chrome security team, which declared something similar in December.
