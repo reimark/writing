@@ -36,7 +36,9 @@ When I look at all these things, I see companies and government asserting themse
 
 In short, I see power moving away from the leafs and devolving back into the center, where power has been used to living for thousands of years.
 
-We really can alter this dynamic by making strong encryption ubiquitous, and on the web that means HTTPS. We can force online surveillance to be as narrowly targeted and inconvenient as law enforcement was always meant to be. We can force ISPs to be the neutral commodity pipes they were always meant to be.
+What animates me is knowing that **we really can alter this dynamic** by making strong encryption ubiquitous, and on the web that means HTTPS. We can force online surveillance to be as narrowly targeted and inconvenient as law enforcement was always meant to be. We can force ISPs to be the neutral commodity pipes they were always meant to be.
+
+As problematic as the certificate authority (CA) system that underlies HTTPS may be, its relative centralization allows for one of the few systems of encryption available today that Just Works for regular people. And in this way, t's no different than registering a domain: you pay a nominal fee to a usually for-profit organization to participate in a mostly centralized system.
 
 Richard Barnes, the author of Mozilla's HTTP deprecation announcement and policy, [responded to Ben](https://medium.com/@rlbarnes/hey-ben-this-is-richard-the-guy-who-wrote-the-blog-post-that-kicked-this-all-off-thanks-for-59e8a013b68a), saying:
 
@@ -47,3 +49,8 @@ Starting that movement doesn't happen in a vacuum. [Chrome is there](https://www
 There are plenty of folks who feel like HTTPS configuration and the CA system need to become painless before we can make it the new standard. However, this has cause and effect backwards: the only way to motivate the investment necessary to make HTTPS free, easy, and everywhere is to make it part of the baseline, like DNS is today. There's no other way, and with what the network has become in 2015, there's no other choice.
 
 The transition to HTTPS won't be painless, but it is necessary, and it will get better every year. The web will evolve, and when it does we'll have pushed some of its power back out of the center and into its edges for another generation to wield, love, and defend.
+
+<div class="callout">
+If you're really concerned about keeping the internet a place for everyone, look at what's happening right now with DNS and ICANN, as the US government attempts to voluntarily relinquish control over IANA responsibilities. There's even a <a href="https://energycommerce.house.gov/hearing/stakeholder-perspectives-iana-transition">House committee hearing on the subject</a> happening today. 
+<br/><br/>I can't recommend highly enough this <a href="https://www.newamerica.org/oti/controlling-internet-infrastructure/">outstanding explanation of the IANA transition</a> (<a href="https://static.newamerica.org/attachments/2964-controlling-internet-infrastructure/IANA_Paper_No_1_Final.32d31198a3da4e0d859f989306f6d480.pdf">PDF</a>), by Danielle Kehl and David Post at the Open Technology Institute, for understanding the history and politics of ICANN.
+</div>
