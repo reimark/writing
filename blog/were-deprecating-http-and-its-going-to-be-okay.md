@@ -8,9 +8,9 @@ Mozilla's announcement has gotten a lot of attention, more than Chrome's, and mu
 
 > But the Mozilla foundation’s HTTPS requirement is, to me, the real end of the DIY era. This is not a closed-source corporation, or a startup pushing its new tool, or the arrogant guy at the hackathon, but the Mozilla Foundation — “Our mission is to promote openness, innovation & opportunity on the Web” — saying that if you are building web pages using tools from your desert island, without first filling in registration forms, then you are doing it wrong.
 
-I understand the fear of raising the barriers to entry. As a child, I too fell in love with an internet made by everyone, and have spent my [career](https://konklone.com/resume), my [volunteer work](___), and my [hobbies](___) trying to share what that love has taught me. I want children everywhere in the world to grow up feeling like the internet that permeates their lives is also in their service -- a lego set in real life that you can buy with a week's allowance.
+I understand the fear of raising the barriers to entry. As a child, I too fell in love with an internet made by everyone, and have spent my [career](https://konklone.com/resume), my [volunteer work](https://konklone.com/post/owning-your-email-address-the-workshop), and my [hobbies](https://konklone.com/post/isitchristmas-dot-com-2013-more-and-better) trying to share what that love has taught me. I want children everywhere in the world to grow up feeling like the internet that permeates their lives is also in their service -- a lego set in real life that you can buy with a week's allowance.
 
-As an adult, I also understand that power for ordinary people is hard to come by and hard to keep. The path of least resistance for human society is for money to buy more money, and might to demand more might. Democracy is designed not so much to expand freedom as it is to give people tools to desperately hold onto the freedom they have.
+Yet as an adult, I also understand that power for ordinary people is hard to come by and hard to keep. The path of least resistance for human society is for money to buy more money, and might to demand more might. Democracy is designed not so much to expand freedom as it is to give people tools to desperately hold onto the freedom they have.
 
 Put another way: power has a way of flowing away from the varied, strange, beautiful little leaf nodes and into the unaccountable, unimaginative, ever-hungry center.
 
@@ -46,7 +46,7 @@ Richard Barnes, the author of Mozilla's HTTP deprecation announcement and policy
 
 Starting that movement doesn't happen in a vacuum. [Chrome is there](https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure), the [IETF](https://datatracker.ietf.org/doc/rfc7258/) and [W3C TAG](http://www.w3.org/2001/tag/doc/web-https) are there. That kind of movement can become self-fulfilling, motivating more people and work than anyone thought possible at the start.
 
-There are plenty of folks who feel like HTTPS configuration and the CA system need to become painless before we can make it the new standard. However, this has cause and effect backwards: the only way to motivate the investment necessary to make HTTPS free, easy, and everywhere is to make it part of the baseline, like DNS is today. There's no other way, and with what the network has become in 2015, there's no other choice.
+There are plenty of folks who feel like HTTPS configuration and the CA system need to become painless before we can make it the new standard. However, this has cause and effect backwards: the **only** way to motivate the investment and market demand necessary to make HTTPS free, easy, and everywhere is to make it part of the baseline, like DNS is today.
 
 The transition to HTTPS won't be painless, but it is necessary, and it will get better every year. The web will evolve, and when it does we'll have pushed some of its power back out of the center and into its edges for another generation to wield, love, and defend.
 
