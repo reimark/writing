@@ -36,9 +36,9 @@ When I look at all these things, I see companies and government asserting themse
 
 In short, I see power moving away from the leafs and devolving back into the center, where power has been used to living for thousands of years.
 
-What animates me is knowing that **we really can alter this dynamic** by making strong encryption ubiquitous, and on the web that means HTTPS. We can force online surveillance to be as narrowly targeted and inconvenient as law enforcement was always meant to be. We can force ISPs to be the neutral commodity pipes they were always meant to be.
+What animates me is knowing that **we can actually change this dynamic** by making strong encryption ubiquitous. We can force online surveillance to be as narrowly targeted and inconvenient as law enforcement was always meant to be. We can force ISPs to be the neutral commodity pipes they were always meant to be. On the web, that means HTTPS.
 
-As [problematic](https://konklone.com/post/certificate-authorities-are-actually-a-tremendous-problem) as the certificate authority (CA) system that underlies HTTPS may be, its relative centralization allows for one of the few systems of encryption available today that Just Works for regular people. And in this way, t's no different than registering a domain: you pay a nominal fee to a usually for-profit organization to participate in a mostly centralized system.
+As [problematic](https://konklone.com/post/certificate-authorities-are-actually-a-tremendous-problem) as the certificate authority (CA) system that underlies HTTPS may be, its relative centralization allows for one of the very few systems of encryption available today that Just Works for regular people. In many ways, it's no different than registering a domain: you pay a nominal fee to a usually for-profit organization to participate in a mostly centralized system.
 
 Richard Barnes, the author of Mozilla's HTTP deprecation announcement and policy, [responded to Ben](https://medium.com/@rlbarnes/hey-ben-this-is-richard-the-guy-who-wrote-the-blog-post-that-kicked-this-all-off-thanks-for-59e8a013b68a), saying:
 
@@ -46,9 +46,9 @@ Richard Barnes, the author of Mozilla's HTTP deprecation announcement and policy
 
 Starting that movement doesn't happen in a vacuum. [Chrome is there](https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure), the [IETF](https://datatracker.ietf.org/doc/rfc7258/) and [W3C TAG](http://www.w3.org/2001/tag/doc/web-https) are there -- even the [ad industry is getting there](http://www.iab.net/iablog/2015/03/adopting-encryption-the-need-for-https.html), with the news media [right behind them](http://open.blogs.nytimes.com/2014/11/13/embracing-https/). That kind of movement can become self-fulfilling, motivating more people and work than anyone thought possible at the start.
 
-There are plenty of folks who feel like HTTPS configuration and the CA system need to become painless before we can make it the new standard. However, this has cause and effect backwards: the **only** way to motivate the investment and market demand necessary to make HTTPS free, easy, and everywhere is to make it part of the baseline, like DNS is today.
+There are plenty of folks who feel like HTTPS configuration and the CA system need to become painless before we can make it the new standard. However, this has cause and effect backwards: the **only** way to motivate the investment and market demand necessary to make HTTPS free, easy, and everywhere is to first make it part of the baseline, like DNS is today.
 
-The transition to HTTPS won't be painless, but it is necessary, and it's getting [easier](https://sslmate.com) every [year](https://letsencrypt.org). The web will evolve, and when it does we'll have pushed some of its power back out of the center and into its edges for another generation to wield, love, and defend.
+The transition to HTTPS won't be painless, but it is necessary, and it's already getting [easier](https://sslmate.com) every [year](https://letsencrypt.org). The web will evolve, and when it does we'll have pushed some of its power back out of the center and into its edges for another generation to wield, love, and defend.
 
 <div class="callout">
 If you're really concerned about keeping the internet a place for everyone, look at what's happening right now with DNS and ICANN, as the US government attempts to voluntarily relinquish control over IANA responsibilities. There's even a <a href="https://energycommerce.house.gov/hearing/stakeholder-perspectives-iana-transition">House committee hearing on the subject</a> happening today. 
