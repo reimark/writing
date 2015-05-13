@@ -38,7 +38,7 @@ In short, I see power moving away from the leafs and devolving back into the cen
 
 What animates me is knowing that **we really can alter this dynamic** by making strong encryption ubiquitous, and on the web that means HTTPS. We can force online surveillance to be as narrowly targeted and inconvenient as law enforcement was always meant to be. We can force ISPs to be the neutral commodity pipes they were always meant to be.
 
-As problematic as the certificate authority (CA) system that underlies HTTPS may be, its relative centralization allows for one of the few systems of encryption available today that Just Works for regular people. And in this way, t's no different than registering a domain: you pay a nominal fee to a usually for-profit organization to participate in a mostly centralized system.
+As [problematic](https://konklone.com/post/certificate-authorities-are-actually-a-tremendous-problem) as the certificate authority (CA) system that underlies HTTPS may be, its relative centralization allows for one of the few systems of encryption available today that Just Works for regular people. And in this way, t's no different than registering a domain: you pay a nominal fee to a usually for-profit organization to participate in a mostly centralized system.
 
 Richard Barnes, the author of Mozilla's HTTP deprecation announcement and policy, [responded to Ben](https://medium.com/@rlbarnes/hey-ben-this-is-richard-the-guy-who-wrote-the-blog-post-that-kicked-this-all-off-thanks-for-59e8a013b68a), saying:
 
