@@ -46,7 +46,7 @@ Richard Barnes, the author of Mozilla's HTTP deprecation announcement and policy
 
 Starting that movement doesn't happen in a vacuum. [Chrome is there](https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure), the [IETF](https://datatracker.ietf.org/doc/rfc7258/) and [W3C TAG](http://www.w3.org/2001/tag/doc/web-https) are there -- even the [ad industry is getting there](http://www.iab.net/iablog/2015/03/adopting-encryption-the-need-for-https.html), with the news media [right behind them](http://open.blogs.nytimes.com/2014/11/13/embracing-https/). That kind of movement can become self-fulfilling, motivating more people and work than anyone thought possible at the start.
 
-There are plenty of folks who feel like HTTPS configuration and the CA system need to become painless before we can make it the new standard. However, this has cause and effect backwards: the **only** way to motivate the investment and market demand necessary to make HTTPS free, easy, and everywhere is to first make it part of the baseline, like DNS is today.
+Many have said that HTTPS configuration and the CA system need to become painless _before_ we can make it the new standard. However, this has cause and effect backwards: the **only** way to motivate the investment and market demand necessary to make HTTPS free, easy, and everywhere is to first make it part of the baseline, like DNS is today.
 
 The transition to HTTPS won't be painless, but it is necessary, and it's already getting [easier](https://sslmate.com) every [year](https://letsencrypt.org). The web will evolve, and when it does we'll have pushed some of its power back out of the center and into its edges for another generation to wield, love, and defend.
 
