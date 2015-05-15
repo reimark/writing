@@ -56,5 +56,5 @@ If you're really concerned about keeping the internet a place for everyone, look
 </div>
 
 <div class="footer-text">
-This article also appeared on <a href="http://motherboard.vice.com/read/the-web-is-deprecating-http-and-its-going-to-be-okay">Motherboard</a>, and was discussed on <a href="http://www.reddit.com/r/programming/comments/35vm9r/were_deprecating_http_and_its_going_to_be_okay/"><code>/r/programming</code></a> and <a href="http://www.reddit.com/r/linux/comments/35vtus/were_deprecating_http_and_its_going_to_be_okay/"><code>/r/linux</code></a>.
+This article also appeared on <a href="http://motherboard.vice.com/read/the-web-is-deprecating-http-and-its-going-to-be-okay">Motherboard</a>, and was discussed on <a href="http://www.reddit.com/r/programming/comments/35vm9r/were_deprecating_http_and_its_going_to_be_okay/">/r/programming</a> and <a href="http://www.reddit.com/r/linux/comments/35vtus/were_deprecating_http_and_its_going_to_be_okay/">/r/linux</a>.
 </div>
