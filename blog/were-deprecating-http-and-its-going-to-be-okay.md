@@ -54,3 +54,7 @@ The transition to HTTPS won't be painless, but it is necessary, and it's already
 If you're really concerned about keeping the internet a place for everyone, look at what's happening right now with DNS and ICANN, as the US government attempts to voluntarily relinquish control over IANA responsibilities. There's even a recent <a href="https://energycommerce.house.gov/hearing/stakeholder-perspectives-iana-transition">House committee hearing on the subject</a>. 
 <br/><br/>I can't recommend highly enough this <a href="https://www.newamerica.org/oti/controlling-internet-infrastructure/">outstanding explanation of the IANA transition</a> (<a href="https://static.newamerica.org/attachments/2964-controlling-internet-infrastructure/IANA_Paper_No_1_Final.32d31198a3da4e0d859f989306f6d480.pdf">PDF</a>), by Danielle Kehl and David Post at the Open Technology Institute, for understanding the history and politics of ICANN.
 </div>
+
+<div class="footer-text">
+This article also appeared on <a href="http://motherboard.vice.com/read/the-web-is-deprecating-http-and-its-going-to-be-okay">Motherboard</a>, and was discussed on <a href="http://www.reddit.com/r/programming/comments/35vm9r/were_deprecating_http_and_its_going_to_be_okay/"><code>/r/programming</code></a> and <a href="http://www.reddit.com/r/linux/comments/35vtus/were_deprecating_http_and_its_going_to_be_okay/"><code>/r/linux</code></a>.
+</div>
