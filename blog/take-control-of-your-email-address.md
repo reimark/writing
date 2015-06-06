@@ -224,3 +224,7 @@ As you encounter services and companies on the Internet, consider whether they w
 The goal of many other successful Internet companies is to convince you not to bother with all that learning, so that they can be a part of your identity and extract as much value from your daily life as possible. Free services like Twitter and Google offer lots of benefits, and certain kinds of power. But I think we've all felt that uncomfortable gut sensation we get when we see a bad news headline, or a canned product, or really anything that reminds us how much we depend on these free, smiling behemoths and how little control we have over them.
 
 Getting a domain name and sticking it in your email is just a small step towards online independence. There's a lot more you can do. But it is a real step, and you've taken it.
+
+<div class="callout">
+<strong>P.S.</strong> Want to go a step further, and host your own email server? Then you need <strong><a href="https://mailinabox.email">Mail-in-a-Box</a></strong>, a fantastic <a href="https://github.com/mail-in-a-box/mailinabox">open source project</a> by <a href="https://twitter.com/joshdata">Josh Tauberer</a> that makes it possible to own your own email in 2015. It's definitely a bit more work than just setting up email forwarding, but maybe give it a shot with a new email address to see how you like it.
+</div>
