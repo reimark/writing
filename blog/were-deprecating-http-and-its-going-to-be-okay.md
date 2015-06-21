@@ -14,6 +14,11 @@ Yet as an adult, I also understand that power for ordinary people is hard to com
 
 Put another way: power has a way of flowing away from the varied, strange, beautiful little leaf nodes and into the unaccountable, unimaginative, ever-hungry center.
 
+<figure>
+<a href="http://www.e-ir.info/2014/01/09/the-potential-of-social-network-analysis-in-intelligence/" target="_blank"><img title="leaf nodes" src="https://konklone.com/assets/images/blog/deprecating-http/wheaton-richley.jpg" /></a>
+<figcaption>Image source: <a href="http://www.e-ir.info/2014/01/09/the-potential-of-social-network-analysis-in-intelligence/">Melonie Richey</a></figcaption>
+</figure>
+
 TCP/IP, DNS, and the web were each tremendous reversals of this trend, freely giving the means of production to all of us little leafs. It felt like the powers that be just didn't realize what was happening until it was too late.
 
 But when I look at the last few years, I see a very different web than the one I was introduced to:
