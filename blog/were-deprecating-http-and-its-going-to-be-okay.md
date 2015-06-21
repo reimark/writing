@@ -12,7 +12,7 @@ I understand the fear of raising the barriers to entry. As a child, I too fell i
 
 Yet as an adult, I also understand that power for ordinary people is hard to come by and hard to keep. The path of least resistance for human society is for money to buy more money, and might to demand more might. Democracy is designed not so much to expand freedom as it is to give people tools to desperately hold onto the freedom they have.
 
-Put another way: power has a way of flowing away from the varied, strange, beautiful little leaf nodes and into the unaccountable, unimaginative, ever-hungry center.
+Put another way: power has a way of flowing away from the varied, strange, beautiful little leaf nodes on the outer edges and into the unaccountable, unimaginative, ever-hungry center.
 
 <figure>
 <a href="http://www.e-ir.info/2014/01/09/the-potential-of-social-network-analysis-in-intelligence/" target="_blank"><img title="leaf nodes" src="https://konklone.com/assets/images/blog/deprecating-http/wheaton-richey.png" /></a>
