@@ -15,7 +15,7 @@ Yet as an adult, I also understand that power for ordinary people is hard to com
 Put another way: power has a way of flowing away from the varied, strange, beautiful little leaf nodes and into the unaccountable, unimaginative, ever-hungry center.
 
 <figure>
-<a href="http://www.e-ir.info/2014/01/09/the-potential-of-social-network-analysis-in-intelligence/" target="_blank"><img title="leaf nodes" src="https://konklone.com/assets/images/blog/deprecating-http/wheaton-richley.jpg" /></a>
+<a href="http://www.e-ir.info/2014/01/09/the-potential-of-social-network-analysis-in-intelligence/" target="_blank"><img title="leaf nodes" src="https://konklone.com/assets/images/blog/deprecating-http/wheaton-richey.jpg" /></a>
 <figcaption>Image source: <a href="http://www.e-ir.info/2014/01/09/the-potential-of-social-network-analysis-in-intelligence/">Melonie Richey</a></figcaption>
 </figure>
 
