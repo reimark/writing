@@ -2,7 +2,7 @@
 <figcaption>This is a stock photo, but it's the same model I own.</figcaption>
 </figure>
 
-`<update>` Since posting this, [Dropbox](https://blogs.dropbox.com/dropbox/2015/08/u2f-security-keys/) and [GitHub](https://github.com/blog/2071-github-supports-universal-2nd-factor-authentication) have both added support for U2F keys. Microsoft Edge has [begun development](https://dev.modern.ie/platform/status/fido20webapis/) on integrating U2F. Mozilla hasn't made any announcements, but [this is their tracking bug for the feature](https://bugzilla.mozilla.org/show_bug.cgi?id=1065729). `</update>`
+`<update>` Since posting this, **[Dropbox](https://blogs.dropbox.com/dropbox/2015/08/u2f-security-keys/)** and **[GitHub](https://github.com/blog/2071-github-supports-universal-2nd-factor-authentication)** have both added support for U2F keys. Microsoft Edge has [begun development](https://dev.modern.ie/platform/status/fido20webapis/) on integrating U2F. Mozilla hasn't made any announcements, but [this is Firefox's tracking bug for the feature](https://bugzilla.mozilla.org/show_bug.cgi?id=1065729). `</update>`
 
 I just got a [U2F security key](http://www.amazon.com/gp/product/B00NLKA0D8/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1), for less than $20, to use as the second factor to log into my Google account. My model is by Yubico, sometimes called a "Yubikey". It's a super-light USB wafer you put into your computer, with a button you tap to log in to websites.
 
