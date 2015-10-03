@@ -2,7 +2,7 @@
 <figcaption>This is a stock photo, but it's the same model I own.</figcaption>
 </figure>
 
-I just got a [FIDO security key](http://www.amazon.com/gp/product/B00NLKA0D8/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1), for less than $20, to use as the second factor to log into my Google account. My model is by Yubico, sometimes called a "Yubikey". It's a super-light USB wafer you put into your computer, with a button you tap to log in to websites.
+I just got a [U2F security key](http://www.amazon.com/gp/product/B00NLKA0D8/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1), for less than $20, to use as the second factor to log into my Google account. My model is by Yubico, sometimes called a "Yubikey". It's a super-light USB wafer you put into your computer, with a button you tap to log in to websites.
 
 This is a new thing: Google just recently [announced support for security keys](http://googleonlinesecurity.blogspot.com/2014/10/strengthening-2-step-verification-with.html) for their login system. Chrome is the first to ship support for them, but other browsers should follow soon.
 
@@ -38,6 +38,6 @@ Copy the text of that file to `/etc/udev/rules.d/70-u2f.rules`, and run:
 sudo service udev restart
 ```
 
-Then unplug and re-plug in the FIDO, and it should work.
+Then unplug and re-plug in the U2F key, and it should work.
 
 If things don't work, well, try rebooting. If that still doesn't work, leave a comment, [email me](mailto:eric@konklone.com), or [edit my blog post](https://github.com/konklone/writing/blob/writing/blog/get-a-fido-key-right-now-and-log-into-stuff-with-it.md) to fix it.
