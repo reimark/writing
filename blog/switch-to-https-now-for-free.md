@@ -3,7 +3,7 @@
 <br/><br/>
 Instead, check out either of two great options:
 <br/><br/>
-1) <strong><a href="https://sslmate.com">SSLMate</strong> is $16/year for a single-domain cert. While it's more than $0, it's more than worth it to be able to run <code>sslmate buy domain.com</code> and have it Just Work.
+1) <strong><a href="https://sslmate.com">SSLMate</a></strong> is $16/year for a single-domain cert. While it's more than $0, it's more than worth it to be able to run <code>sslmate buy domain.com</code> and have it Just Work.
 <br/><br/>
 If you use SSLMate, this guide will still help you -- pick it up from <a href="#installing-the-certificates">Installing the certificates</a> and <a href="#setup-with-other-common-hosts">Setup with other common hosts</a>.
 <br/><br/>
