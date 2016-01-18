@@ -3,11 +3,11 @@
 <br/><br/>
 Instead, check out either of two great options:
 <br/><br/>
-1) <strong><a href="https://sslmate.com">SSLMate</a></strong> is $16/year for a single-domain cert. While it's more than $0, it's more than worth it to be able to run <code>sslmate buy domain.com</code> and have it Just Work.
+1) <strong><a href="https://sslmate.com">SSLMate</a></strong> issues single-domain certificates for <a href="https://sslmate.com/pricing">$16/year</a>. While it's more than $0, it's more than worth it to be able to run <code>sslmate buy mywebsite.com</code> and have it Just Work.
 <br/><br/>
 If you use SSLMate, this guide will still help you -- pick it up from <a href="#installing-the-certificates">Installing the certificates</a> and <a href="#setup-with-other-common-hosts">Setup with other common hosts</a>.
 <br/><br/>
-2) <strong><a href="https://letsencrypt.org">Let's Encrypt</a></strong> is here! They issue certificates entirely for free. Revocation is free, multi-domain certificates are free, and they are a bona fide non-profit. The downside is that currently their [instructions](https://letsencrypt.readthedocs.org/en/latest/using.html#installation) and [official command line client](https://github.com/letsencrypt/letsencrypt) are a little rough.
+2) <strong><a href="https://letsencrypt.org">Let's Encrypt</a></strong> is here! They issue certificates entirely for free. Revocation is free, multi-domain certificates are free, and they are a bona fide non-profit. The downside is that currently their <a href="https://letsencrypt.readthedocs.org/en/latest/using.html#installation">instructions</a> and <a href="https://github.com/letsencrypt/letsencrypt">official command line client</a> are a little rough.
 <br/><br/>
 I'm keeping the rest of the article intact below for historical purposes, but again: you should really go check out <strong><a href="https://sslmate.com">SSLMate</a></strong> and <strong><a href="https://letsencrypt.org">Let's Encrypt</a></strong> instead. I can't guarantee that the below steps will continue to work.
 </div>
