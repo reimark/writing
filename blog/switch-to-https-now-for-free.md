@@ -223,11 +223,9 @@ The tradeoffs are yours to choose, and yours alone!
 
 ## Mixed Content Warnings
 
-If your site is running on HTTPS, it's important to make sure all linked resources — images, stylesheets, JavaScript, etc. — are HTTPS too. If they're not, users' browsers will complain. Newer versions of Firefox will [outright block insecure content](https://blog.mozilla.org/tanvi/2013/04/10/mixed-content-blocking-enabled-in-firefox-23/) on a secure page.
+If your site is running on HTTPS, it's important to make sure all linked resources — images, stylesheets, JavaScript, etc. — are HTTPS too. If they're not, users' browsers will complain about [mixed content](https://https.cio.gov/mixed-content/).
 
 Fortunately, pretty much every major service with an embed code has an HTTPS version, and most (including Google Analytics and Typekit) handle it automatically. For others, you'll need to figure it out on a case by case basis.
-
-Where you need to support both HTTP and HTTPS, use [protocol-relative URLs](http://billpatrianakos.me/blog/2013/04/18/protocol-relative-urls/) (starting URLs with `//domain.com`). They're supported just about everywhere except (of course) for IE6.
 
 ## Back up your keys and certificates
 
