@@ -11,7 +11,7 @@ If you use SSLMate, this guide will still help you -- pick it up from <a href="#
 <br/><br/>
 3) If you're using AWS, maybe <strong><a href="https://aws.amazon.com/certificate-manager/">AWS Certificate Manager</a></strong> (ACM). These certificates are free and issued directly by Amazon and last a little over a year. However, they currently require manual issuance/renewal through email validation, and do not support <a href="https://www.certificate-transparency.org/">Certificate Transparency</a>. Here's a <a href="https://olivermak.es/2016/01/aws-tls-certificate-with-jekyll/">good ACM guide for Jekyll</a>.
 <br/><br/>
-I'm keeping the rest of the article intact below for historical purposes, but again: you should really go check out <strong><a href="https://sslmate.com">SSLMate</a></strong> and <strong><a href="https://letsencrypt.org">Let's Encrypt</a></strong> (or maybe <strong><a href="https://aws.amazon.com/certificate-manager/">AWS Certificate Manager</a></strong> instead. I can't guarantee that the below steps will continue to work.
+I'm keeping the rest of the article intact below for historical purposes, but again: you should really go check out <strong><a href="https://sslmate.com">SSLMate</a></strong> and <strong><a href="https://letsencrypt.org">Let's Encrypt</a></strong> (or maybe <strong><a href="https://aws.amazon.com/certificate-manager/">AWS Certificate Manager</a></strong>) instead. I can't guarantee that the below steps will continue to work.
 </div>
 
 From now on, you should see a delightful lock <img src="/assets/images/blog/https/ssl-0-lock.png" /> next to [https://konklone.com](https://konklone.com) in your browser's URL bar, because I've switched this site to use HTTPS. I paid **$0** for the trouble.
