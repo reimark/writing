@@ -1,13 +1,14 @@
 <div class="callout">
 <strong>Update, January 2016:</strong> This guide is <strong>seriously out of date</strong>. Don't use StartSSL anymore, and don't jump through all these hoops below.
 <br/><br/>
-Instead, check out either of two great options:
+Instead, check out either of three great options:
 <br/><br/>
 1) <strong><a href="https://sslmate.com">SSLMate</a></strong> issues single-domain certificates for <a href="https://sslmate.com/pricing">$16/year</a>. While it's more than $0, it's more than worth it to be able to run <code>sslmate buy mywebsite.com</code> and have it Just Work.
 <br/><br/>
 If you use SSLMate, this guide will still help you -- pick it up from <a href="#installing-the-certificates">Installing the certificates</a> and <a href="#setup-with-other-common-hosts">Setup with other common hosts</a>.
 <br/><br/>
-2) <strong><a href="https://letsencrypt.org">Let's Encrypt</a></strong> is here! They issue certificates entirely for free. Revocation is free, multi-domain certificates are free, and they are a bona fide non-profit. The downside is that currently their <a href="https://letsencrypt.readthedocs.org/en/latest/using.html#installation">instructions</a> and <a href="https://github.com/letsencrypt/letsencrypt">official command line client</a> are a little rough.
+2) <strong><a href="https://letsencrypt.org">Let's Encrypt</a></strong> is here! They issue certificates entirely for free. Revocation is free, multi-domain certificates are free, and they are a bona fide non-profit. The downside is that currently their <a href="https://letsencrypt.readthedocs.org/en/latest/using.html#installation">instructions</a> and <a href="https://github.com/letsencrypt/letsencrypt">official command line client</a> are a little rough, and certs need to be renewed every 90 days.
+3) If you're using AWS, maybe <strong><a href="https://aws.amazon.com/certificate-manager/">AWS Certificate Manager</a> (ACM). These certificates are free and issued directly by Amazon and last a little over a year. However, they currently require manual issuance/renewal through email validation, and do not support <a href="https://www.certificate-transparency.org/">Certificate Transparency</a>. Here's a [good ACM guide for Jekyll](https://olivermak.es/2016/01/aws-tls-certificate-with-jekyll/)
 <br/><br/>
 I'm keeping the rest of the article intact below for historical purposes, but again: you should really go check out <strong><a href="https://sslmate.com">SSLMate</a></strong> and <strong><a href="https://letsencrypt.org">Let's Encrypt</a></strong> instead. I can't guarantee that the below steps will continue to work.
 </div>
