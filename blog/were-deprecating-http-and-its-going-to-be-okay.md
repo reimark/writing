@@ -37,7 +37,7 @@ And then there's government surveillance. Still here, still real, and not gettin
 * After the Charlie Hebdo attacks, France is now [making bulk internet spying explicitly legal](http://www.nytimes.com/2015/05/06/world/europe/french-legislators-approve-sweeping-intelligence-bill.html?_r=0) and giving its intelligence services vast powers to work with ISPs to surveil the network.
 * The United Kingdom is likely to do something similar, after Cameron's [strong re-election](http://www.nytimes.com/2015/05/09/world/europe/david-cameron-and-conservatives-emerge-victorious-in-british-election.html) means he can make good on [his pledge to make all online communication subject to monitoring](http://www.telegraph.co.uk/technology/internet-security/11340621/Spies-should-be-able-to-monitor-all-online-messaging-says-David-Cameron.html).
 
-When I look at all these things, I see companies and government asserting themselves over _their_ network. I see a network that is not just overseen, but actively hostile. I see an internet being steadily drained of its promise to ["interpret censorship as damage"](https://en.wikiquote.org/wiki/John_Gilmore).
+When I look at all these things, I see companies and governments asserting themselves over _their_ network. I see a network that is not just overseen, but actively hostile. I see an internet being steadily drained of its promise to ["interpret censorship as damage"](https://en.wikiquote.org/wiki/John_Gilmore).
 
 In short, I see power moving away from the leafs and devolving back into the center, where power has been used to living for thousands of years.
 
