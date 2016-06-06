@@ -1,5 +1,5 @@
 <figure>
-<img title="computers all the time" src="https://konklone.com/assets/images/blog/hollywood-2.jpg" />
+<img title="computers all the time" src="https://konklone.com/assets/images/blog/hollywood-2.gif" />
 </figure>
 
 It's been over a year now since [I last blogged](https://konklone.com/post/were-deprecating-http-and-its-going-to-be-okay), which is really disappointing. I think I got a lot of good writing done here from 2013-2015, with posts that really stand the test of time, and I'd like to create more of those.
