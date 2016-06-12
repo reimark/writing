@@ -1,3 +1,16 @@
+<div class="callout">
+<strong>Update, June 2016:</strong> 
+GitHub recently announced <a href="https://github.com/blog/2186-https-for-github-pages">official HTTPS support for github.io domains</a> on GitHub Pages!
+<br/><br/>
+This is <em>excellent</em> progress, especially because <strong>for new github.io sites, HTTPS is mandatory</strong>. Existing github.io sites can <a href="https://help.github.com/articles/securing-your-github-pages-site-with-https/">opt-in to server-side HTTPS enforcement</a>.
+<br/><br/>
+Of course, the work's not done until GitHub Pages supports HTTPS for custom domains. GitHub hosts a huge number of project, personal, and conference sites that use custom domains -- including [GitHub's own CodeConf site](http://codeconf.com) -- which all continue to put their users at risk.
+<br/><br/>
+But this is hugely promising, and clearly involved a ton of CDN and infrastructure work by GitHub that will make custom domain HTTPS support easier. It also means that the GitHub Pages team made HTTPS support a priority for its finite engineering time, and that bodes well too.
+<br/><br/>
+I've updated some instructions below to reflect GitHub's new options. You can also <a href="https://github.com/isaacs/github/issues/156">follow this long-running GitHub Issues thread</a> for community updates on further developments.
+</div>
+
 Recently, GitHub Pages [began supporting HTTPS](https://twitter.com/benbalter/status/444555263195217920) for `*.github.io` domains, like [this one](https://cfpb.github.io/) and [this one](https://sunlightlabs.github.io/congress/). 
 
 In my opinion, this is a huge deal - GitHub Pages is the only major, free, general-purpose web host which also offers a secure channel. Given [how many simple and powerful uses](https://konklone.com/post/the-power-and-potential-of-github-pages) GitHub Pages has, and how vital secure and confidential connections are to the future of the web, I see this as a big step forward for developers, GitHub, and everyday people.
