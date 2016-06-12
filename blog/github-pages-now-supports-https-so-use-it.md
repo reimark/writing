@@ -22,7 +22,7 @@ There are two major catches:
 
 ### Enforcing HTTPS for github.io sites
 
-(This section updated in June 2016 to integrate GitHub's [new HTTPS support for github.io](https://help.github.com/articles/securing-your-github-pages-site-with-https/).)
+_(This section updated in June 2016 to integrate GitHub's [new HTTPS support for github.io](https://help.github.com/articles/securing-your-github-pages-site-with-https/).)_
 
 First, begin [enforcing HTTPS server-side](https://help.github.com/articles/securing-your-github-pages-site-with-https/).
 
@@ -67,7 +67,7 @@ I'm not saying to never use CloudFlare's Flexible SSL - but know exactly what yo
 
 ### What's next
 
-(This section updated in June 2016 to reflect GitHub's progress in HTTPS support for Pages.)
+_(This section updated in June 2016 to reflect GitHub's progress in HTTPS support for Pages.)_
 
 GitHub needs to work on custom domain support for Pages. GitHub hosts a huge number of developer-oriented project, personal, and conference sites that use custom domains -- including <a href="http://codeconf.com">GitHub's own CodeConf site</a>. These not only continue to put their users at risk, they also set a bad example for the overall developer community.
 
