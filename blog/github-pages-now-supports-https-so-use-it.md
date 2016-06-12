@@ -4,7 +4,7 @@ GitHub recently announced <a href="https://github.com/blog/2186-https-for-github
 <br/><br/>
 This is <em>excellent</em> progress, especially because <strong>for new github.io sites, HTTPS is mandatory</strong>. Existing github.io sites can <a href="https://help.github.com/articles/securing-your-github-pages-site-with-https/">opt-in to server-side HTTPS enforcement</a>.
 <br/><br/>
-Of course, the work's not done until GitHub Pages supports HTTPS for custom domains. GitHub hosts a huge number of project, personal, and conference sites that use custom domains -- including [GitHub's own CodeConf site](http://codeconf.com) -- which all continue to put their users at risk.
+Of course, the work's not done until GitHub Pages supports HTTPS for custom domains. GitHub hosts a huge number of project, personal, and conference sites that use custom domains -- including <a href="http://codeconf.com">GitHub's own CodeConf site</a> -- which all continue to put their users at risk.
 <br/><br/>
 But this is hugely promising, and clearly involved a ton of CDN and infrastructure work by GitHub that will make custom domain HTTPS support easier. It also means that the GitHub Pages team made HTTPS support a priority for its finite engineering time, and that bodes well too.
 <br/><br/>
