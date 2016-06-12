@@ -6,7 +6,7 @@ This is <em>excellent</em> progress, especially because <strong>for new github.i
 <br/><br/>
 Of course, the work's not done until GitHub Pages supports HTTPS for custom domains. GitHub hosts a huge number of project, personal, and conference sites that use custom domains -- including <a href="http://codeconf.com">GitHub's own CodeConf site</a> -- which all continue to put their users at risk.
 <br/><br/>
-But this is hugely promising, and clearly involved a ton of CDN and infrastructure work by GitHub that will make custom domain HTTPS support easier. It also means that the GitHub Pages team made HTTPS support a priority for its finite engineering time, and that bodes well too.
+But this is clearly involved a ton of CDN and infrastructure work by GitHub that will make custom domain HTTPS support easier, and it means that the GitHub Pages team made HTTPS support a priority for its finite engineering time. That deserves plenty of kudos, and bodes well for future work.
 <br/><br/>
 I've updated some instructions below to reflect GitHub's new options. You can also <a href="https://github.com/isaacs/github/issues/156">follow this long-running GitHub Issues thread</a> for community updates on further developments.
 </div>
