@@ -18,11 +18,11 @@ The keys also never identify _themselves_ to the site, meaning that no one can t
 
 It's a great step forward, and you can expect to see more support announcements from major websites in the near future. **[Just go buy one](http://www.amazon.com/s/?field-keywords=%22FIDO%20U2F%20Security%20Key%22).** I got [mine](http://www.amazon.com/gp/product/B00NLKA0D8/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1)  for $18.
 
-The keys will Just Work on Mac and Windows. Unfortunately for Linux users...
+The keys will Just Work on Mac and Windows (and recently, on Debian stretch). Unfortunately for Ubuntu users...
 
-## Getting it working on Linux
+## Getting it working on Ubuntu
 
-I use Debian, and couldn't figure out why it wasn't working. I also couldn't find a simple set of instructions anywhere. Fortunately, it's extremely easy, and the solution should work for any Linux computer. I've tested it out on Debian and Ubuntu.
+While U2F works out of the box on Debian 9 (stretch), it doesn't yet work on Ubuntu. I also couldn't find a simple set of instructions anywhere. Fortunately, it's extremely easy.
 
 You need to get your computer to recognize the key by adding a `udev` file to your system and rebooting. Yubico makes this easy by [publishing the rules file you need on GitHub](https://github.com/Yubico/libu2f-host/blob/master/70-u2f.rules):
 
