@@ -4,7 +4,7 @@ GitHub recently announced <a href="https://github.com/blog/2186-https-for-github
 <br/><br/>
 This is <em>excellent</em> progress, especially because <strong>for new github.io sites, HTTPS is mandatory</strong>. Existing github.io sites can <a href="https://help.github.com/articles/securing-your-github-pages-site-with-https/">opt-in to server-side HTTPS enforcement</a>.
 <br/><br/>
-Of course, the work's not done until GitHub Pages supports HTTPS for custom domains. GitHub hosts a huge number of project, personal, and conference sites that use custom domains -- including <a href="http://codeconf.com">GitHub's own CodeConf site</a> -- which all continue to put their users at risk.
+Of course, the work's not done until GitHub Pages supports HTTPS for custom domains. 
 <br/><br/>
 But this is clearly involved a ton of CDN and infrastructure work by GitHub that will make custom domain HTTPS support easier, and it means that the GitHub Pages team made HTTPS support a priority for its finite engineering time. That deserves plenty of kudos, and bodes well for future work.
 <br/><br/>
@@ -69,7 +69,7 @@ I'm not saying to never use CloudFlare's Flexible SSL - but know exactly what yo
 
 _(This section updated in June 2016 to reflect GitHub's progress in HTTPS support for Pages.)_
 
-GitHub needs to work on custom domain support for Pages. GitHub hosts a huge number of developer-oriented project, personal, and conference sites that use custom domains -- including <a href="http://codeconf.com">GitHub's own CodeConf site</a>. These not only continue to put their users at risk, they also set a bad example for the overall developer community.
+GitHub needs to work on custom domain support for Pages. GitHub hosts a huge number of developer-oriented project, personal, and conference sites that use custom domains. These not only continue to put their users at risk, they also set a bad example for the overall developer community.
 
 It's a tall order, but this is something that other services in GitHub's position have done. WordPress [recently deployed complete HTTPS support for every WordPress.com-hosted site](https://en.blog.wordpress.com/2016/04/08/https-everywhere-encryption-for-all-wordpress-com-sites/), whether they use a custom domain or not, using free certificates from [Let's Encrypt](https://letsencrypt.org). [Bitly](http://www.eweek.com/security/bitly-embraces-lets-encrypt-for-short-link-security.html) and [Shopify](https://www.shopify.com/blog/73511365-all-shopify-stores-now-use-ssl-encryption-everywhere) have done the same thing, and Dreamhost now [lets any customer easily turn HTTPS on for their domain](https://www.dreamhost.com/blog/2015/12/03/lets-encrypt-and-dreamhost/). The bar is higher now, and GitHub should meet it.
 
